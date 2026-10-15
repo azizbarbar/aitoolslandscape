@@ -18,6 +18,30 @@
   let categoryButtons = [];
   let gridOrigins = null;
   let gridRaf = 0;
+  let fieldToolId = selected[0];
+  let fieldState = null;
+  const fieldCorners = [
+    {id:'nw',x:120,y:90}, {id:'ne',x:760,y:90},
+    {id:'sw',x:120,y:730}, {id:'se',x:760,y:730}
+  ];
+  const fieldPalette = [[220,231,239],[242,241,243],[229,223,240]];
+  const balancedPalette = [[202,223,239],[239,237,245],[218,202,237]];
+  function paintField(state) {
+    fieldState=state;
+    const [ox,oy]=state.origin,gradient=$('agency-gradient');
+    // Amplify the diagonal shift, while the four soft corner washes follow the actual origin.
+    gradient.setAttribute('gradientTransform',`translate(${(ox-440)*2.5} ${(oy-410)*2.5})`);
+    [...gradient.children].forEach((stop,i)=>{
+      const rgb=fieldPalette[i].map((value,c)=>Math.round(value+(balancedPalette[i][c]-value)*state.strength));
+      stop.setAttribute('stop-color',`rgb(${rgb.join(',')})`);
+    });
+    $('balanced-field').setAttribute('opacity',state.strength);
+    fieldCorners.forEach((corner,i)=>{
+      const width=Math.abs(ox-corner.x),height=Math.abs(oy-corner.y);
+      $('field-'+corner.id).setAttribute('gradientTransform',`translate(${corner.x} ${corner.y}) scale(${width*1.45} ${height*1.45})`);
+      $('wash-'+corner.id).setAttribute('opacity',.025+state.emphasis[i]*.155);
+    });
+  }
   function readSelection(route, fallback = '') {
     const ids=[...new Set((route.get('tools') ?? fallback).split(','))].filter(id=>byId.get(id)?.category===category).slice(0,2);
     const lockId=route.has('locked')?route.get('locked'):ids[1];
@@ -41,14 +65,16 @@
       return project([-sx*dx,-sy*dy]);
     };
     let origins=[];
-    if(viewMode==='balanced' && selected.some(Boolean)) origins=selected.map(id=>id?originFor(byId.get(id).center):null);
+    if(viewMode==='balanced') origins=selected.map(id=>id?originFor(byId.get(id).center):null);
     else origins=[[440,410]];
-    const gradient=$('agency-gradient');
-    if(viewMode==='balanced' && origins.length){
-      const visible=origins.filter(Boolean);
-      const ref=visible.reduce((sum,point)=>[sum[0]+point[0]/visible.length,sum[1]+point[1]/visible.length],[0,0]);
-      gradient.setAttribute('gradientTransform',`translate(${(ref[0]-440)*.55} ${(ref[1]-410)*.55})`);
-    } else gradient.removeAttribute('gradientTransform');
+    // Locking freezes the last selection's field; comparison tools never steer its color.
+    if(selected[0]||!selected[1])fieldToolId=selected[0];
+    const hasField=viewMode==='balanced'&&Boolean(fieldToolId);
+    const fieldOrigin=hasField?originFor(byId.get(fieldToolId).center):[440,410];
+    const areas=fieldCorners.map(c=>Math.abs(fieldOrigin[0]-c.x)*Math.abs(fieldOrigin[1]-c.y));
+    const largest=areas.indexOf(Math.max(...areas));
+    const targetField={origin:fieldOrigin,strength:hasField?1:0,emphasis:areas.map((_,i)=>hasField&&i===largest?1:0)};
+    const fromField=fieldState||targetField;
     const start=gridOrigins||origins;
     cancelAnimationFrame(gridRaf);
     const paint=(points)=>{
@@ -62,9 +88,16 @@
         $('grid').append(svg('path',{d:`M${ox} 748 V72`,class:axisClass,fill:'none','marker-start':'url(#axis-arrow)','marker-end':'url(#axis-arrow)'}));
       });
     };
-    if(reducedMotion.matches||!gridOrigins){paint(origins);gridOrigins=origins;return;}
+    if(reducedMotion.matches||!gridOrigins){paint(origins);paintField(targetField);$('balanced-field').dataset.motion='idle';return;}
+    $('balanced-field').dataset.motion='running';
     const from=origins.map((p,i)=>start[i]||p), began=performance.now();
-    const frame=now=>{const progress=Math.min(1,(now-began)/500),t=1-(1-progress)**3;paint(origins.map((p,i)=>p?[from[i][0]+(p[0]-from[i][0])*t,from[i][1]+(p[1]-from[i][1])*t]:null));if(progress<1)gridRaf=requestAnimationFrame(frame);};
+    const frame=now=>{
+      const progress=Math.min(1,(now-began)/650),t=1-(1-progress)**3;
+      paint(origins.map((p,i)=>p?G.mix(from[i],p,t):null));
+      paintField({origin:G.mix(fromField.origin,targetField.origin,t),strength:fromField.strength+(targetField.strength-fromField.strength)*t,emphasis:fromField.emphasis.map((value,i)=>value+(targetField.emphasis[i]-value)*t)});
+      if(progress<1)gridRaf=requestAnimationFrame(frame);
+      else $('balanced-field').dataset.motion='idle';
+    };
     gridRaf=requestAnimationFrame(frame);
   }
   function drawCategories() {
@@ -232,6 +265,7 @@
     if(!data.categories.some(c=>c.id===route.get('category')))return;
     category=route.get('category');
     selected=readSelection(route);
+    fieldToolId=selected[0];
     outlines=route.get('outlines')==='1';
     viewMode=route.get('view')==='tendency'?'tendency':'balanced';
     $('map-view-select').value=viewMode;

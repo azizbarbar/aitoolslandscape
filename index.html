@@ -37,12 +37,31 @@
                 <stop offset="48%" stop-color="#f2f1f3"/>
                 <stop offset="100%" stop-color="#e5dff0"/>
               </linearGradient>
+              <radialGradient id="field-nw" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1">
+                <stop offset="0" stop-color="#5661a1"/><stop offset="55%" stop-color="#5661a1" stop-opacity=".6"/><stop offset="100%" stop-color="#5661a1" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="field-ne" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1">
+                <stop offset="0" stop-color="#694191"/><stop offset="55%" stop-color="#694191" stop-opacity=".6"/><stop offset="100%" stop-color="#694191" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="field-sw" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1">
+                <stop offset="0" stop-color="#0365af"/><stop offset="55%" stop-color="#0365af" stop-opacity=".6"/><stop offset="100%" stop-color="#0365af" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="field-se" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1">
+                <stop offset="0" stop-color="#5661a1"/><stop offset="55%" stop-color="#5661a1" stop-opacity=".6"/><stop offset="100%" stop-color="#5661a1" stop-opacity="0"/>
+              </radialGradient>
               <marker id="axis-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f1f1d"/></marker>
               <pattern id="dither-primary" width="48" height="42" patternUnits="userSpaceOnUse"><g class="dither-text"><text x="3" y="12">·</text><text x="24" y="12">+</text><text x="13" y="32">:</text><text x="37" y="33">·</text></g></pattern>
               <pattern id="dither-secondary" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M 15 13 v 6 M 12 16 h 6" stroke="#1f1f1d" stroke-width=".8" opacity=".4"/></pattern>
               <clipPath id="plot-clip"><rect x="120" y="90" width="640" height="640"/></clipPath>
             </defs>
             <rect class="agency-field" x="120" y="90" width="640" height="640" fill="url(#agency-gradient)"/>
+            <g id="balanced-field" opacity="0" aria-hidden="true" clip-path="url(#plot-clip)">
+              <rect id="wash-nw" x="120" y="90" width="640" height="640" fill="url(#field-nw)"/>
+              <rect id="wash-ne" x="120" y="90" width="640" height="640" fill="url(#field-ne)"/>
+              <rect id="wash-sw" x="120" y="90" width="640" height="640" fill="url(#field-sw)"/>
+              <rect id="wash-se" x="120" y="90" width="640" height="640" fill="url(#field-se)"/>
+            </g>
+            <path class="center-guide" d="M96 410 H784 M440 72 V748" fill="none" aria-hidden="true"/>
             <g id="grid" aria-hidden="true"></g>
             <g class="quadrants" aria-hidden="true">
               <g class="q-upper"><text x="130" y="120">STEERED INVENTION</text>
