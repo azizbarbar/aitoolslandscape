@@ -49,21 +49,18 @@
         "id": "o1",
         "title": "Use ChatGPT",
         "url": "https://learn.chatgpt.com/docs/use-chatgpt",
-        "checked": "2026-10-15",
         "finding": "Chat brainstorms and compares options; Work creates files, analyzes supplied material and supports review and revision."
       },
       {
         "id": "o2",
         "title": "Image generation",
         "url": "https://learn.chatgpt.com/docs/image-generation",
-        "checked": "2026-10-15",
         "finding": "ChatGPT generates and edits images from prompts and references; targeted revisions help control composition."
       },
       {
         "id": "o3",
         "title": "Model strategic scenarios and tradeoffs",
         "url": "https://learn.chatgpt.com/use-cases/scenario-tradeoff-model",
-        "checked": "2026-10-15",
         "finding": "The shared ChatGPT desktop workflow compares constrained scenarios, revises assumptions and inspects tradeoffs; coding-specific UI is not scored."
       }
     ],
@@ -187,28 +184,24 @@
         "id": "c1",
         "title": "What are artifacts and how do I use them?",
         "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
-        "checked": "2026-10-15",
         "finding": "Documents, code and interactive artifacts support selected-text edits and branching a conversation into another direction."
       },
       {
         "id": "c2",
         "title": "Create and edit files with Claude",
         "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
-        "checked": "2026-10-15",
         "finding": "Sandbox code execution produces downloadable files, processes supplied data, and exposes auditable actions; outputs need review."
       },
       {
         "id": "c3",
         "title": "How can I create and manage projects?",
         "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
-        "checked": "2026-10-15",
         "finding": "Project knowledge and instructions provide reusable supplied context across chats."
       },
       {
         "id": "c4",
         "title": "Enable and use web search",
         "url": "https://support.claude.com/en/articles/10684626-enable-and-use-web-search",
-        "checked": "2026-10-15",
         "finding": "Web responses have source links and citations; direct links can be fetched, and important information should be cross-checked."
       }
     ],
@@ -332,7 +325,6 @@
         "id": "g1",
         "title": "Create docs, apps and more with Canvas",
         "url": "https://support.google.com/gemini/answer/16047321?hl=en",
-        "checked": "2026-10-15",
         "finding": "Canvas accepts uploaded material, creates multiple artifact formats, edits selected text, suggests edits, and exposes code changes and logs."
       }
     ],
@@ -454,21 +446,18 @@
         "id": "p1",
         "title": "Welcome to Copilot in Word",
         "url": "https://support.microsoft.com/en-us/word/welcome-to-copilot-in-word.",
-        "checked": "2026-10-15",
         "finding": "Word drafts from notes and referenced files, pressure-tests ideas, and supports local or document-wide changes with review."
       },
       {
         "id": "p2",
         "title": "Edit content and rewrite",
         "url": "https://support.microsoft.com/en-us/word/copilot/edit-rewrite-content",
-        "checked": "2026-10-15",
         "finding": "Selected text can be rewritten, formatted or converted into a table; users replace, insert separately or regenerate."
       },
       {
         "id": "p3",
         "title": "Find references in Word file",
         "url": "https://support.microsoft.com/en-us/word/copilot-tutorial-find-references-in-word-file",
-        "checked": "2026-10-15",
         "finding": "Answers can link directly to relevant sections of the document."
       }
     ],
@@ -571,14 +560,12 @@
         "id": "d1",
         "title": "Download DeepSeek",
         "url": "https://www.deepseek.com/en/download/",
-        "checked": "2026-10-15",
         "finding": "The current official assistant is available for free; desktop Harness is separately described."
       },
       {
         "id": "d2",
         "title": "Introducing DeepSeek App",
         "url": "https://www.deepseek.com/en/news/deepseek-app/",
-        "checked": "2026-10-15",
         "finding": "The official app launch documents web search, thinking mode, file upload and text extraction."
       }
     ],
@@ -634,28 +621,24 @@
         "id": "m1",
         "title": "Work with Files and Canvas",
         "url": "https://docs.mistral.ai/vibe/work/files-and-canvas",
-        "checked": "2026-10-15",
         "finding": "Canvas carries files into editable tables, summaries and slides, with inline edits, version tracking and a data-to-slides workflow."
       },
       {
         "id": "m2",
         "title": "Code Interpreter",
         "url": "https://docs.mistral.ai/vibe/work/code-interpreter",
-        "checked": "2026-10-15",
         "finding": "Paid Work runs Python and TypeScript in a sandbox for filters, calculations and file transformations; code can be shown."
       },
       {
         "id": "m3",
         "title": "Search the web",
         "url": "https://docs.mistral.ai/vibe/work/web-search-open-url",
-        "checked": "2026-10-15",
         "finding": "Ordinary web answers provide inline source links; Deep Research is a separate skill."
       },
       {
         "id": "m4",
         "title": "Vibe overview",
         "url": "https://docs.mistral.ai/vibe",
-        "checked": "2026-10-15",
         "finding": "Chat and Work merged into one experience; Work plans tasks, shows progress and accepts steering."
       }
     ],
@@ -779,14 +762,12 @@
         "id": "x1",
         "title": "Welcome to Grok",
         "url": "https://docs.x.ai/grok/overview",
-        "checked": "2026-10-15",
         "finding": "Grok supports conversational brainstorming and writing, file analysis and creative media; paid plans expand limits."
       },
       {
         "id": "x2",
         "title": "Grok FAQ: Files and Data",
         "url": "https://docs.x.ai/grok/faq",
-        "checked": "2026-10-15",
         "finding": "Uploaded files support synthesis, comparison, extraction, rewriting and code execution; long files may be summarized and format limits apply."
       }
     ],
@@ -909,28 +890,24 @@
         "id": "a1",
         "title": "Introducing the Meta AI app",
         "url": "https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/",
-        "checked": "2026-10-15",
         "finding": "Text or voice supports image generation/editing; the Discover feed supports prompt remixing and the web offers style controls."
       },
       {
         "id": "a2",
         "title": "Introducing Muse Spark",
         "url": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
-        "checked": "2026-10-15",
         "finding": "The app and website support visual coding, styling inspiration and shopping alternatives refined by price, style or distance."
       },
       {
         "id": "a3",
         "title": "Meta AI creative tools",
         "url": "https://about.fb.com/news/2024/07/meta-ai-is-now-multilingual-more-creative-and-smarter/",
-        "checked": "2026-10-15",
         "finding": "Conversational object substitution and image refinement are described; no independent pixel-verification mechanism is supplied."
       },
       {
         "id": "a4",
         "title": "Meta AI Does Not Just Think, It Acts",
         "url": "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
-        "checked": "2026-10-15",
         "finding": "Task planning, slides and email/calendar actions were announced as rolling out in selected markets; excluded pending broader availability verification."
       }
     ],

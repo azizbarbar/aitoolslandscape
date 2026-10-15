@@ -47,21 +47,18 @@
       "id": "mj-version",
       "title": "Midjourney Version",
       "url": "https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version",
-      "checked": "2026-10-15",
       "finding": "V8.2 is the default; its documentation emphasizes aesthetics, personalization and the current Edit Model."
     },
     {
       "id": "mj-edit",
       "title": "Midjourney Edit Model",
       "url": "https://docs.midjourney.com/hc/en-us/articles/48495453462797-Edit-Model",
-      "checked": "2026-10-15",
       "finding": "V8.1/8.2 support instruction editing, four references, new compositions, perspective changes and retexturing; Raw reduces added styling."
     },
     {
       "id": "mj-editor",
       "title": "Midjourney Editor",
       "url": "https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor",
-      "checked": "2026-10-15",
       "finding": "Masks, layers, canvas transforms and iterative result panels are documented; only transparent areas regenerate in submitted layered edits."
     }
   ],

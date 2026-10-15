@@ -8,7 +8,7 @@ Later October 15 update: 58 profiles across five categories, including the user'
 
 The final brief permits quarter-point evidence scores, grounded in the adjacent integer anchors; editorial score changes up to ±0.5 and center shifts up to ±0.10 per coordinate are allowed after whole-category review. Store baseScores, visualScores, baseCenter, center, and adjustment reasons separately. Diagonals remain capped by their adjacent cardinal scores. Score adjustments cannot establish an unsupported capability. The map displays final visual scores without an exaggeration label. Sources and limitations remain accessible in a compact details panel.
 
-The matrix has 42 entries. The approved roster adds Grok and Meta AI under General assistants, for 44 total. No Llama entry. The source mind map was visually cross-checked October 15, 2026; its grouped research modes are expanded into the three matrix rows, and the matrix controls membership.
+The matrix has 42 entries. The approved roster adds Grok and Meta AI under General assistants, for 44 total. No Llama entry. The source mind map was visually cross-checked; its grouped research modes are expanded into the three matrix rows, and the matrix controls membership.
 
 Default ratings may also use quarter points when justified. Center coordinates may be recorded directly as inferred workflow placements on the stated bipolar scale, within cardinal bounds. Record a rationale and source for each center. Geometry uses visualScores and the final center, preserving the cardinal and diagonal construction below. Four cardinal maxima remain absolute; diagonal values control joint reach from the default.
 
@@ -18,7 +18,7 @@ User authorization to build on the approved final brief was received October 15,
 
 ## What the map means
 
-This is a teaching judgment based on documented capabilities as of the check date, not a benchmark of accuracy. A cloud describes a scoped product's supported operating envelope when used well; its dot describes a representative default workflow. Cloud area is not a quality score. Neither the bands nor the quadrants classify types of AI.
+This is a teaching judgment based on documented capabilities, not a benchmark of accuracy. A cloud describes a scoped product's supported operating envelope when used well; its dot describes a representative default workflow. Cloud area is not a quality score. Neither the bands nor the quadrants classify types of AI.
 
 Keep the supplied map unchanged: x runs from generative (−1) to faithful (+1); y runs from proposes directions (−1) to executes my decisions (+1). Both axes use the same scale. The upper band is Controlled Collaborator and the lower band is Curator / Director, with the exact descriptions and quadrant names in the brief.
 
@@ -102,13 +102,13 @@ The filled interior interpolates between evidenced workflows; it does not claim 
 
 ## Evidence and confidence
 
-Each of the eight scores and both default ratings stores: value; capability claim; concrete workflow; official source URL(s); supporting excerpt or precise section; actual date checked; documented/inferred classification; confidence; and a limitation. Scores are our interpretation of evidence even when the underlying capability is documented.
+Each of the eight scores and both default ratings stores: value; capability claim; concrete workflow; official source URL(s); supporting excerpt or precise section; documented/inferred classification; confidence; and a limitation. Scores are our interpretation of evidence even when the underlying capability is documented.
 
 - High: current official documentation directly describes the scoped capability and controls.
 - Medium: an official source establishes the feature but the reach or joint operation needs a bounded inference.
 - Low: incomplete, conflicting, or indirect official evidence. Mark provisional and send to calibration review; do not fill gaps from familiarity.
 
-Product announcements and pricing can establish availability; prefer feature documentation for scoring. Check current pages, not only the October 10 matrix. Store page-update dates separately from check dates. If official information conflicts, record both and prefer the more specific current product documentation; do not resolve uncertainty by silently choosing the larger score.
+Product announcements and pricing can establish availability; prefer feature documentation for scoring. Check current pages, not only the October 10 matrix. If official information conflicts, record both and prefer the more specific current product documentation; do not resolve uncertainty by silently choosing the larger score.
 
 ## Approval, anchors, parallel research, review
 
@@ -116,7 +116,7 @@ Product announcements and pricing can establish availability; prefer feature doc
 2. Score five anchors: Midjourney, NotebookLM / Gemini Notebook, Elicit, Claude Code, and Claude. Show their scope, eight scores, default dot, evidence, and proposed shapes. Wait for feedback on anchor calibration before scoring the remainder.
 3. Use parallel research agents, one per category, all using this approved method and anchor calibration. With the available three worker slots, run three categories together and the fourth as a second wave. No category silently changes the rubric.
 4. A separate reviewer agent who did not score compares all categories, checks outliers and joint evidence, and records old value, new value, reason, and evidence for every change. Explicitly compare Elicit and Perplexity faithful reach and distinguish execution precision from automation length.
-5. Finalize `scores.json`, browser-loadable `data.js`, and `calibration-log.md`; then implement the page. Display the check date, scope caveats, confidence, and teaching-judgment notice.
+5. Finalize `scores.json`, browser-loadable `data.js`, and `calibration-log.md`; then implement the page. Display scope caveats, confidence, and teaching-judgment notice.
 
 ## Required validation
 

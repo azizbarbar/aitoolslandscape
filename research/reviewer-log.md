@@ -1,6 +1,6 @@
 # Independent calibration review
 
-Checked October 15, 2026. Reviewer did not author the original scores. Reviewed the approved final brief, amended method, contract, and category JSON. This review concerns evidence and calibration; the owner's validator and visual QA separately test geometry and interface behavior.
+Reviewer did not author the original scores. Reviewed the approved final brief, amended method, contract, and category JSON. This review concerns evidence and calibration; the owner's validator and visual QA separately test geometry and interface behavior.
 
 ## First-pass decision
 

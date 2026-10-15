@@ -35,7 +35,6 @@ data.tools.forEach((tool, index) => {
   const sourceIds = new Set(tool.sources.map(s => s.id));
   for (const s of tool.sources) {
     assert(/^https:\/\//.test(s.url) && s.title && s.finding, `${label}: source metadata`);
-    assert.equal(s.checked, data.checked, `${label}: check date`);
   }
   if (tool.status !== 'active') {
     assert.equal(tool.status, 'discontinued');

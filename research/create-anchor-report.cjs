@@ -4,7 +4,7 @@ const geo = require('../geometry.js');
 const tools = ['anchor-midjourney.json','anchor-research.json','anchor-code.json','anchor-claude.json'].flatMap(f => {
   const item = JSON.parse(fs.readFileSync(path.join(__dirname,f),'utf8')); return Array.isArray(item) ? item : [item];
 }).map(t => ({...t,name:t.name.split(' · ')[0]}));
-let report = '# Anchor calibration\n\nChecked October 15, 2026. Interpretive baseline before category expansion. Full per-direction evidence is retained in the anchor JSON files.\n\n| Tool | N | NE | E | SE | S | SW | W | NW | Default x, y |\n|---|---|---|---|---|---|---|---|---|---|\n';
+let report = '# Anchor calibration\n\nInterpretive baseline before category expansion. Full per-direction evidence is retained in the anchor JSON files.\n\n| Tool | N | NE | E | SE | S | SW | W | NW | Default x, y |\n|---|---|---|---|---|---|---|---|---|---|\n';
 for(const t of tools) report += `| ${t.name} | ${geo.directions.map(d=>t.baseScores[d]).join(' | ')} | ${t.baseCenter.join(', ')} |\n`;
 for(const t of tools) report += `\n## ${t.name}\n\n${t.summary}\n\nScope: ${t.scope}\n\nLimit: ${t.limitation}\n\n${t.sources.map(s=>`- [${s.title}](${s.url})`).join('\n')}\n`;
 fs.writeFileSync(path.join(__dirname,'anchor-calibration.md'), report);

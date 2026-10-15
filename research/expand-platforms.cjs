@@ -109,7 +109,7 @@ function profile(row){
  const scores=Object.fromEntries(dirs.map((d,i)=>[d,values[i]]));
  return {id,name,category:'platforms',status:'active',scope,summary,limitation,baseScores:scores,visualScores:{...scores},baseCenter:center,center:[...center],
   centerEvidence:{claim:'Editorial placement of the representative workflow: '+summary,sourceIds:['platform'],confidence:'medium',inferred:true},
-  sources:[{id:'platform',title,url,checked:'2026-10-15',finding}],
+  sources:[{id:'platform',title,url,finding}],
   evidence:Object.fromEntries(dirs.map((d,i)=>[d,{claim:claims[i],sourceIds:['platform'],confidence:'medium',inferred:true}])),adjustments:[],profileBasis:'Editorial estimate from documented workflow; not a product benchmark.'};
 }
 const platforms=records.map(profile);

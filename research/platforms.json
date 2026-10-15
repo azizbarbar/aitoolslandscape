@@ -48,7 +48,6 @@
         "id": "platform",
         "title": "Magnific creative platform",
         "url": "https://www.magnific.com/",
-        "checked": "2026-10-15",
         "finding": "Image, video and audio models, node-based Spaces, reusable apps and agents are presented as one production environment."
       }
     ],
@@ -171,7 +170,6 @@
         "id": "platform",
         "title": "Higgsfield Camera Controls",
         "url": "https://higgsfield.ai/camera-controls",
-        "checked": "2026-10-15",
         "finding": "Camera presets include dolly, crane, tracking and orbit moves, alongside the platform image and video workspaces."
       }
     ],
@@ -301,7 +299,6 @@
         "id": "platform",
         "title": "Krea creative suite",
         "url": "https://www.krea.ai/",
-        "checked": "2026-10-15",
         "finding": "The suite lists realtime creation, multiple image/video models, App Builder and Nodes Agent."
       }
     ],
@@ -424,7 +421,6 @@
         "id": "platform",
         "title": "Partner models in Adobe products",
         "url": "https://helpx.adobe.com/creative-cloud/apps/generative-ai/non-adobe-models-in-adobe-products.html",
-        "checked": "2026-10-15",
         "finding": "Adobe documents partner-model availability across Firefly generation, Boards, Graph and selected Creative Cloud applications."
       }
     ],
@@ -547,7 +543,6 @@
         "id": "platform",
         "title": "Comfy visual AI platform",
         "url": "https://comfy.org/",
-        "checked": "2026-10-15",
         "finding": "Local and cloud node workflows expose models, parameters and processing steps; an optional agent can build and run workflows."
       }
     ],
@@ -677,7 +672,6 @@
         "id": "platform",
         "title": "Five Figma Weave workflows",
         "url": "https://www.figma.com/blog/five-figma-weave-workflows/",
-        "checked": "2026-10-15",
         "finding": "Documented workflows connect references, generation nodes, variations and aspect-ratio outputs on a canvas."
       }
     ],
@@ -800,7 +794,6 @@
         "id": "platform",
         "title": "FLORA generative canvas",
         "url": "https://flora.ai/",
-        "checked": "2026-10-15",
         "finding": "An infinite canvas joins text, image and video models for branching exploration and iterative creative work."
       }
     ],
@@ -936,7 +929,6 @@
         "id": "platform",
         "title": "Leonardo creative platform",
         "url": "https://leonardo.ai/",
-        "checked": "2026-10-15",
         "finding": "The platform combines image generation, editing and video tools for asset creation and iterative visual work."
       }
     ],
@@ -1058,7 +1050,6 @@
         "id": "platform",
         "title": "OpenArt model platform",
         "url": "https://openart.ai/",
-        "checked": "2026-10-15",
         "finding": "OpenArt lists multiple image/video models, image editing, character creation and story-based production workflows."
       }
     ],
@@ -1181,7 +1172,6 @@
         "id": "platform",
         "title": "Choosing models in LTX Studio",
         "url": "https://ltx.io/blog/how-to-choose-the-right-model",
-        "checked": "2026-10-15",
         "finding": "LTX documents multiple image/video model choices; the studio supports storyboards, camera direction and reference-led shots."
       }
     ],
@@ -1303,7 +1293,6 @@
         "id": "platform",
         "title": "Lovart design agent",
         "url": "https://www.lovart.ai/",
-        "checked": "2026-10-15",
         "finding": "Lovart presents agent-led design across branding, posters, product imagery and other visual design tasks."
       }
     ],
@@ -1439,7 +1428,6 @@
         "id": "platform",
         "title": "Refining and editing in Google Flow",
         "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-refine-videos/",
-        "checked": "2026-10-15",
         "finding": "Google describes a dedicated image workspace with Nano Banana and image/video refinement controls inside Flow."
       }
     ],
@@ -1562,7 +1550,6 @@
         "id": "platform",
         "title": "fal model API",
         "url": "https://fal.ai/",
-        "checked": "2026-10-15",
         "finding": "A unified API and SDK provide image, video, voice and other hosted models, with custom deployment options."
       }
     ],
@@ -1692,7 +1679,6 @@
         "id": "platform",
         "title": "Replicate model platform",
         "url": "https://replicate.com/",
-        "checked": "2026-10-15",
         "finding": "Replicate hosts community models through a common API and supports fine-tuning and custom deployments with Cog."
       }
     ],

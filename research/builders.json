@@ -48,21 +48,18 @@
         "id": "s1",
         "title": "Cursor Agent overview",
         "url": "https://cursor.com/docs/agent/overview",
-        "checked": "2026-10-15",
         "finding": "Code search, file edits, terminal execution, browser verification and checkpoints support iterative repository work."
       },
       {
         "id": "s2",
         "title": "Cursor Plan Mode",
         "url": "https://cursor.com/docs/agent/plan-mode",
-        "checked": "2026-10-15",
         "finding": "Researches code, clarifies requirements, and produces editable plans for multi-approach architectural work."
       },
       {
         "id": "s3",
         "title": "Cursor Agent Review",
         "url": "https://cursor.com/docs/agent/agent-review",
-        "checked": "2026-10-15",
         "finding": "Dedicated review examines local code changes."
       }
     ],
@@ -191,14 +188,12 @@
         "id": "overview",
         "title": "Claude Code overview",
         "url": "https://code.claude.com/docs/en/overview",
-        "checked": "2026-10-15",
         "finding": "Reads and edits repositories, executes commands, exposes diffs and integrates tools."
       },
       {
         "id": "workflows",
         "title": "Claude Code common workflows",
         "url": "https://code.claude.com/docs/en/common-workflows",
-        "checked": "2026-10-15",
         "finding": "Describes planning, alternative fixes, refactoring with behavior preserved, and running tests."
       }
     ],
@@ -321,21 +316,18 @@
         "id": "s1",
         "title": "Lovable Build mode",
         "url": "https://docs.lovable.dev/features/agent-mode",
-        "checked": "2026-10-15",
         "finding": "Implements across files, exposes diffs, permits file constraints, and can run browser, frontend and backend verification."
       },
       {
         "id": "s2",
         "title": "Lovable Plan mode",
         "url": "https://docs.lovable.dev/features/plan-mode",
-        "checked": "2026-10-15",
         "finding": "Compares approaches and tradeoffs, develops architecture, and edits a reviewable plan before building."
       },
       {
         "id": "s3",
         "title": "Lovable preview toolbar",
         "url": "https://docs.lovable.dev/features/preview-toolbar",
-        "checked": "2026-10-15",
         "finding": "Select and annotate elements to direct preview-based changes."
       }
     ],
@@ -470,21 +462,18 @@
         "id": "s1",
         "title": "Emergent build and preview",
         "url": "https://emergent.sh/docs/watch-your-app-come-alive",
-        "checked": "2026-10-15",
         "finding": "Builds from descriptions, performs automatic error checks, and supports prompt-driven iteration in a live preview."
       },
       {
         "id": "s2",
         "title": "Emergent discussion and planning",
         "url": "https://emergent.sh/docs/talk-it-through",
-        "checked": "2026-10-15",
         "finding": "Discusses app types and approaches, then presents an adjustable plan before code generation."
       },
       {
         "id": "s3",
         "title": "Emergent checkpoints",
         "url": "https://emergent.sh/docs/checkpoints-undo-anything",
-        "checked": "2026-10-15",
         "finding": "Supports code rollback and independent forks; database data is not restored by rollback."
       }
     ],
@@ -612,28 +601,24 @@
         "id": "s1",
         "title": "Bolt Code view",
         "url": "https://support.bolt.new/building/code-view",
-        "checked": "2026-10-15",
         "finding": "Target files, lock files/directories and reference selected code to constrain AI edits."
       },
       {
         "id": "s2",
         "title": "Bolt Plan mode guide",
         "url": "https://bolt.new/blog/bolt-new-plan-mode",
-        "checked": "2026-10-15",
         "finding": "Reads existing projects, suggests design changes, compares services and creates revisable plans before building."
       },
       {
         "id": "s3",
         "title": "Bolt visual edits",
         "url": "https://support.bolt.new/building/visual-edits",
-        "checked": "2026-10-15",
         "finding": "Preview-based editing provides a way to address particular interface elements."
       },
       {
         "id": "s4",
         "title": "Bolt overview",
         "url": "https://support.bolt.new/",
-        "checked": "2026-10-15",
         "finding": "Builds websites and apps across several interface and workflow types."
       }
     ],
@@ -762,21 +747,18 @@
         "id": "s1",
         "title": "What is v0?",
         "url": "https://v0.app/docs",
-        "checked": "2026-10-15",
         "finding": "Generates full-stack apps and interfaces from prompts and mockups, with iteration and project planning."
       },
       {
         "id": "s2",
         "title": "v0 Design mode",
         "url": "https://v0.app/docs/design-mode",
-        "checked": "2026-10-15",
         "finding": "Selected elements accept style parameters and instructions, produce live before/after previews, and apply as reviewable code versions."
       },
       {
         "id": "s3",
         "title": "v0 agentic features",
         "url": "https://v0.app/docs/agentic-features",
-        "checked": "2026-10-15",
         "finding": "Browser critique, screenshots, error fixes and sandbox terminal tests support iterative implementation."
       }
     ],
@@ -907,14 +889,12 @@
         "id": "s1",
         "title": "Get started with ChatGPT Work",
         "url": "https://learn.chatgpt.com/docs/get-started-with-work",
-        "checked": "2026-10-15",
         "finding": "Creates reviewable files from sources, uses approved tools, accepts steering and performs recurring workflows."
       },
       {
         "id": "s2",
         "title": "ChatGPT Work browser",
         "url": "https://learn.chatgpt.com/docs/browser",
-        "checked": "2026-10-15",
         "finding": "Reads, clicks and types across websites; can compare options and perform bounded actions with access controls and confirmations."
       }
     ],
@@ -1035,7 +1015,6 @@
         "id": "s1",
         "title": "What is Computer?",
         "url": "https://www.perplexity.ai/help-center/en/articles/13837784-what-is-computer",
-        "checked": "2026-10-15",
         "finding": "Chains cited research, analysis, document/media/code creation, connected actions and scheduled follow-up in a cloud sandbox."
       }
     ],
@@ -1163,21 +1142,18 @@
         "id": "s1",
         "title": "Blotato introduction",
         "url": "https://help.blotato.com/",
-        "checked": "2026-10-15",
         "finding": "Remixes source content into social formats, creates AI media and schedules distribution."
       },
       {
         "id": "s2",
         "title": "Make output sound like you",
         "url": "https://help.blotato.com/tips-and-tricks/make-output-sound-like-you",
-        "checked": "2026-10-15",
         "finding": "Custom prompts, examples and guidelines condition tone, structure and source-based expansion."
       },
       {
         "id": "s3",
         "title": "Blotato FAQs",
         "url": "https://help.blotato.com/support/faqs",
-        "checked": "2026-10-15",
         "finding": "Drafts, supplied media, scheduled times and calendar status support controlled publication; sources and media attachments differ."
       }
     ],

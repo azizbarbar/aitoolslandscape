@@ -48,21 +48,18 @@
         "id": "s1",
         "title": "Learn about Gemini Notebook",
         "url": "https://support.google.com/gemininotebook/answer/16164461",
-        "checked": "2026-10-15",
         "finding": "Selected-source questions, citations, and study-oriented transformations define the core notebook."
       },
       {
         "id": "s2",
         "title": "Use chat in Gemini Notebook",
         "url": "https://support.google.com/gemininotebook/answer/16179559?hl=en",
-        "checked": "2026-10-15",
         "finding": "Select sources, inspect quoted passages, set response style and length. Creative continuations may be declined; new agentic functions are experimental."
       },
       {
         "id": "s3",
         "title": "Generate reports in Gemini Notebook",
         "url": "https://support.google.com/gemininotebook/answer/18323649?hl=en",
-        "checked": "2026-10-15",
         "finding": "Reports offer suggested formats, templates, editable generation settings, and embedded learning artifacts."
       }
     ],
@@ -184,14 +181,12 @@
         "id": "s1",
         "title": "Elicit systematic literature reviews",
         "url": "https://elicit.com/solutions/systematic-review",
-        "checked": "2026-10-15",
         "finding": "Editable criteria, quote-supported screening and extraction, protocol refinement, and cited synthesis are documented."
       },
       {
         "id": "s2",
         "title": "Elicit pricing",
         "url": "https://elicit.com/pricing",
-        "checked": "2026-10-15",
         "finding": "Pro includes custom extraction, systematic review workflows, report templates, explanations, and exports; tiers differ."
       }
     ],

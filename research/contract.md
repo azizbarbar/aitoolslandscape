@@ -1,6 +1,6 @@
 # Research data contract
 
-Read ../final-brief.md and ../method.md. The approved amendment at the top of method.md supersedes the older draft. All data checked on 2026-10-15. Only official sources actually opened during this task count as checked. Tool source matrix is ../../../day-1-research/02-tool-landscape-matrix.md.
+Read ../final-brief.md and ../method.md. The approved amendment at the top of method.md supersedes the older draft. Only official sources actually opened during this task count as checked. Tool source matrix is ../../../day-1-research/02-tool-landscape-matrix.md.
 
 Write a JSON array in your assigned category file. Each tool:
 
@@ -14,7 +14,7 @@ Write a JSON array in your assigned category file. Each tool:
   "visualScores": {"N": 0, "NE": 0, "E": 0, "SE": 0, "S": 0, "SW": 0, "W": 0, "NW": 0},
   "baseCenter": [0,0], "center": [0,0],
   "centerEvidence": {"claim":"...", "sourceIds":["s1"], "confidence":"medium", "inferred":true},
-  "sources": [{"id":"s1","title":"...","url":"https://...","checked":"2026-10-15","finding":"Brief paraphrase of capability actually read"}],
+  "sources": [{"id":"s1","title":"...","url":"https://...","finding":"Brief paraphrase of capability actually read"}],
   "evidence": {"N":{"claim":"...","sourceIds":["s1"],"confidence":"medium","inferred":true}, "NE":{}, "E":{}, "SE":{}, "S":{}, "SW":{}, "W":{}, "NW":{}},
   "adjustments": [{"field":"NE", "from":2, "to":1.75,"reason":"..."}]
 }

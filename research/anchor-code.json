@@ -9,8 +9,8 @@
     "baseCenter":[0.375,0.5],"center":[0.375,0.5],
     "centerEvidence":{"claim":"A scoped repository change with tests is the illustrative default.","sourceIds":["overview","workflows"],"confidence":"medium","inferred":true},
     "sources":[
-      {"id":"overview","title":"Claude Code overview","url":"https://code.claude.com/docs/en/overview","checked":"2026-10-15","finding":"Reads and edits repositories, executes commands, exposes diffs and integrates tools."},
-      {"id":"workflows","title":"Claude Code common workflows","url":"https://code.claude.com/docs/en/common-workflows","checked":"2026-10-15","finding":"Describes planning, alternative fixes, refactoring with behavior preserved, and running tests."}
+      {"id":"overview","title":"Claude Code overview","url":"https://code.claude.com/docs/en/overview","finding":"Reads and edits repositories, executes commands, exposes diffs and integrates tools."},
+      {"id":"workflows","title":"Claude Code common workflows","url":"https://code.claude.com/docs/en/common-workflows","finding":"Describes planning, alternative fixes, refactoring with behavior preserved, and running tests."}
     ],
     "evidence":{
       "N":{"claim":"Specified file operations can be executed and verified through diffs and tests.","sourceIds":["overview","workflows"],"confidence":"high","inferred":true},

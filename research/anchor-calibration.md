@@ -1,6 +1,6 @@
 # Anchor calibration
 
-Checked October 15, 2026. Interpretive baseline before category expansion. Full per-direction evidence is retained in the anchor JSON files.
+Interpretive baseline before category expansion. Full per-direction evidence is retained in the anchor JSON files.
 
 | Tool | N | NE | E | SE | S | SW | W | NW | Default x, y |
 |---|---|---|---|---|---|---|---|---|---|

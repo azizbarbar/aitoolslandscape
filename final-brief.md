@@ -82,7 +82,7 @@ Use eight directional scores: N, NE, E, SE, S, SW, W, NW, plus an illustrative d
 - Distinguish default behavior from what a tool can reach with deliberate use.
 - Do not treat citations as exact preservation, autonomous step count as decision precision, or paraphrasing as broad invention.
 - Diagonals describe capabilities used together. Separate features do not automatically establish a strong combined workflow.
-- Every evidence score needs a claim, official source URL, check date, confidence, and an explicit indication where the placement is inferred.
+- Every evidence score needs a claim, official source URL, confidence, and an explicit indication where the placement is inferred.
 
 The four cardinal directions establish the broad capability limits. Diagonals and the default position supply much of the character: where the cloud leans, where it narrows, and which combinations it does not comfortably support.
 
@@ -127,7 +127,7 @@ One view, dominated by the map. A compact category selector and a list of tool n
 - Make removal and replacement obvious, without accumulating more than two clouds.
 - Provide a quiet option to show every tool in the category as faint outlines.
 - Keep a short interpretation beside the map. Put the eight scores and evidence links in a compact expandable detail area so they do not dominate the initial composition.
-- Use a small “How this map is scored” panel and a “Checked [date]” line. Describe the map briefly as an interpretive teaching map, not an accuracy benchmark. Do not add an exaggeration label or calibration controls.
+- Use a small “How this map is scored” panel. Describe the map briefly as an interpretive teaching map, not an accuracy benchmark. Do not add an exaggeration label or calibration controls.
 - Number keys 1–4 select categories. Arrow keys operate the focused category or tool list. Tab moves between controls. Enter/Space select. Esc clears selected clouds. Avoid shortcuts interfering with expanded controls or text selection.
 
 Use progressive disclosure for detail, not tiny text. Essential map labels and selected-tool names must remain legible when projected.

@@ -48,14 +48,12 @@
         "id": "cd-design",
         "title": "Introducing Claude Design",
         "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-        "checked": "2026-10-15",
         "finding": "Supports design exploration, imported systems, inline feedback, direct edits, adjustment knobs and artifact export."
       },
       {
         "id": "cd-plans",
         "title": "Claude plans",
         "url": "https://claude.com/pricing",
-        "checked": "2026-10-15",
         "finding": "Current table includes Design on Free and paid plans, superseding the launch access statement."
       }
     ],
@@ -176,14 +174,12 @@
         "id": "gamma-present",
         "title": "Gamma presentations",
         "url": "https://gamma.app/products/presentations",
-        "checked": "2026-10-15",
         "finding": "Accepts outlines/documents, selects layouts and visuals, offers suggestions, and supports AI refinement per slide."
       },
       {
         "id": "gamma-plans",
         "title": "Gamma pricing",
         "url": "https://gamma.app/pricing",
-        "checked": "2026-10-15",
         "finding": "Free includes document imports and exports; paid tiers add branding and generation allowances."
       }
     ],
@@ -311,7 +307,6 @@
         "id": "canva-tools",
         "title": "Canva AI tools available now",
         "url": "https://www.canva.com/canva-ai/",
-        "checked": "2026-10-15",
         "finding": "The current section lists editable AI layouts, elements, templates, Style Match, point-and-click photo edits and resizing; AI 2.0 is coming soon."
       }
     ],
@@ -445,14 +440,12 @@
         "id": "firefly-edit",
         "title": "Firefly AI photo editor",
         "url": "https://www.adobe.com/products/firefly/features/ai-photo-editor.html",
-        "checked": "2026-10-15",
         "finding": "Documents prompt editing, Generative Fill, recolor, background changes, expansion and image controls."
       },
       {
         "id": "firefly-platform",
         "title": "Adobe Firefly",
         "url": "https://www.adobe.com/products/firefly.html",
-        "checked": "2026-10-15",
         "finding": "Supports image generation, visual ideation in Boards and Standard-plan image editing features."
       }
     ],
@@ -573,7 +566,6 @@
         "id": "gpt-image-guide",
         "title": "OpenAI image generation guide",
         "url": "https://developers.openai.com/api/docs/guides/image-generation",
-        "checked": "2026-10-15",
         "finding": "Documents Sunburst generation, multi-turn edits, references and masks, including precision and consistency limitations."
       }
     ],
@@ -701,7 +693,6 @@
         "id": "nano-guide",
         "title": "Gemini native image generation",
         "url": "https://ai.google.dev/gemini-api/docs/image-generation",
-        "checked": "2026-10-15",
         "finding": "2.1 supports multi-turn edits, semantic masking, multiple object/character references and text-image composition."
       }
     ],
@@ -822,21 +813,18 @@
         "id": "flux-image",
         "title": "FLUX 3 Image",
         "url": "https://bfl.ai/models/flux-3-image",
-        "checked": "2026-10-15",
         "finding": "Documents ten-reference composition, editable layout boxes and local image edits with preservation claims."
       },
       {
         "id": "flux-home",
         "title": "Black Forest Labs",
         "url": "https://bfl.ai/",
-        "checked": "2026-10-15",
         "finding": "Offers an image playground and API; identifies the Image product separately from Action and Video."
       },
       {
         "id": "flux-pricing",
         "title": "BFL pricing",
         "url": "https://bfl.ai/pricing",
-        "checked": "2026-10-15",
         "finding": "Pay-as-you-go API access is distinct from model-specific open-weight licensing."
       }
     ],
@@ -957,21 +945,18 @@
         "id": "mj-version",
         "title": "Midjourney Version",
         "url": "https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version",
-        "checked": "2026-10-15",
         "finding": "V8.2 is the default; its documentation emphasizes aesthetics, personalization and the current Edit Model."
       },
       {
         "id": "mj-edit",
         "title": "Midjourney Edit Model",
         "url": "https://docs.midjourney.com/hc/en-us/articles/48495453462797-Edit-Model",
-        "checked": "2026-10-15",
         "finding": "V8.1/8.2 support instruction editing, four references, new compositions, perspective changes and retexturing; Raw reduces added styling."
       },
       {
         "id": "mj-editor",
         "title": "Midjourney Editor",
         "url": "https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor",
-        "checked": "2026-10-15",
         "finding": "Masks, layers, canvas transforms and iterative result panels are documented; only transparent areas regenerate in submitted layered edits."
       }
     ],
@@ -1101,21 +1086,18 @@
         "id": "magnific-editor",
         "title": "Magnific AI Photo Editor",
         "url": "https://www.magnific.com/ai/photo-editor?from_element=mainmenu_ai_tools_v1_image_image-editor",
-        "checked": "2026-10-15",
         "finding": "Documents annotated/reference edits, retouch, expansion, camera changes, restyling and creative/precision enhancement."
       },
       {
         "id": "magnific-platform",
         "title": "Magnific creative platform",
         "url": "https://www.magnific.com/",
-        "checked": "2026-10-15",
         "finding": "Documents generation and node-based Spaces for repeatable creative workflows."
       },
       {
         "id": "magnific-plans",
         "title": "Magnific pricing",
         "url": "https://www.magnific.com/pricing",
-        "checked": "2026-10-15",
         "finding": "Premium and higher plans include editing tools, generation access and Spaces."
       }
     ],
@@ -1237,21 +1219,18 @@
         "id": "krea-realtime",
         "title": "Krea Realtime documentation",
         "url": "https://www.krea.ai/docs/user-guide/features/realtime",
-        "checked": "2026-10-15",
         "finding": "Canvas strokes, shapes, references and prompts guide live outputs; seeds generate variants; fidelity varies with AI strength."
       },
       {
         "id": "krea-plans",
         "title": "Krea pricing",
         "url": "https://www.krea.ai/pricing",
-        "checked": "2026-10-15",
         "finding": "Includes realtime models, Nodes, workflow apps and paid generation allowances."
       },
       {
         "id": "krea-nodes",
         "title": "Krea Nodes",
         "url": "https://www.krea.ai/nodes",
-        "checked": "2026-10-15",
         "finding": "Connects tools and models into repeatable visual pipelines."
       }
     ],
@@ -1379,14 +1358,12 @@
         "id": "vizcom-product",
         "title": "Vizcom features",
         "url": "https://vizcom.com/product",
-        "checked": "2026-10-15",
         "finding": "Sketches guide renders; Live Render reacts to drawing/prompt edits; variations and views support exploration."
       },
       {
         "id": "vizcom-plans",
         "title": "Vizcom pricing",
         "url": "https://vizcom.com/pricing",
-        "checked": "2026-10-15",
         "finding": "Professional includes Live Render and multi-image generation; Education has qualifying access."
       }
     ],
@@ -1507,7 +1484,6 @@
         "id": "newarc-home",
         "title": "NewArc.ai product and tools",
         "url": "https://www.newarc.ai/",
-        "checked": "2026-10-15",
         "finding": "Sketches and material photos guide renders; masks control pattern placement; scale, rotation and HEX colors are selectable."
       }
     ],
@@ -1635,7 +1611,6 @@
         "id": "clo-texture",
         "title": "CLO AI Texture Generator",
         "url": "https://support.clo3d.com/hc/en-us/articles/24181031004313-AI-Texture-Generator",
-        "checked": "2026-10-15",
         "finding": "Documents fabric/style/repeat options, pattern sizing, prompted variants, approximate result retention and garment preview."
       }
     ],
@@ -1769,14 +1744,12 @@
         "id": "veo-guide",
         "title": "Generate videos with Veo 3.1",
         "url": "https://ai.google.dev/gemini-api/docs/veo",
-        "checked": "2026-10-15",
         "finding": "Supports native audio, image references, first/last frames and extension; documents duration and multi-video limits."
       },
       {
         "id": "veo-overview",
         "title": "Gemini API video generation",
         "url": "https://ai.google.dev/gemini-api/docs/video",
-        "checked": "2026-10-15",
         "finding": "Separates Veo 3.1 frame/extension workflows from newer Omni conversational editing."
       }
     ],
@@ -1873,7 +1846,6 @@
         "id": "sora-notice",
         "title": "Sora discontinuation",
         "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
-        "checked": "2026-10-15",
         "finding": "Lists the web/app closure and subsequent API retirement dates."
       }
     ],
@@ -1929,7 +1901,6 @@
         "id": "kling-guide",
         "title": "Kling VIDEO 3.0 model guide",
         "url": "https://kling.ai/quickstart/klingai-video-3-model-user-guide",
-        "checked": "2026-10-15",
         "finding": "Documents automatic/custom multishot, reference Elements, start/end frames, native audio and shot duration controls."
       }
     ],
@@ -2050,21 +2021,18 @@
         "id": "runway-aleph",
         "title": "Introducing Aleph 2.0 and Edit Studio",
         "url": "https://runway.com/news/introducing-aleph-2-and-edit-studio",
-        "checked": "2026-10-15",
         "finding": "Paid Edit Studio previews edits as images, carries them across shots and targets changes in supplied footage."
       },
       {
         "id": "runway-guide",
         "title": "Aleph 2.0 prompting guide",
         "url": "https://help.runwayml.com/hc/en-us/articles/52150503729171-Aleph-2-0-Prompting-Guide",
-        "checked": "2026-10-15",
         "finding": "Shows local wardrobe, background, weather and lighting edits while retaining the remaining scene."
       },
       {
         "id": "runway-plans",
         "title": "Runway pricing",
         "url": "https://runway.com/pricing",
-        "checked": "2026-10-15",
         "finding": "Paid plans include Gen-4.5 generation and Aleph 2.0; access and credits vary."
       }
     ],

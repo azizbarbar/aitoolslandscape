@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "checked": "2026-10-15",
   "categories": [
     {
       "id": "general",
@@ -89,21 +88,18 @@
           "id": "o1",
           "title": "Use ChatGPT",
           "url": "https://learn.chatgpt.com/docs/use-chatgpt",
-          "checked": "2026-10-15",
           "finding": "Chat brainstorms and compares options; Work creates files, analyzes supplied material and supports review and revision."
         },
         {
           "id": "o2",
           "title": "Image generation",
           "url": "https://learn.chatgpt.com/docs/image-generation",
-          "checked": "2026-10-15",
           "finding": "ChatGPT generates and edits images from prompts and references; targeted revisions help control composition."
         },
         {
           "id": "o3",
           "title": "Model strategic scenarios and tradeoffs",
           "url": "https://learn.chatgpt.com/use-cases/scenario-tradeoff-model",
-          "checked": "2026-10-15",
           "finding": "The shared ChatGPT desktop workflow compares constrained scenarios, revises assumptions and inspects tradeoffs; coding-specific UI is not scored."
         }
       ],
@@ -262,28 +258,24 @@
           "id": "c1",
           "title": "What are artifacts and how do I use them?",
           "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
-          "checked": "2026-10-15",
           "finding": "Documents, code and interactive artifacts support selected-text edits and branching a conversation into another direction."
         },
         {
           "id": "c2",
           "title": "Create and edit files with Claude",
           "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
-          "checked": "2026-10-15",
           "finding": "Sandbox code execution produces downloadable files, processes supplied data, and exposes auditable actions; outputs need review."
         },
         {
           "id": "c3",
           "title": "How can I create and manage projects?",
           "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
-          "checked": "2026-10-15",
           "finding": "Project knowledge and instructions provide reusable supplied context across chats."
         },
         {
           "id": "c4",
           "title": "Enable and use web search",
           "url": "https://support.claude.com/en/articles/10684626-enable-and-use-web-search",
-          "checked": "2026-10-15",
           "finding": "Web responses have source links and citations; direct links can be fetched, and important information should be cross-checked."
         }
       ],
@@ -442,7 +434,6 @@
           "id": "g1",
           "title": "Create docs, apps and more with Canvas",
           "url": "https://support.google.com/gemini/answer/16047321?hl=en",
-          "checked": "2026-10-15",
           "finding": "Canvas accepts uploaded material, creates multiple artifact formats, edits selected text, suggests edits, and exposes code changes and logs."
         }
       ],
@@ -599,21 +590,18 @@
           "id": "p1",
           "title": "Welcome to Copilot in Word",
           "url": "https://support.microsoft.com/en-us/word/welcome-to-copilot-in-word.",
-          "checked": "2026-10-15",
           "finding": "Word drafts from notes and referenced files, pressure-tests ideas, and supports local or document-wide changes with review."
         },
         {
           "id": "p2",
           "title": "Edit content and rewrite",
           "url": "https://support.microsoft.com/en-us/word/copilot/edit-rewrite-content",
-          "checked": "2026-10-15",
           "finding": "Selected text can be rewritten, formatted or converted into a table; users replace, insert separately or regenerate."
         },
         {
           "id": "p3",
           "title": "Find references in Word file",
           "url": "https://support.microsoft.com/en-us/word/copilot-tutorial-find-references-in-word-file",
-          "checked": "2026-10-15",
           "finding": "Answers can link directly to relevant sections of the document."
         }
       ],
@@ -773,14 +761,12 @@
           "id": "d1",
           "title": "Download DeepSeek",
           "url": "https://www.deepseek.com/en/download/",
-          "checked": "2026-10-15",
           "finding": "The current official assistant is available for free; desktop Harness is separately described."
         },
         {
           "id": "d2",
           "title": "Introducing DeepSeek App",
           "url": "https://www.deepseek.com/en/news/deepseek-app/",
-          "checked": "2026-10-15",
           "finding": "The official app launch documents web search, thinking mode, file upload and text extraction."
         }
       ],
@@ -937,28 +923,24 @@
           "id": "m1",
           "title": "Work with Files and Canvas",
           "url": "https://docs.mistral.ai/vibe/work/files-and-canvas",
-          "checked": "2026-10-15",
           "finding": "Canvas carries files into editable tables, summaries and slides, with inline edits, version tracking and a data-to-slides workflow."
         },
         {
           "id": "m2",
           "title": "Code Interpreter",
           "url": "https://docs.mistral.ai/vibe/work/code-interpreter",
-          "checked": "2026-10-15",
           "finding": "Paid Work runs Python and TypeScript in a sandbox for filters, calculations and file transformations; code can be shown."
         },
         {
           "id": "m3",
           "title": "Search the web",
           "url": "https://docs.mistral.ai/vibe/work/web-search-open-url",
-          "checked": "2026-10-15",
           "finding": "Ordinary web answers provide inline source links; Deep Research is a separate skill."
         },
         {
           "id": "m4",
           "title": "Vibe overview",
           "url": "https://docs.mistral.ai/vibe",
-          "checked": "2026-10-15",
           "finding": "Chat and Work merged into one experience; Work plans tasks, shows progress and accepts steering."
         }
       ],
@@ -1117,14 +1099,12 @@
           "id": "x1",
           "title": "Welcome to Grok",
           "url": "https://docs.x.ai/grok/overview",
-          "checked": "2026-10-15",
           "finding": "Grok supports conversational brainstorming and writing, file analysis and creative media; paid plans expand limits."
         },
         {
           "id": "x2",
           "title": "Grok FAQ: Files and Data",
           "url": "https://docs.x.ai/grok/faq",
-          "checked": "2026-10-15",
           "finding": "Uploaded files support synthesis, comparison, extraction, rewriting and code execution; long files may be summarized and format limits apply."
         }
       ],
@@ -1282,28 +1262,24 @@
           "id": "a1",
           "title": "Introducing the Meta AI app",
           "url": "https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/",
-          "checked": "2026-10-15",
           "finding": "Text or voice supports image generation/editing; the Discover feed supports prompt remixing and the web offers style controls."
         },
         {
           "id": "a2",
           "title": "Introducing Muse Spark",
           "url": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
-          "checked": "2026-10-15",
           "finding": "The app and website support visual coding, styling inspiration and shopping alternatives refined by price, style or distance."
         },
         {
           "id": "a3",
           "title": "Meta AI creative tools",
           "url": "https://about.fb.com/news/2024/07/meta-ai-is-now-multilingual-more-creative-and-smarter/",
-          "checked": "2026-10-15",
           "finding": "Conversational object substitution and image refinement are described; no independent pixel-verification mechanism is supplied."
         },
         {
           "id": "a4",
           "title": "Meta AI Does Not Just Think, It Acts",
           "url": "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
-          "checked": "2026-10-15",
           "finding": "Task planning, slides and email/calendar actions were announced as rolling out in selected markets; excluded pending broader availability verification."
         }
       ],
@@ -1464,21 +1440,18 @@
           "id": "s1",
           "title": "What is Pro Search?",
           "url": "https://www.perplexity.ai/help-center/en/articles/10352903-what-is-pro-search",
-          "checked": "2026-10-15",
           "finding": "Source-linked synthesis, content-type focus, retained conversational context, and follow-up refinement."
         },
         {
           "id": "s2",
           "title": "What is Research mode?",
           "url": "https://www.perplexity.ai/help-center/en/articles/10738684-what-is-research-mode",
-          "checked": "2026-10-15",
           "finding": "Iterative searching and revised research plans lead to an exportable report; Free limits and Pro access differ."
         },
         {
           "id": "s3",
           "title": "Advanced Deep Research",
           "url": "https://www.perplexity.ai/help-center/en/articles/13600190-what-s-new-in-advanced-deep-research",
-          "checked": "2026-10-15",
           "finding": "Uploaded documents, calculations, live follow-up questions, progress, and editable reports."
         }
       ],
@@ -1635,21 +1608,18 @@
           "id": "s1",
           "title": "Learn about Gemini Notebook",
           "url": "https://support.google.com/gemininotebook/answer/16164461",
-          "checked": "2026-10-15",
           "finding": "Selected-source questions, citations, and study-oriented transformations define the core notebook."
         },
         {
           "id": "s2",
           "title": "Use chat in Gemini Notebook",
           "url": "https://support.google.com/gemininotebook/answer/16179559?hl=en",
-          "checked": "2026-10-15",
           "finding": "Select sources, inspect quoted passages, set response style and length. Creative continuations may be declined; new agentic functions are experimental."
         },
         {
           "id": "s3",
           "title": "Generate reports in Gemini Notebook",
           "url": "https://support.google.com/gemininotebook/answer/18323649?hl=en",
-          "checked": "2026-10-15",
           "finding": "Reports offer suggested formats, templates, editable generation settings, and embedded learning artifacts."
         }
       ],
@@ -1813,7 +1783,6 @@
           "id": "s1",
           "title": "Deep research in ChatGPT",
           "url": "https://help.openai.com/en/articles/10500283-deep-research-in-chatgpt",
-          "checked": "2026-10-15",
           "finding": "Users edit proposed plans, restrict sites, interrupt research, and inspect cited reports and activity history."
         }
       ],
@@ -1969,14 +1938,12 @@
           "id": "s1",
           "title": "Use research on Claude",
           "url": "https://support.claude.com/en/articles/11088861-use-research-on-claude",
-          "checked": "2026-10-15",
           "finding": "Successive searches investigate different angles; paid web/desktop research can use connected tools."
         },
         {
           "id": "s2",
           "title": "Enable and use web search",
           "url": "https://support.claude.com/en/articles/10684626-enable-and-use-web-search",
-          "checked": "2026-10-15",
           "finding": "Search responses cite sources, may quote passages, and support fetching specified URLs."
         }
       ],
@@ -2145,14 +2112,12 @@
           "id": "s1",
           "title": "Use Deep Research in Gemini Apps",
           "url": "https://support.google.com/gemini/answer/15719111",
-          "checked": "2026-10-15",
           "finding": "Choose evidence channels, disable Search, edit the plan, and export reports; tiers govern models and limits."
         },
         {
           "id": "s2",
           "title": "Gemini Deep Research overview",
           "url": "https://gemini.google/overview/deep-research/",
-          "checked": "2026-10-15",
           "finding": "Research plans, iterative investigation, comparison and synthesis; reports can become prompted Canvas visualizations."
         }
       ],
@@ -2317,14 +2282,12 @@
           "id": "s1",
           "title": "Elicit systematic literature reviews",
           "url": "https://elicit.com/solutions/systematic-review",
-          "checked": "2026-10-15",
           "finding": "Editable criteria, quote-supported screening and extraction, protocol refinement, and cited synthesis are documented."
         },
         {
           "id": "s2",
           "title": "Elicit pricing",
           "url": "https://elicit.com/pricing",
-          "checked": "2026-10-15",
           "finding": "Pro includes custom extraction, systematic review workflows, report templates, explanations, and exports; tiers differ."
         }
       ],
@@ -2488,14 +2451,12 @@
           "id": "s1",
           "title": "How to Search and Best Practices",
           "url": "https://help.consensus.app/en/articles/9922660-how-to-search-best-practices",
-          "checked": "2026-10-15",
           "finding": "Choose papers or corpus, apply criteria, request comparisons and tables, and refine through follow-ups."
         },
         {
           "id": "s2",
           "title": "Consensus analysis, citations and visuals",
           "url": "https://help.consensus.app/en/articles/17234045-consensus-ai-analysis-citations-and-visuals",
-          "checked": "2026-10-15",
           "finding": "Citations reveal supporting quotations; full-text use is marked. Tables and gap matrices expose supporting papers."
         }
       ],
@@ -2659,14 +2620,12 @@
           "id": "s1",
           "title": "Scite features",
           "url": "https://scite.ai/features",
-          "checked": "2026-10-15",
           "finding": "Citation statements are classified; reports expose exact passages and filters. Collections monitor citations; Assistant provides linked synthesis."
         },
         {
           "id": "s2",
           "title": "Scite pricing",
           "url": "https://scite.ai/pricing",
-          "checked": "2026-10-15",
           "finding": "Basic provides Assistant, Search, citation reports and collections; trial access is time-limited."
         }
       ],
@@ -2829,7 +2788,6 @@
           "id": "s1",
           "title": "Semantic Scholar product",
           "url": "https://webflow.semanticscholar.org/product",
-          "checked": "2026-10-15",
           "finding": "Search filters, citation exports, library feeds, TLDRs, influence signals and supported paper questions guide discovery."
         }
       ],
@@ -2985,14 +2943,12 @@
           "id": "s1",
           "title": "ResearchRabbit features",
           "url": "https://www.researchrabbit.ai/features",
-          "checked": "2026-10-15",
           "finding": "Interactive paper networks and recommendations adapt to exploration and organize reading topics."
         },
         {
           "id": "s2",
           "title": "ResearchRabbit pricing",
           "url": "https://www.researchrabbit.ai/pricing",
-          "checked": "2026-10-15",
           "finding": "Free supplies seed-based search and collections; RR+ adds advanced controls and more seeds."
         }
       ],
@@ -3149,14 +3105,12 @@
           "id": "cd-design",
           "title": "Introducing Claude Design",
           "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-          "checked": "2026-10-15",
           "finding": "Supports design exploration, imported systems, inline feedback, direct edits, adjustment knobs and artifact export."
         },
         {
           "id": "cd-plans",
           "title": "Claude plans",
           "url": "https://claude.com/pricing",
-          "checked": "2026-10-15",
           "finding": "Current table includes Design on Free and paid plans, superseding the launch access statement."
         }
       ],
@@ -3312,14 +3266,12 @@
           "id": "gamma-present",
           "title": "Gamma presentations",
           "url": "https://gamma.app/products/presentations",
-          "checked": "2026-10-15",
           "finding": "Accepts outlines/documents, selects layouts and visuals, offers suggestions, and supports AI refinement per slide."
         },
         {
           "id": "gamma-plans",
           "title": "Gamma pricing",
           "url": "https://gamma.app/pricing",
-          "checked": "2026-10-15",
           "finding": "Free includes document imports and exports; paid tiers add branding and generation allowances."
         }
       ],
@@ -3482,7 +3434,6 @@
           "id": "canva-tools",
           "title": "Canva AI tools available now",
           "url": "https://www.canva.com/canva-ai/",
-          "checked": "2026-10-15",
           "finding": "The current section lists editable AI layouts, elements, templates, Style Match, point-and-click photo edits and resizing; AI 2.0 is coming soon."
         }
       ],
@@ -3651,14 +3602,12 @@
           "id": "firefly-edit",
           "title": "Firefly AI photo editor",
           "url": "https://www.adobe.com/products/firefly/features/ai-photo-editor.html",
-          "checked": "2026-10-15",
           "finding": "Documents prompt editing, Generative Fill, recolor, background changes, expansion and image controls."
         },
         {
           "id": "firefly-platform",
           "title": "Adobe Firefly",
           "url": "https://www.adobe.com/products/firefly.html",
-          "checked": "2026-10-15",
           "finding": "Supports image generation, visual ideation in Boards and Standard-plan image editing features."
         }
       ],
@@ -3814,7 +3763,6 @@
           "id": "gpt-image-guide",
           "title": "OpenAI image generation guide",
           "url": "https://developers.openai.com/api/docs/guides/image-generation",
-          "checked": "2026-10-15",
           "finding": "Documents Sunburst generation, multi-turn edits, references and masks, including precision and consistency limitations."
         }
       ],
@@ -3977,7 +3925,6 @@
           "id": "nano-guide",
           "title": "Gemini native image generation",
           "url": "https://ai.google.dev/gemini-api/docs/image-generation",
-          "checked": "2026-10-15",
           "finding": "2.1 supports multi-turn edits, semantic masking, multiple object/character references and text-image composition."
         }
       ],
@@ -4133,21 +4080,18 @@
           "id": "flux-image",
           "title": "FLUX 3 Image",
           "url": "https://bfl.ai/models/flux-3-image",
-          "checked": "2026-10-15",
           "finding": "Documents ten-reference composition, editable layout boxes and local image edits with preservation claims."
         },
         {
           "id": "flux-home",
           "title": "Black Forest Labs",
           "url": "https://bfl.ai/",
-          "checked": "2026-10-15",
           "finding": "Offers an image playground and API; identifies the Image product separately from Action and Video."
         },
         {
           "id": "flux-pricing",
           "title": "BFL pricing",
           "url": "https://bfl.ai/pricing",
-          "checked": "2026-10-15",
           "finding": "Pay-as-you-go API access is distinct from model-specific open-weight licensing."
         }
       ],
@@ -4303,21 +4247,18 @@
           "id": "mj-version",
           "title": "Midjourney Version",
           "url": "https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version",
-          "checked": "2026-10-15",
           "finding": "V8.2 is the default; its documentation emphasizes aesthetics, personalization and the current Edit Model."
         },
         {
           "id": "mj-edit",
           "title": "Midjourney Edit Model",
           "url": "https://docs.midjourney.com/hc/en-us/articles/48495453462797-Edit-Model",
-          "checked": "2026-10-15",
           "finding": "V8.1/8.2 support instruction editing, four references, new compositions, perspective changes and retexturing; Raw reduces added styling."
         },
         {
           "id": "mj-editor",
           "title": "Midjourney Editor",
           "url": "https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor",
-          "checked": "2026-10-15",
           "finding": "Masks, layers, canvas transforms and iterative result panels are documented; only transparent areas regenerate in submitted layered edits."
         }
       ],
@@ -4482,21 +4423,18 @@
           "id": "magnific-editor",
           "title": "Magnific AI Photo Editor",
           "url": "https://www.magnific.com/ai/photo-editor?from_element=mainmenu_ai_tools_v1_image_image-editor",
-          "checked": "2026-10-15",
           "finding": "Documents annotated/reference edits, retouch, expansion, camera changes, restyling and creative/precision enhancement."
         },
         {
           "id": "magnific-platform",
           "title": "Magnific creative platform",
           "url": "https://www.magnific.com/",
-          "checked": "2026-10-15",
           "finding": "Documents generation and node-based Spaces for repeatable creative workflows."
         },
         {
           "id": "magnific-plans",
           "title": "Magnific pricing",
           "url": "https://www.magnific.com/pricing",
-          "checked": "2026-10-15",
           "finding": "Premium and higher plans include editing tools, generation access and Spaces."
         }
       ],
@@ -4653,21 +4591,18 @@
           "id": "krea-realtime",
           "title": "Krea Realtime documentation",
           "url": "https://www.krea.ai/docs/user-guide/features/realtime",
-          "checked": "2026-10-15",
           "finding": "Canvas strokes, shapes, references and prompts guide live outputs; seeds generate variants; fidelity varies with AI strength."
         },
         {
           "id": "krea-plans",
           "title": "Krea pricing",
           "url": "https://www.krea.ai/pricing",
-          "checked": "2026-10-15",
           "finding": "Includes realtime models, Nodes, workflow apps and paid generation allowances."
         },
         {
           "id": "krea-nodes",
           "title": "Krea Nodes",
           "url": "https://www.krea.ai/nodes",
-          "checked": "2026-10-15",
           "finding": "Connects tools and models into repeatable visual pipelines."
         }
       ],
@@ -4830,14 +4765,12 @@
           "id": "vizcom-product",
           "title": "Vizcom features",
           "url": "https://vizcom.com/product",
-          "checked": "2026-10-15",
           "finding": "Sketches guide renders; Live Render reacts to drawing/prompt edits; variations and views support exploration."
         },
         {
           "id": "vizcom-plans",
           "title": "Vizcom pricing",
           "url": "https://vizcom.com/pricing",
-          "checked": "2026-10-15",
           "finding": "Professional includes Live Render and multi-image generation; Education has qualifying access."
         }
       ],
@@ -4993,7 +4926,6 @@
           "id": "newarc-home",
           "title": "NewArc.ai product and tools",
           "url": "https://www.newarc.ai/",
-          "checked": "2026-10-15",
           "finding": "Sketches and material photos guide renders; masks control pattern placement; scale, rotation and HEX colors are selectable."
         }
       ],
@@ -5156,7 +5088,6 @@
           "id": "clo-texture",
           "title": "CLO AI Texture Generator",
           "url": "https://support.clo3d.com/hc/en-us/articles/24181031004313-AI-Texture-Generator",
-          "checked": "2026-10-15",
           "finding": "Documents fabric/style/repeat options, pattern sizing, prompted variants, approximate result retention and garment preview."
         }
       ],
@@ -5325,14 +5256,12 @@
           "id": "veo-guide",
           "title": "Generate videos with Veo 3.1",
           "url": "https://ai.google.dev/gemini-api/docs/veo",
-          "checked": "2026-10-15",
           "finding": "Supports native audio, image references, first/last frames and extension; documents duration and multi-video limits."
         },
         {
           "id": "veo-overview",
           "title": "Gemini API video generation",
           "url": "https://ai.google.dev/gemini-api/docs/video",
-          "checked": "2026-10-15",
           "finding": "Separates Veo 3.1 frame/extension workflows from newer Omni conversational editing."
         }
       ],
@@ -5488,14 +5417,12 @@
           "id": "sora-notice",
           "title": "Sora discontinuation",
           "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
-          "checked": "2026-10-15",
           "finding": "Lists the web/app closure and subsequent API retirement dates."
         },
         {
           "id": "sora-history",
           "title": "Sora 2 launch and capabilities",
           "url": "https://openai.com/index/sora-2/",
-          "checked": "2026-10-15",
           "finding": "Historical description of video/audio generation, multi-shot prompting, remixing and character references. The page now notes discontinuation."
         }
       ],
@@ -5660,7 +5587,6 @@
           "id": "kling-guide",
           "title": "Kling VIDEO 3.0 model guide",
           "url": "https://kling.ai/quickstart/klingai-video-3-model-user-guide",
-          "checked": "2026-10-15",
           "finding": "Documents automatic/custom multishot, reference Elements, start/end frames, native audio and shot duration controls."
         }
       ],
@@ -5816,21 +5742,18 @@
           "id": "runway-aleph",
           "title": "Introducing Aleph 2.0 and Edit Studio",
           "url": "https://runway.com/news/introducing-aleph-2-and-edit-studio",
-          "checked": "2026-10-15",
           "finding": "Paid Edit Studio previews edits as images, carries them across shots and targets changes in supplied footage."
         },
         {
           "id": "runway-guide",
           "title": "Aleph 2.0 prompting guide",
           "url": "https://help.runwayml.com/hc/en-us/articles/52150503729171-Aleph-2-0-Prompting-Guide",
-          "checked": "2026-10-15",
           "finding": "Shows local wardrobe, background, weather and lighting edits while retaining the remaining scene."
         },
         {
           "id": "runway-plans",
           "title": "Runway pricing",
           "url": "https://runway.com/pricing",
-          "checked": "2026-10-15",
           "finding": "Paid plans include Gen-4.5 generation and Aleph 2.0; access and credits vary."
         }
       ],
@@ -5987,21 +5910,18 @@
           "id": "s1",
           "title": "Cursor Agent overview",
           "url": "https://cursor.com/docs/agent/overview",
-          "checked": "2026-10-15",
           "finding": "Code search, file edits, terminal execution, browser verification and checkpoints support iterative repository work."
         },
         {
           "id": "s2",
           "title": "Cursor Plan Mode",
           "url": "https://cursor.com/docs/agent/plan-mode",
-          "checked": "2026-10-15",
           "finding": "Researches code, clarifies requirements, and produces editable plans for multi-approach architectural work."
         },
         {
           "id": "s3",
           "title": "Cursor Agent Review",
           "url": "https://cursor.com/docs/agent/agent-review",
-          "checked": "2026-10-15",
           "finding": "Dedicated review examines local code changes."
         }
       ],
@@ -6165,14 +6085,12 @@
           "id": "overview",
           "title": "Claude Code overview",
           "url": "https://code.claude.com/docs/en/overview",
-          "checked": "2026-10-15",
           "finding": "Reads and edits repositories, executes commands, exposes diffs and integrates tools."
         },
         {
           "id": "workflows",
           "title": "Claude Code common workflows",
           "url": "https://code.claude.com/docs/en/common-workflows",
-          "checked": "2026-10-15",
           "finding": "Describes planning, alternative fixes, refactoring with behavior preserved, and running tests."
         }
       ],
@@ -6330,21 +6248,18 @@
           "id": "s1",
           "title": "Lovable Build mode",
           "url": "https://docs.lovable.dev/features/agent-mode",
-          "checked": "2026-10-15",
           "finding": "Implements across files, exposes diffs, permits file constraints, and can run browser, frontend and backend verification."
         },
         {
           "id": "s2",
           "title": "Lovable Plan mode",
           "url": "https://docs.lovable.dev/features/plan-mode",
-          "checked": "2026-10-15",
           "finding": "Compares approaches and tradeoffs, develops architecture, and edits a reviewable plan before building."
         },
         {
           "id": "s3",
           "title": "Lovable preview toolbar",
           "url": "https://docs.lovable.dev/features/preview-toolbar",
-          "checked": "2026-10-15",
           "finding": "Select and annotate elements to direct preview-based changes."
         }
       ],
@@ -6514,21 +6429,18 @@
           "id": "s1",
           "title": "Emergent build and preview",
           "url": "https://emergent.sh/docs/watch-your-app-come-alive",
-          "checked": "2026-10-15",
           "finding": "Builds from descriptions, performs automatic error checks, and supports prompt-driven iteration in a live preview."
         },
         {
           "id": "s2",
           "title": "Emergent discussion and planning",
           "url": "https://emergent.sh/docs/talk-it-through",
-          "checked": "2026-10-15",
           "finding": "Discusses app types and approaches, then presents an adjustable plan before code generation."
         },
         {
           "id": "s3",
           "title": "Emergent checkpoints",
           "url": "https://emergent.sh/docs/checkpoints-undo-anything",
-          "checked": "2026-10-15",
           "finding": "Supports code rollback and independent forks; database data is not restored by rollback."
         }
       ],
@@ -6691,28 +6603,24 @@
           "id": "s1",
           "title": "Bolt Code view",
           "url": "https://support.bolt.new/building/code-view",
-          "checked": "2026-10-15",
           "finding": "Target files, lock files/directories and reference selected code to constrain AI edits."
         },
         {
           "id": "s2",
           "title": "Bolt Plan mode guide",
           "url": "https://bolt.new/blog/bolt-new-plan-mode",
-          "checked": "2026-10-15",
           "finding": "Reads existing projects, suggests design changes, compares services and creates revisable plans before building."
         },
         {
           "id": "s3",
           "title": "Bolt visual edits",
           "url": "https://support.bolt.new/building/visual-edits",
-          "checked": "2026-10-15",
           "finding": "Preview-based editing provides a way to address particular interface elements."
         },
         {
           "id": "s4",
           "title": "Bolt overview",
           "url": "https://support.bolt.new/",
-          "checked": "2026-10-15",
           "finding": "Builds websites and apps across several interface and workflow types."
         }
       ],
@@ -6876,21 +6784,18 @@
           "id": "s1",
           "title": "What is v0?",
           "url": "https://v0.app/docs",
-          "checked": "2026-10-15",
           "finding": "Generates full-stack apps and interfaces from prompts and mockups, with iteration and project planning."
         },
         {
           "id": "s2",
           "title": "v0 Design mode",
           "url": "https://v0.app/docs/design-mode",
-          "checked": "2026-10-15",
           "finding": "Selected elements accept style parameters and instructions, produce live before/after previews, and apply as reviewable code versions."
         },
         {
           "id": "s3",
           "title": "v0 agentic features",
           "url": "https://v0.app/docs/agentic-features",
-          "checked": "2026-10-15",
           "finding": "Browser critique, screenshots, error fixes and sandbox terminal tests support iterative implementation."
         }
       ],
@@ -7056,14 +6961,12 @@
           "id": "s1",
           "title": "Get started with ChatGPT Work",
           "url": "https://learn.chatgpt.com/docs/get-started-with-work",
-          "checked": "2026-10-15",
           "finding": "Creates reviewable files from sources, uses approved tools, accepts steering and performs recurring workflows."
         },
         {
           "id": "s2",
           "title": "ChatGPT Work browser",
           "url": "https://learn.chatgpt.com/docs/browser",
-          "checked": "2026-10-15",
           "finding": "Reads, clicks and types across websites; can compare options and perform bounded actions with access controls and confirmations."
         }
       ],
@@ -7219,7 +7122,6 @@
           "id": "s1",
           "title": "What is Computer?",
           "url": "https://www.perplexity.ai/help-center/en/articles/13837784-what-is-computer",
-          "checked": "2026-10-15",
           "finding": "Chains cited research, analysis, document/media/code creation, connected actions and scheduled follow-up in a cloud sandbox."
         }
       ],
@@ -7382,21 +7284,18 @@
           "id": "s1",
           "title": "Blotato introduction",
           "url": "https://help.blotato.com/",
-          "checked": "2026-10-15",
           "finding": "Remixes source content into social formats, creates AI media and schedules distribution."
         },
         {
           "id": "s2",
           "title": "Make output sound like you",
           "url": "https://help.blotato.com/tips-and-tricks/make-output-sound-like-you",
-          "checked": "2026-10-15",
           "finding": "Custom prompts, examples and guidelines condition tone, structure and source-based expansion."
         },
         {
           "id": "s3",
           "title": "Blotato FAQs",
           "url": "https://help.blotato.com/support/faqs",
-          "checked": "2026-10-15",
           "finding": "Drafts, supplied media, scheduled times and calendar status support controlled publication; sources and media attachments differ."
         }
       ],
@@ -7559,7 +7458,6 @@
           "id": "platform",
           "title": "Magnific creative platform",
           "url": "https://www.magnific.com/",
-          "checked": "2026-10-15",
           "finding": "Image, video and audio models, node-based Spaces, reusable apps and agents are presented as one production environment."
         }
       ],
@@ -7716,7 +7614,6 @@
           "id": "platform",
           "title": "Higgsfield Camera Controls",
           "url": "https://higgsfield.ai/camera-controls",
-          "checked": "2026-10-15",
           "finding": "Camera presets include dolly, crane, tracking and orbit moves, alongside the platform image and video workspaces."
         }
       ],
@@ -7880,7 +7777,6 @@
           "id": "platform",
           "title": "Krea creative suite",
           "url": "https://www.krea.ai/",
-          "checked": "2026-10-15",
           "finding": "The suite lists realtime creation, multiple image/video models, App Builder and Nodes Agent."
         }
       ],
@@ -8037,7 +7933,6 @@
           "id": "platform",
           "title": "Partner models in Adobe products",
           "url": "https://helpx.adobe.com/creative-cloud/apps/generative-ai/non-adobe-models-in-adobe-products.html",
-          "checked": "2026-10-15",
           "finding": "Adobe documents partner-model availability across Firefly generation, Boards, Graph and selected Creative Cloud applications."
         }
       ],
@@ -8194,7 +8089,6 @@
           "id": "platform",
           "title": "Comfy visual AI platform",
           "url": "https://comfy.org/",
-          "checked": "2026-10-15",
           "finding": "Local and cloud node workflows expose models, parameters and processing steps; an optional agent can build and run workflows."
         }
       ],
@@ -8358,7 +8252,6 @@
           "id": "platform",
           "title": "Five Figma Weave workflows",
           "url": "https://www.figma.com/blog/five-figma-weave-workflows/",
-          "checked": "2026-10-15",
           "finding": "Documented workflows connect references, generation nodes, variations and aspect-ratio outputs on a canvas."
         }
       ],
@@ -8515,7 +8408,6 @@
           "id": "platform",
           "title": "FLORA generative canvas",
           "url": "https://flora.ai/",
-          "checked": "2026-10-15",
           "finding": "An infinite canvas joins text, image and video models for branching exploration and iterative creative work."
         }
       ],
@@ -8685,7 +8577,6 @@
           "id": "platform",
           "title": "Leonardo creative platform",
           "url": "https://leonardo.ai/",
-          "checked": "2026-10-15",
           "finding": "The platform combines image generation, editing and video tools for asset creation and iterative visual work."
         }
       ],
@@ -8842,7 +8733,6 @@
           "id": "platform",
           "title": "OpenArt model platform",
           "url": "https://openart.ai/",
-          "checked": "2026-10-15",
           "finding": "OpenArt lists multiple image/video models, image editing, character creation and story-based production workflows."
         }
       ],
@@ -8999,7 +8889,6 @@
           "id": "platform",
           "title": "Choosing models in LTX Studio",
           "url": "https://ltx.io/blog/how-to-choose-the-right-model",
-          "checked": "2026-10-15",
           "finding": "LTX documents multiple image/video model choices; the studio supports storyboards, camera direction and reference-led shots."
         }
       ],
@@ -9156,7 +9045,6 @@
           "id": "platform",
           "title": "Lovart design agent",
           "url": "https://www.lovart.ai/",
-          "checked": "2026-10-15",
           "finding": "Lovart presents agent-led design across branding, posters, product imagery and other visual design tasks."
         }
       ],
@@ -9326,7 +9214,6 @@
           "id": "platform",
           "title": "Refining and editing in Google Flow",
           "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-refine-videos/",
-          "checked": "2026-10-15",
           "finding": "Google describes a dedicated image workspace with Nano Banana and image/video refinement controls inside Flow."
         }
       ],
@@ -9483,7 +9370,6 @@
           "id": "platform",
           "title": "fal model API",
           "url": "https://fal.ai/",
-          "checked": "2026-10-15",
           "finding": "A unified API and SDK provide image, video, voice and other hosted models, with custom deployment options."
         }
       ],
@@ -9647,7 +9533,6 @@
           "id": "platform",
           "title": "Replicate model platform",
           "url": "https://replicate.com/",
-          "checked": "2026-10-15",
           "finding": "Replicate hosts community models through a common API and supports fine-tuning and custom deployments with Cog."
         }
       ],

@@ -23,7 +23,7 @@ and logos        ┌─────────┬─────────┐
                  └─────────┴─────────┘
                  PROPOSES DIRECTIONS
 ───────────────────────────────────────────────────────────────
-Category outlines      Esc Clear      How scored · Checked date
+Category outlines      Esc Clear      How scored
 ```
 
 Review against the brief: hairline rules and monospace are intentional because they belong to the supplied atlas direction. Avoid turning the layout into a generic newspaper or a dashboard: no stacked cards, metric tiles, marketing hero, gradients, shadows, or unrelated labels. Category numbering serves the actual keyboard shortcuts. All-caps is limited to the prescribed map vocabulary.

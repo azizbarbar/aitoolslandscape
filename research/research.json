@@ -48,21 +48,18 @@
         "id": "s1",
         "title": "What is Pro Search?",
         "url": "https://www.perplexity.ai/help-center/en/articles/10352903-what-is-pro-search",
-        "checked": "2026-10-15",
         "finding": "Source-linked synthesis, content-type focus, retained conversational context, and follow-up refinement."
       },
       {
         "id": "s2",
         "title": "What is Research mode?",
         "url": "https://www.perplexity.ai/help-center/en/articles/10738684-what-is-research-mode",
-        "checked": "2026-10-15",
         "finding": "Iterative searching and revised research plans lead to an exportable report; Free limits and Pro access differ."
       },
       {
         "id": "s3",
         "title": "Advanced Deep Research",
         "url": "https://www.perplexity.ai/help-center/en/articles/13600190-what-s-new-in-advanced-deep-research",
-        "checked": "2026-10-15",
         "finding": "Uploaded documents, calculations, live follow-up questions, progress, and editable reports."
       }
     ],
@@ -184,21 +181,18 @@
         "id": "s1",
         "title": "Learn about Gemini Notebook",
         "url": "https://support.google.com/gemininotebook/answer/16164461",
-        "checked": "2026-10-15",
         "finding": "Selected-source questions, citations, and study-oriented transformations define the core notebook."
       },
       {
         "id": "s2",
         "title": "Use chat in Gemini Notebook",
         "url": "https://support.google.com/gemininotebook/answer/16179559?hl=en",
-        "checked": "2026-10-15",
         "finding": "Select sources, inspect quoted passages, set response style and length. Creative continuations may be declined; new agentic functions are experimental."
       },
       {
         "id": "s3",
         "title": "Generate reports in Gemini Notebook",
         "url": "https://support.google.com/gemininotebook/answer/18323649?hl=en",
-        "checked": "2026-10-15",
         "finding": "Reports offer suggested formats, templates, editable generation settings, and embedded learning artifacts."
       }
     ],
@@ -327,7 +321,6 @@
         "id": "s1",
         "title": "Deep research in ChatGPT",
         "url": "https://help.openai.com/en/articles/10500283-deep-research-in-chatgpt",
-        "checked": "2026-10-15",
         "finding": "Users edit proposed plans, restrict sites, interrupt research, and inspect cited reports and activity history."
       }
     ],
@@ -448,14 +441,12 @@
         "id": "s1",
         "title": "Use research on Claude",
         "url": "https://support.claude.com/en/articles/11088861-use-research-on-claude",
-        "checked": "2026-10-15",
         "finding": "Successive searches investigate different angles; paid web/desktop research can use connected tools."
       },
       {
         "id": "s2",
         "title": "Enable and use web search",
         "url": "https://support.claude.com/en/articles/10684626-enable-and-use-web-search",
-        "checked": "2026-10-15",
         "finding": "Search responses cite sources, may quote passages, and support fetching specified URLs."
       }
     ],
@@ -589,14 +580,12 @@
         "id": "s1",
         "title": "Use Deep Research in Gemini Apps",
         "url": "https://support.google.com/gemini/answer/15719111",
-        "checked": "2026-10-15",
         "finding": "Choose evidence channels, disable Search, edit the plan, and export reports; tiers govern models and limits."
       },
       {
         "id": "s2",
         "title": "Gemini Deep Research overview",
         "url": "https://gemini.google/overview/deep-research/",
-        "checked": "2026-10-15",
         "finding": "Research plans, iterative investigation, comparison and synthesis; reports can become prompted Canvas visualizations."
       }
     ],
@@ -726,14 +715,12 @@
         "id": "s1",
         "title": "Elicit systematic literature reviews",
         "url": "https://elicit.com/solutions/systematic-review",
-        "checked": "2026-10-15",
         "finding": "Editable criteria, quote-supported screening and extraction, protocol refinement, and cited synthesis are documented."
       },
       {
         "id": "s2",
         "title": "Elicit pricing",
         "url": "https://elicit.com/pricing",
-        "checked": "2026-10-15",
         "finding": "Pro includes custom extraction, systematic review workflows, report templates, explanations, and exports; tiers differ."
       }
     ],
@@ -862,14 +849,12 @@
         "id": "s1",
         "title": "How to Search and Best Practices",
         "url": "https://help.consensus.app/en/articles/9922660-how-to-search-best-practices",
-        "checked": "2026-10-15",
         "finding": "Choose papers or corpus, apply criteria, request comparisons and tables, and refine through follow-ups."
       },
       {
         "id": "s2",
         "title": "Consensus analysis, citations and visuals",
         "url": "https://help.consensus.app/en/articles/17234045-consensus-ai-analysis-citations-and-visuals",
-        "checked": "2026-10-15",
         "finding": "Citations reveal supporting quotations; full-text use is marked. Tables and gap matrices expose supporting papers."
       }
     ],
@@ -998,14 +983,12 @@
         "id": "s1",
         "title": "Scite features",
         "url": "https://scite.ai/features",
-        "checked": "2026-10-15",
         "finding": "Citation statements are classified; reports expose exact passages and filters. Collections monitor citations; Assistant provides linked synthesis."
       },
       {
         "id": "s2",
         "title": "Scite pricing",
         "url": "https://scite.ai/pricing",
-        "checked": "2026-10-15",
         "finding": "Basic provides Assistant, Search, citation reports and collections; trial access is time-limited."
       }
     ],
@@ -1133,7 +1116,6 @@
         "id": "s1",
         "title": "Semantic Scholar product",
         "url": "https://webflow.semanticscholar.org/product",
-        "checked": "2026-10-15",
         "finding": "Search filters, citation exports, library feeds, TLDRs, influence signals and supported paper questions guide discovery."
       }
     ],
@@ -1254,14 +1236,12 @@
         "id": "s1",
         "title": "ResearchRabbit features",
         "url": "https://www.researchrabbit.ai/features",
-        "checked": "2026-10-15",
         "finding": "Interactive paper networks and recommendations adapt to exploration and organize reading topics."
       },
       {
         "id": "s2",
         "title": "ResearchRabbit pricing",
         "url": "https://www.researchrabbit.ai/pricing",
-        "checked": "2026-10-15",
         "finding": "Free supplies seed-based search and collections; RR+ adds advanced controls and more seeds."
       }
     ],
