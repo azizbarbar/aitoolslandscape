@@ -34,11 +34,12 @@
     };
     let origins=[];
     if(viewMode==='balanced' && selected.length) origins=selected.map(id=>originFor(byId.get(id)?.center));
-    else if(viewMode==='tendency' && selected.length){
-      const centers=selected.map(id=>byId.get(id)?.center).filter(Boolean);
-      const ref=centers.reduce((sum,point)=>[sum[0]+point[0]/centers.length,sum[1]+point[1]/centers.length],[0,0]);
-      origins=[originFor(ref)];
-    } else origins=[[440,410]];
+    else origins=[[440,410]];
+    const gradient=$('agency-gradient');
+    if(viewMode==='balanced' && origins.length){
+      const ref=origins.reduce((sum,point)=>[sum[0]+point[0]/origins.length,sum[1]+point[1]/origins.length],[0,0]);
+      gradient.setAttribute('gradientTransform',`translate(${(ref[0]-440)*.55} ${(ref[1]-410)*.55})`);
+    } else gradient.removeAttribute('gradientTransform');
     const start=gridOrigins&&gridOrigins.length?gridOrigins.map((p,i)=>p||origins[i]||origins[0]):origins;
     cancelAnimationFrame(gridRaf);
     const paint=(points)=>{
