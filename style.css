@@ -120,6 +120,10 @@ kbd{font:inherit}
 .detail-label{font-weight:700;margin-top:16px}
 .profile ul{padding-left:18px;margin:12px 0}
 .profile li{margin-bottom:8px}
+.profile .profile-specialties{padding-left:16px;margin:12px 0 0;font-size:.9rem;line-height:1.45}
+.profile-specialties li{padding-left:2px;margin-bottom:5px}
+.profile-specialties li:last-child{margin-bottom:0}
+.profile-specialties li::marker{color:#8b8b86;font-size:.75em}
 .profile a{overflow-wrap:anywhere}
 .profile .confidence{display:block;margin-top:12px}
 

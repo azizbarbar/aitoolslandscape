@@ -184,6 +184,9 @@
     const header=el('div','profile-header'),title=el('h2','',tool.name),remove=el('button','remove','×');remove.type='button';remove.setAttribute('aria-label','Remove '+tool.name);remove.addEventListener('click',()=>removeTool(tool.id));header.append(title,remove);article.append(header);
     if(tool.status!=='active')article.append(el('span','profile-status',tool.status==='discontinued'?'Discontinued / historical profile':'Estimated profile'));
     article.append(el('p','profile-summary',tool.summary));
+    const specialties=el('ul','profile-specialties');specialties.setAttribute('aria-label',tool.name+' specialties');
+    for(const specialty of tool.specialties)specialties.append(el('li','',specialty));
+    article.append(specialties);
     const details=el('details'),summary=el('summary','','Scores & sources');details.append(summary);
     if(tool.visualScores){
       const scores=el('div','score-grid');for(const direction of G.directions){const cell=el('div','score');cell.append(el('span','',direction),el('b','',String(tool.visualScores[direction])));scores.append(cell);}details.append(scores);
