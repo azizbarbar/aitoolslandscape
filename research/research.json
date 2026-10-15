@@ -1,0 +1,1337 @@
+[
+  {
+    "id": "perplexity",
+    "name": "Perplexity · research/search assistant",
+    "category": "research",
+    "status": "active",
+    "scope": "Perplexity Pro Search and Research on web, paid Pro access; excludes Computer and asset-building modes.",
+    "summary": "Cited search expands into a conversational investigation and a structured report.",
+    "limitation": "Source links enable checking; research synthesis is less constrained than editable study-by-study extraction.",
+    "baseScores": {
+      "N": 2.75,
+      "NE": 2.5,
+      "E": 3,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 1.25,
+      "W": 1.75,
+      "NW": 1.5
+    },
+    "visualScores": {
+      "N": 2.75,
+      "NE": 2.5,
+      "E": 3,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 1.25,
+      "W": 1.75,
+      "NW": 1.5
+    },
+    "baseCenter": [
+      0.32,
+      0.02
+    ],
+    "center": [
+      0.32,
+      0.02
+    ],
+    "centerEvidence": {
+      "claim": "A source-linked answer with conversational follow-up sits right of center, between execution and inquiry.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "What is Pro Search?",
+        "url": "https://www.perplexity.ai/help-center/en/articles/10352903-what-is-pro-search",
+        "checked": "2026-10-15",
+        "finding": "Source-linked synthesis, content-type focus, retained conversational context, and follow-up refinement."
+      },
+      {
+        "id": "s2",
+        "title": "What is Research mode?",
+        "url": "https://www.perplexity.ai/help-center/en/articles/10738684-what-is-research-mode",
+        "checked": "2026-10-15",
+        "finding": "Iterative searching and revised research plans lead to an exportable report; Free limits and Pro access differ."
+      },
+      {
+        "id": "s3",
+        "title": "Advanced Deep Research",
+        "url": "https://www.perplexity.ai/help-center/en/articles/13600190-what-s-new-in-advanced-deep-research",
+        "checked": "2026-10-15",
+        "finding": "Uploaded documents, calculations, live follow-up questions, progress, and editable reports."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Follow-up steering and editable reports provide bounded control, without a field-level extraction protocol.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Document-based research can be steered during generation and inspected in the resulting report.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Source links and selected content types provide traceability, not exact preservation.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Follow-up investigation retains source context while surfacing further evidence.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Research revises its search plan as findings change; proposals concern the inquiry.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Revised investigation paths introduce limited research framing, not broad creative concepts.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Synthesized reports and analytical framing add bounded novelty to retrieved material.",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Prompted analysis and report refinement create a limited new research artifact.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM / Gemini Notebook · source-centered research",
+    "category": "research",
+    "status": "active",
+    "scope": "Standalone web notebook: selected-source chat and Studio reports; base access with plan-dependent limits. Experimental agentic actions excluded.",
+    "summary": "A reading set becomes a grounded conversation and a family of source-derived formats.",
+    "limitation": "Source grounding does not guarantee interpretation; experimental code and file agents are outside this profile.",
+    "baseScores": {
+      "N": 2.5,
+      "NE": 2.5,
+      "E": 3.25,
+      "SE": 1.25,
+      "S": 1.5,
+      "SW": 0.75,
+      "W": 1.25,
+      "NW": 1
+    },
+    "visualScores": {
+      "N": 2.5,
+      "NE": 2.5,
+      "E": 3.25,
+      "SE": 1,
+      "S": 1.5,
+      "SW": 0.75,
+      "W": 1.25,
+      "NW": 1
+    },
+    "baseCenter": [
+      0.5,
+      0.22
+    ],
+    "center": [
+      0.5,
+      0.22
+    ],
+    "centerEvidence": {
+      "claim": "Reading and briefing a chosen source set puts the default right and modestly above center.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Learn about Gemini Notebook",
+        "url": "https://support.google.com/gemininotebook/answer/16164461",
+        "checked": "2026-10-15",
+        "finding": "Selected-source questions, citations, and study-oriented transformations define the core notebook."
+      },
+      {
+        "id": "s2",
+        "title": "Use chat in Gemini Notebook",
+        "url": "https://support.google.com/gemininotebook/answer/16179559?hl=en",
+        "checked": "2026-10-15",
+        "finding": "Select sources, inspect quoted passages, set response style and length. Creative continuations may be declined; new agentic functions are experimental."
+      },
+      {
+        "id": "s3",
+        "title": "Generate reports in Gemini Notebook",
+        "url": "https://support.google.com/gemininotebook/answer/18323649?hl=en",
+        "checked": "2026-10-15",
+        "finding": "Reports offer suggested formats, templates, editable generation settings, and embedded learning artifacts."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Source, style, and length controls direct inspectable responses; no precise local editing contract.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Selected-source answers retain navigable citations while following response instructions.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Source restriction and quoted passages support traceable reading, short of exact output preservation.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Brainstorming stays tied to the selected material; suggestions have a narrow evidentiary base.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Suggested report formats and learning artifacts offer nearby presentation directions.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Suggested learning formats introduce limited new framing rather than independent creative strategies.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Study formats reorganize content; closed-source chat limits substantive invention.",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Customized reports vary structure within a supplied reading set.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "SE",
+        "from": 1.25,
+        "to": 1,
+        "reason": "Tighten the source-grounded proposal corner to emphasize prepared reading formats over open investigative planning."
+      }
+    ]
+  },
+  {
+    "id": "chatgpt-deep-research",
+    "name": "ChatGPT Deep Research · research mode",
+    "category": "research",
+    "status": "active",
+    "scope": "ChatGPT Deep Research with web, uploaded files and supported read-only apps; plan, region and permissions govern access.",
+    "summary": "An editable research plan becomes a cited report, with source boundaries you can steer.",
+    "limitation": "Citations do not enforce exact preservation; connected research uses read actions, not external execution.",
+    "baseScores": {
+      "N": 3,
+      "NE": 2.75,
+      "E": 3.25,
+      "SE": 2.5,
+      "S": 2.75,
+      "SW": 1.5,
+      "W": 1.75,
+      "NW": 1.5
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 2.75,
+      "E": 3.25,
+      "SE": 2.5,
+      "S": 2.75,
+      "SW": 1.5,
+      "W": 1.75,
+      "NW": 1.5
+    },
+    "baseCenter": [
+      0.4,
+      0.15
+    ],
+    "center": [
+      0.4,
+      0.15
+    ],
+    "centerEvidence": {
+      "claim": "The representative task is a user-directed, documented investigation over chosen evidence.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Deep research in ChatGPT",
+        "url": "https://help.openai.com/en/articles/10500283-deep-research-in-chatgpt",
+        "checked": "2026-10-15",
+        "finding": "Users edit proposed plans, restrict sites, interrupt research, and inspect cited reports and activity history."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Editable plans, interruptions and source restrictions constrain research with visible progress.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "A user-edited plan can operate on restricted sites or files and return checkable citations.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Restricted source domains, uploaded files, citations and history support auditable synthesis.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "The proposed plan develops an inquiry within specified evidence boundaries.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "It proposes a research plan and accepts refinement; this is research direction, not design authorship.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Planning new inquiry steps supplies limited original framing within a report task.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Analytical synthesis and a newly composed investigation plan offer modest substantive novelty.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Outcome and report constraints guide composition of a new research artifact.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "claude-research",
+    "name": "Claude Research · research mode",
+    "category": "research",
+    "status": "active",
+    "scope": "Paid Claude Research on web or desktop with web search enabled; optional authorized remote connectors. Excludes mobile connector claims.",
+    "summary": "An open question branches into successive searches and evidence-informed avenues.",
+    "limitation": "Research chooses its next searches; no documented field-level extraction or exact plan-execution contract.",
+    "baseScores": {
+      "N": 2.25,
+      "NE": 2,
+      "E": 3,
+      "SE": 2.5,
+      "S": 2.75,
+      "SW": 1.5,
+      "W": 1.75,
+      "NW": 1.25
+    },
+    "visualScores": {
+      "N": 2.25,
+      "NE": 2,
+      "E": 3,
+      "SE": 2.5,
+      "S": 2.75,
+      "SW": 1.5,
+      "W": 1.75,
+      "NW": 1.25
+    },
+    "baseCenter": [
+      0.25,
+      -0.18
+    ],
+    "center": [
+      0.2,
+      -0.23
+    ],
+    "centerEvidence": {
+      "claim": "An open question delegates choice of investigative angles, placing the default modestly below the axis.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Use research on Claude",
+        "url": "https://support.claude.com/en/articles/11088861-use-research-on-claude",
+        "checked": "2026-10-15",
+        "finding": "Successive searches investigate different angles; paid web/desktop research can use connected tools."
+      },
+      {
+        "id": "s2",
+        "title": "Enable and use web search",
+        "url": "https://support.claude.com/en/articles/10684626-enable-and-use-web-search",
+        "checked": "2026-10-15",
+        "finding": "Search responses cite sources, may quote passages, and support fetching specified URLs."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Prompts steer a research question, but the mode chooses many subsequent investigative moves.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "A specified source URL can be analyzed with checkable source-linked responses.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Cited responses and direct page retrieval offer traceability without exact preservation.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Connected context and successive searches ground the choice of further angles.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "The mode explicitly explores different angles and chooses subsequent inquiries.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Developing new angles adds bounded research framing rather than unrestricted invention.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Novel analysis is inferred from investigation across angles, within an evidence-oriented mode.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "A specified question prompts composed synthesis, with coarse production control.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "center",
+        "from": [
+          0.25,
+          -0.18
+        ],
+        "to": [
+          0.2,
+          -0.23
+        ],
+        "reason": "Separate an open-question investigation slightly from plan-first report workflows."
+      }
+    ]
+  },
+  {
+    "id": "gemini-deep-research",
+    "name": "Gemini Deep Research · research mode",
+    "category": "research",
+    "status": "active",
+    "scope": "Gemini Apps Deep Research with Thinking or paid Pro; selected Search, uploads and eligible Workspace sources. Ultra-only inline visuals excluded.",
+    "summary": "A reviewable search plan draws together selected sources and develops a broader account.",
+    "limitation": "Source selection and editable plans guide research; exact preservation and local production precision are not promised.",
+    "baseScores": {
+      "N": 2.75,
+      "NE": 2.5,
+      "E": 3,
+      "SE": 2.5,
+      "S": 2.75,
+      "SW": 1.75,
+      "W": 2,
+      "NW": 1.5
+    },
+    "visualScores": {
+      "N": 2.75,
+      "NE": 2.5,
+      "E": 3,
+      "SE": 2.5,
+      "S": 2.75,
+      "SW": 1.75,
+      "W": 2,
+      "NW": 1.25
+    },
+    "baseCenter": [
+      0.3,
+      0.08
+    ],
+    "center": [
+      0.3,
+      0.08
+    ],
+    "centerEvidence": {
+      "claim": "A planned investigation synthesizes selected evidence, balancing delegated inquiry and user-defined production.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Use Deep Research in Gemini Apps",
+        "url": "https://support.google.com/gemini/answer/15719111",
+        "checked": "2026-10-15",
+        "finding": "Choose evidence channels, disable Search, edit the plan, and export reports; tiers govern models and limits."
+      },
+      {
+        "id": "s2",
+        "title": "Gemini Deep Research overview",
+        "url": "https://gemini.google/overview/deep-research/",
+        "checked": "2026-10-15",
+        "finding": "Research plans, iterative investigation, comparison and synthesis; reports can become prompted Canvas visualizations."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Source selection and pre-run plan editing give explicit control over bounded research.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "A revised plan can run over selected files and Workspace sources with Search disabled.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Source selection and comparative source-based reports support grounded synthesis, not verbatim preservation.",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Selected evidence informs a revisable multi-part investigation.",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Planning and iterative inquiry develop research paths across comparison tasks.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "New investigation structures and concept relationships support bounded analytical proposals.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Composed analysis and report-derived visual explanations add bounded novelty.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "A prompted visualization can restructure an existing research report.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "NW",
+        "from": 1.5,
+        "to": 1.25,
+        "reason": "Keep the production-invention corner restrained: report visualization remains downstream of evidence synthesis."
+      }
+    ]
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit · structured research workflows",
+    "category": "research",
+    "status": "active",
+    "scope": "Elicit Pro systematic review, search, extraction and reports; excludes Enterprise-scale limits and Scale-only figure extraction.",
+    "summary": "Evidence is organized into editable study fields, with room to refine the research protocol.",
+    "limitation": "Audit generated screening and extraction decisions; a structured workflow is not comprehensive literature coverage.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 3.25,
+      "E": 3.5,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 0.75,
+      "W": 1,
+      "NW": 0.75
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 3.5,
+      "E": 3.5,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 0.75,
+      "W": 1,
+      "NW": 0.75
+    },
+    "baseCenter": [
+      0.62,
+      0.48
+    ],
+    "center": [
+      0.62,
+      0.48
+    ],
+    "centerEvidence": {
+      "claim": "Comparing user-specified study fields is evidence-heavy bounded production.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Elicit systematic literature reviews",
+        "url": "https://elicit.com/solutions/systematic-review",
+        "checked": "2026-10-15",
+        "finding": "Editable criteria, quote-supported screening and extraction, protocol refinement, and cited synthesis are documented."
+      },
+      {
+        "id": "s2",
+        "title": "Elicit pricing",
+        "url": "https://elicit.com/pricing",
+        "checked": "2026-10-15",
+        "finding": "Pro includes custom extraction, systematic review workflows, report templates, explanations, and exports; tiers differ."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Editable criteria and extraction fields give checkable, structured production control.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "User-defined extraction and screening preserve inspectable supporting passages.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Sentence-level citations and extraction quotes support close audit; generated judgments remain fallible.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Iterating criteria after inspecting papers combines source evidence with protocol revision.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Question refinement, screening suggestions, and iterative protocol design propose bounded research directions.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Proposed criteria add limited research framing, not broad compositional invention.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Reports synthesize existing studies; originality mainly concerns questions and templates.",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Custom extraction templates shape a derived report within the structured review workflow.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "NE",
+        "from": 3.25,
+        "to": 3.5,
+        "reason": "Accentuate structured, quoted extraction beside conversational research; remains inside both cardinal limits."
+      }
+    ]
+  },
+  {
+    "id": "consensus",
+    "name": "Consensus · research-answer synthesis",
+    "category": "research",
+    "status": "active",
+    "scope": "Consensus web Pro messages and Deep reviews, with plan-dependent access; paper search, uploads and library sources.",
+    "summary": "A research question becomes cited comparisons, evidence tables and visible gaps.",
+    "limitation": "Full-text coverage varies; gaps and agreement indicators describe the retrieved evidence, not all existing research.",
+    "baseScores": {
+      "N": 2.75,
+      "NE": 2.5,
+      "E": 3.25,
+      "SE": 2,
+      "S": 2.25,
+      "SW": 1,
+      "W": 1.25,
+      "NW": 1
+    },
+    "visualScores": {
+      "N": 2.75,
+      "NE": 2.5,
+      "E": 3.25,
+      "SE": 1.75,
+      "S": 2.25,
+      "SW": 1,
+      "W": 1.25,
+      "NW": 1
+    },
+    "baseCenter": [
+      0.48,
+      0.12
+    ],
+    "center": [
+      0.48,
+      0.12
+    ],
+    "centerEvidence": {
+      "claim": "The ordinary workflow answers a specified research question using filtered papers and comparisons.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "How to Search and Best Practices",
+        "url": "https://help.consensus.app/en/articles/9922660-how-to-search-best-practices",
+        "checked": "2026-10-15",
+        "finding": "Choose papers or corpus, apply criteria, request comparisons and tables, and refine through follow-ups."
+      },
+      {
+        "id": "s2",
+        "title": "Consensus analysis, citations and visuals",
+        "url": "https://help.consensus.app/en/articles/17234045-consensus-ai-analysis-citations-and-visuals",
+        "checked": "2026-10-15",
+        "finding": "Citations reveal supporting quotations; full-text use is marked. Tables and gap matrices expose supporting papers."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Search criteria, output instructions and follow-ups provide structured, inspectable control.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Requested comparison tables combine specified analysis with inspectable evidence links.",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Quoted citation support and full-text indicators strengthen traceability without guaranteeing correct interpretation.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "A gap matrix links suggested follow-up areas to underlying papers.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Evidence gaps prompt new inquiry, with custom dimensions and further searches.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Suggested gap framing is limited novelty within literature analysis.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Comparative tables and diagrams reorganize findings; their novelty remains source-bound.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Specified tables and comparisons reshape existing findings into a bounded artifact.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "SE",
+        "from": 2,
+        "to": 1.75,
+        "reason": "Emphasize the gap matrix as a bounded suggestion mechanism rather than full protocol design."
+      }
+    ]
+  },
+  {
+    "id": "scite",
+    "name": "Scite · citation context",
+    "category": "research",
+    "status": "active",
+    "scope": "Scite Basic web: Smart Citations, search, reports, collections and source-grounded Assistant. Excludes external MCP/API execution.",
+    "summary": "Citation passages make a paper's reception inspectable, with synthesis close to the evidence.",
+    "limitation": "Supporting or contrasting labels classify citation context; they do not establish that a finding is true.",
+    "baseScores": {
+      "N": 3,
+      "NE": 3,
+      "E": 3.75,
+      "SE": 1.25,
+      "S": 1.5,
+      "SW": 0.5,
+      "W": 0.75,
+      "NW": 0.5
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 3,
+      "E": 3.75,
+      "SE": 1.25,
+      "S": 1.25,
+      "SW": 0.5,
+      "W": 0.75,
+      "NW": 0.5
+    },
+    "baseCenter": [
+      0.68,
+      0.32
+    ],
+    "center": [
+      0.68,
+      0.32
+    ],
+    "centerEvidence": {
+      "claim": "Inspecting how a known paper is cited is strongly evidence-oriented bounded work.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Scite features",
+        "url": "https://scite.ai/features",
+        "checked": "2026-10-15",
+        "finding": "Citation statements are classified; reports expose exact passages and filters. Collections monitor citations; Assistant provides linked synthesis."
+      },
+      {
+        "id": "s2",
+        "title": "Scite pricing",
+        "url": "https://scite.ai/pricing",
+        "checked": "2026-10-15",
+        "finding": "Basic provides Assistant, Search, citation reports and collections; trial access is time-limited."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Classification, section and date filters make a bounded citation inspection controllable.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Filtered reports retain exact citation passages for checking the selected result.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Exact citing passages are inspectable, while classification remains model-generated.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Citation chaining and contrary passages suggest nearby lines of inquiry.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Source-linked discovery offers research candidates, not developed creative strategies.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Research discovery reframes an inquiry narrowly; substantive new direction is limited.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Assistant summaries add phrasing and synthesis around existing research.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "A prompted, source-linked answer supplies narrow composition within a citation workflow.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "S",
+        "from": 1.5,
+        "to": 1.25,
+        "reason": "Tighten proposal reach around citation chaining and contrary passages."
+      }
+    ]
+  },
+  {
+    "id": "semantic-scholar",
+    "name": "Semantic Scholar · scholarly discovery",
+    "category": "research",
+    "status": "active",
+    "scope": "Free Semantic Scholar website: search, library, Research Feeds, TLDRs and supported Ask This Paper. API excluded.",
+    "summary": "Paper discovery and short summaries keep the cloud close to existing literature.",
+    "limitation": "TLDR and paper-question features have limited coverage; recommendations do not establish comprehensive discovery.",
+    "baseScores": {
+      "N": 2.25,
+      "NE": 2,
+      "E": 3,
+      "SE": 1.25,
+      "S": 1.5,
+      "SW": 0.25,
+      "W": 0.5,
+      "NW": 0.25
+    },
+    "visualScores": {
+      "N": 2.25,
+      "NE": 2,
+      "E": 3,
+      "SE": 1.25,
+      "S": 1.5,
+      "SW": 0.25,
+      "W": 0.5,
+      "NW": 0.25
+    },
+    "baseCenter": [
+      0.5,
+      -0.08
+    ],
+    "center": [
+      0.5,
+      -0.08
+    ],
+    "centerEvidence": {
+      "claim": "A library-driven search suggests further papers, remaining faithful with modest proposal behavior.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Semantic Scholar product",
+        "url": "https://webflow.semanticscholar.org/product",
+        "checked": "2026-10-15",
+        "finding": "Search filters, citation exports, library feeds, TLDRs, influence signals and supported paper questions guide discovery."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Filters and library choices specify bounded retrieval and organization.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Filtered results and citation exports provide inspectable bibliographic output.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Paper-linked answers show supporting statements; summaries remain interpretive.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Library ratings condition recommendations on a chosen reading set.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Research Feeds suggest papers and related topics, rather than research strategies.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Recommended topics offer nearby discovery; substantive invention is minimal.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Short summaries and topic definitions add compressed wording, not new compositions.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Paper questions produce narrow explanatory text around an existing document.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "researchrabbit",
+    "name": "ResearchRabbit · visual discovery",
+    "category": "research",
+    "status": "active",
+    "scope": "ResearchRabbit web Free search, seed collections and interactive maps; RR+ expands controls and scale. No generative report scope.",
+    "summary": "Seed papers unfold into a network of connections and possible next readings.",
+    "limitation": "Network recommendations remain close to indexed literature and chosen seeds; the tool does not author new research content.",
+    "baseScores": {
+      "N": 2,
+      "NE": 1.75,
+      "E": 2.75,
+      "SE": 1.5,
+      "S": 1.75,
+      "SW": 0,
+      "W": 0,
+      "NW": 0
+    },
+    "visualScores": {
+      "N": 2,
+      "NE": 1.75,
+      "E": 2.75,
+      "SE": 1.5,
+      "S": 1.75,
+      "SW": 0,
+      "W": 0,
+      "NW": 0
+    },
+    "baseCenter": [
+      0.32,
+      -0.22
+    ],
+    "center": [
+      0.32,
+      -0.22
+    ],
+    "centerEvidence": {
+      "claim": "Following seed-paper connections delegates next-reading suggestions, placing the default below and right.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "ResearchRabbit features",
+        "url": "https://www.researchrabbit.ai/features",
+        "checked": "2026-10-15",
+        "finding": "Interactive paper networks and recommendations adapt to exploration and organize reading topics."
+      },
+      {
+        "id": "s2",
+        "title": "ResearchRabbit pricing",
+        "url": "https://www.researchrabbit.ai/pricing",
+        "checked": "2026-10-15",
+        "finding": "Free supplies seed-based search and collections; RR+ adds advanced controls and more seeds."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Seed selection and collections direct a bounded discovery process.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Chosen seeds organize inspectable existing papers, with limited production control.",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Connections refer to existing literature; recommendation relevance remains inferred.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Adaptive recommendations extend selected papers into further reading candidates.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Interactive maps suggest where to read next; no developed strategic alternatives are documented.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "The scoped discovery workflow selects existing papers, so generative proposal reach is zero.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "The documented workflow retrieves and connects existing literature; no substantive authored output is scored.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Organization and maps concern existing records; no generative execution workflow is established.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  }
+]

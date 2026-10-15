@@ -1,0 +1,890 @@
+{
+ "url": "index.html",
+ "at": "2026-10-15T11:08:49.941Z",
+ "allow": [
+  "mono",
+  "few-pictures",
+  "still-page",
+  "no-footage"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 1,
+   "filled": [
+    0.54
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 900,
+     "screens": 1,
+     "words": 131,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "chars": 25,
+     "lines": 1,
+     "size": 52,
+     "vw": 3.6,
+     "font": "VT323",
+     "weight": 400,
+     "tracking": -0.01,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": true,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.35,
+     "top": 22,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "lines": 1,
+     "size": 52,
+     "font": "VT323"
+    },
+    "headings": [
+     {
+      "text": "Decide what you delegate.",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 52,
+      "vw": 3.6,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 22,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Claude",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 180,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plex",
+       "share": 0.98,
+       "mono": true
+      },
+      {
+       "family": "VT323",
+       "share": 0.02,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      19,
+      24,
+      40,
+      52
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Plex",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.5
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 52,
+      "vw": 3.6,
+      "font": "VT323",
+      "text": "Decide what you delegate."
+     },
+     "monoShare": 1,
+     "monoProseShare": 0.99,
+     "monoFamilies": [
+      "VT323",
+      "Plex"
+     ],
+     "monoSamples": [
+      "Decide what you delegate.",
+      "Skip to tools",
+      "General assistants",
+      "Research and understanding",
+      "Design and making",
+      "Builders, agents and automation"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#1f1f1d",
+       "share": 0.97
+      },
+      {
+       "color": "#58467e",
+       "share": 0.02
+      },
+      {
+       "color": "#3e5c80",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f0efeb",
+      "hsl": {
+       "h": 48,
+       "s": 0.14,
+       "l": 0.93
+      },
+      "fg": "#1f1f1d"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 3,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to tools",
+      "General assistants",
+      "Claude 1"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.31
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 70,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "vt323",
+     "plex"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.55,
+    0.63
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1268,
+     "screens": 1.2,
+     "words": 122,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 60,
+     "vw": 7.8,
+     "font": "VT323",
+     "weight": 400,
+     "tracking": -0.01,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": true,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.4,
+     "top": 22,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "lines": 2,
+     "size": 60,
+     "font": "VT323"
+    },
+    "headings": [
+     {
+      "text": "Decide what you delegate.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 60,
+      "vw": 7.8,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 22,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Claude",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 930,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plex",
+       "share": 0.98,
+       "mono": true
+      },
+      {
+       "family": "VT323",
+       "share": 0.02,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      19,
+      24,
+      32,
+      60
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Plex",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.5
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 60,
+      "vw": 7.8,
+      "font": "VT323",
+      "text": "Decide what you delegate."
+     },
+     "monoShare": 1,
+     "monoProseShare": 1,
+     "monoFamilies": [
+      "VT323",
+      "Plex"
+     ],
+     "monoSamples": [
+      "Decide what you delegate.",
+      "Skip to tools",
+      "General assistants",
+      "Research and understanding",
+      "Design and making",
+      "Builders, agents and automation"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#1f1f1d",
+       "share": 0.97
+      },
+      {
+       "color": "#58467e",
+       "share": 0.02
+      },
+      {
+       "color": "#3e5c80",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#1f1f1d"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 2,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to tools",
+      "Claude 1"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.32
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 142,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "vt323",
+     "plex"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.59,
+    0.55,
+    0.66
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 1758,
+     "screens": 2.1,
+     "words": 122,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 60,
+     "vw": 15.4,
+     "font": "VT323",
+     "weight": 400,
+     "tracking": -0.01,
+     "leading": 0.9,
+     "upper": false,
+     "italic": false,
+     "mono": true,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 22,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "lines": 2,
+     "size": 60,
+     "font": "VT323"
+    },
+    "headings": [
+     {
+      "text": "Decide what you delegate.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 60,
+      "vw": 15.4,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 22,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Claude",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 1165,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "×",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Plex",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.06,
+      "top": 1165,
+      "tag": "button",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plex",
+       "share": 0.98,
+       "mono": true
+      },
+      {
+       "family": "VT323",
+       "share": 0.02,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      19,
+      24,
+      40,
+      60
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Plex",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.5
+     },
+     "measureChars": 45,
+     "max": {
+      "size": 60,
+      "vw": 15.4,
+      "font": "VT323",
+      "text": "Decide what you delegate."
+     },
+     "monoShare": 1,
+     "monoProseShare": 1,
+     "monoFamilies": [
+      "VT323",
+      "Plex"
+     ],
+     "monoSamples": [
+      "Decide what you delegate.",
+      "Skip to tools",
+      "General assistants",
+      "Research and understanding",
+      "Design and making",
+      "Builders, agents and automation"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#1f1f1d",
+       "share": 0.97
+      },
+      {
+       "color": "#58467e",
+       "share": 0.02
+      },
+      {
+       "color": "#3e5c80",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f0efeb",
+      "hsl": {
+       "h": 48,
+       "s": 0.14,
+       "l": 0.93
+      },
+      "fg": "#1f1f1d"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 3,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to tools",
+      "General assistants",
+      "Claude 1"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.23
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 128,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "vt323",
+     "plex"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-after\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-after\\desktop-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-after\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-after\\tablet-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-after\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-after\\mobile-page-01.jpg"
+   ]
+  }
+ ]
+}

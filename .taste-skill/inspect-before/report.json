@@ -1,0 +1,1242 @@
+{
+ "url": "index.html",
+ "at": "2026-10-15T10:57:29.081Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 1,
+   "filled": [
+    0.56
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 900,
+     "screens": 1,
+     "words": 150,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "chars": 25,
+     "lines": 1,
+     "size": 52,
+     "vw": 3.6,
+     "font": "VT323",
+     "weight": 400,
+     "tracking": -0.01,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": true,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 24,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "lines": 1,
+     "size": 52,
+     "font": "VT323"
+    },
+    "headings": [
+     {
+      "text": "Decide what you delegate.",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 52,
+      "vw": 3.6,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 24,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Claude",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.15,
+      "top": 199,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Controlled Collaborator",
+      "words": 2,
+      "chars": 23,
+      "lines": 2,
+      "size": 28,
+      "vw": 1.9,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 600,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Curator / Director",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 28,
+      "vw": 1.9,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 729,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plex",
+       "share": 0.95,
+       "mono": true
+      },
+      {
+       "family": "VT323",
+       "share": 0.05,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      9,
+      10,
+      11,
+      13,
+      18,
+      28,
+      34,
+      52
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Plex",
+      "size": 10,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 18.9
+     },
+     "measureChars": 50,
+     "max": {
+      "size": 52,
+      "vw": 3.6,
+      "font": "VT323",
+      "text": "Decide what you delegate"
+     },
+     "monoShare": 1,
+     "monoProseShare": 0.99,
+     "monoFamilies": [
+      "Plex",
+      "VT323"
+     ],
+     "monoSamples": [
+      "Skip to tools",
+      "Decide what you delegate",
+      ".",
+      "LAU / AI for designTool atlas / 2026",
+      "01",
+      "General assistants"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 19
+    },
+    "eyebrows": [
+     {
+      "text": "Skip to tools",
+      "above": "Decide what you delegate.",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": -80
+     },
+     {
+      "text": "Workflow",
+      "above": "Controlled Collaborator",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 10,
+      "top": 561
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 11,
+      "top": 120
+     },
+     {
+      "text": "02",
+      "size": 11,
+      "top": 120
+     },
+     {
+      "text": "03",
+      "size": 11,
+      "top": 120
+     },
+     {
+      "text": "04",
+      "size": 11,
+      "top": 120
+     },
+     {
+      "text": "05",
+      "size": 11,
+      "top": 120
+     },
+     {
+      "text": "08",
+      "size": 10,
+      "top": 184
+     }
+    ],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#111111",
+       "share": 0.69
+      },
+      {
+       "color": "#6b6b6b",
+       "share": 0.28
+      },
+      {
+       "color": "#58467e",
+       "share": 0.02
+      },
+      {
+       "color": "#3e5c80",
+       "share": 0.01
+      },
+      {
+       "color": "#3b6447",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#111111"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 41,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 2,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to tools",
+      "Claude 1"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 2,
+     "hairlineSamples": [
+      "nav#categories.categories 1352px",
+      "footer 1352px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.37
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "vt323",
+     "plex"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.53,
+    0.45
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1059,
+     "screens": 1,
+     "words": 136,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 60,
+     "vw": 7.8,
+     "font": "VT323",
+     "weight": 400,
+     "tracking": -0.017,
+     "leading": 0.78,
+     "upper": false,
+     "italic": false,
+     "mono": true,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.52,
+     "top": 22,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "lines": 2,
+     "size": 60,
+     "font": "VT323"
+    },
+    "headings": [
+     {
+      "text": "Decide what you delegate.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 60,
+      "vw": 7.8,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": -0.017,
+      "leading": 0.78,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.52,
+      "top": 22,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Claude",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 29,
+      "vw": 3.8,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 852,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plex",
+       "share": 0.95,
+       "mono": true
+      },
+      {
+       "family": "VT323",
+       "share": 0.05,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      9,
+      10,
+      11,
+      13,
+      18,
+      25,
+      29,
+      60
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Plex",
+      "size": 10,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 18.9
+     },
+     "measureChars": 69,
+     "max": {
+      "size": 60,
+      "vw": 7.8,
+      "font": "VT323",
+      "text": "Decide what you delegate"
+     },
+     "monoShare": 1,
+     "monoProseShare": 1,
+     "monoFamilies": [
+      "Plex",
+      "VT323"
+     ],
+     "monoSamples": [
+      "Skip to tools",
+      "Decide what you delegate",
+      ".",
+      "01",
+      "General assistants",
+      "02"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 23
+    },
+    "eyebrows": [
+     {
+      "text": "Skip to tools",
+      "above": "Decide what you delegate.",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": -80
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 11,
+      "top": 165
+     },
+     {
+      "text": "02",
+      "size": 11,
+      "top": 165
+     },
+     {
+      "text": "03",
+      "size": 11,
+      "top": 165
+     },
+     {
+      "text": "04",
+      "size": 11,
+      "top": 165
+     },
+     {
+      "text": "05",
+      "size": 11,
+      "top": 165
+     },
+     {
+      "text": "08",
+      "size": 9,
+      "top": 230
+     }
+    ],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#111111",
+       "share": 0.72
+      },
+      {
+       "color": "#6b6b6b",
+       "share": 0.25
+      },
+      {
+       "color": "#58467e",
+       "share": 0.02
+      },
+      {
+       "color": "#3e5c80",
+       "share": 0.01
+      },
+      {
+       "color": "#3b6447",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#111111"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 41,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 2,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to tools",
+      "Claude 1"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 3,
+     "hairlineSamples": [
+      "nav#categories.categories 724px",
+      "aside.reading-panel 724px",
+      "footer 724px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.34
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 120,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "vt323",
+     "plex"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.55,
+    0.68
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 1351,
+     "screens": 1.6,
+     "words": 136,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 64,
+     "vw": 16.4,
+     "font": "VT323",
+     "weight": 400,
+     "tracking": -0.008,
+     "leading": 0.8,
+     "upper": false,
+     "italic": false,
+     "mono": true,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.91,
+     "top": 22,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Decide what you delegate.",
+     "words": 4,
+     "lines": 2,
+     "size": 64,
+     "font": "VT323"
+    },
+    "headings": [
+     {
+      "text": "Decide what you delegate.",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 64,
+      "vw": 16.4,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": -0.008,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 22,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Claude",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 974,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Controlled Collaborator",
+      "words": 2,
+      "chars": 23,
+      "lines": 2,
+      "size": 27,
+      "vw": 6.9,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 1170,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Curator / Director",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 27,
+      "vw": 6.9,
+      "font": "VT323",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 1170,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Plex",
+       "share": 0.95,
+       "mono": true
+      },
+      {
+       "family": "VT323",
+       "share": 0.05,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      8,
+      9,
+      10,
+      11,
+      13,
+      18,
+      27,
+      36,
+      64
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Plex",
+      "size": 11,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 18.9
+     },
+     "measureChars": 64,
+     "max": {
+      "size": 64,
+      "vw": 16.4,
+      "font": "VT323",
+      "text": "Decide what you delegate"
+     },
+     "monoShare": 1,
+     "monoProseShare": 1,
+     "monoFamilies": [
+      "Plex",
+      "VT323"
+     ],
+     "monoSamples": [
+      "Skip to tools",
+      "Decide what you delegate",
+      ".",
+      "01",
+      "General assistants",
+      "02"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 23
+    },
+    "eyebrows": [
+     {
+      "text": "Skip to tools",
+      "above": "Decide what you delegate.",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 13,
+      "top": -80
+     },
+     {
+      "text": "Category outlines",
+      "above": "Claude",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 9,
+      "top": 909
+     },
+     {
+      "text": "NE",
+      "above": "Controlled Collaborator",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 9,
+      "top": 1138
+     },
+     {
+      "text": "SE",
+      "above": "Curator / Director",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 9,
+      "top": 1138
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 10,
+      "top": 170
+     },
+     {
+      "text": "02",
+      "size": 10,
+      "top": 170
+     },
+     {
+      "text": "03",
+      "size": 10,
+      "top": 227
+     },
+     {
+      "text": "04",
+      "size": 10,
+      "top": 227
+     },
+     {
+      "text": "05",
+      "size": 10,
+      "top": 284
+     },
+     {
+      "text": "08",
+      "size": 9,
+      "top": 336
+     }
+    ],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#111111",
+       "share": 0.72
+      },
+      {
+       "color": "#6b6b6b",
+       "share": 0.25
+      },
+      {
+       "color": "#58467e",
+       "share": 0.02
+      },
+      {
+       "color": "#3e5c80",
+       "share": 0.01
+      },
+      {
+       "color": "#3b6447",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#111111"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 41,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 2,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to tools",
+      "Claude 1"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "nav#categories.categories 354px",
+      "aside.reading-panel 354px",
+      "div.working-modes 354px",
+      "footer 354px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.35
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 126,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "vt323",
+     "plex"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "2 eyebrow/kicker label(s) above headings: \"Skip to tools\" above \"Decide what you delegate.\"; \"Workflow\" above \"Controlled Collaborator\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "mono",
+   "width": 1440,
+   "message": "Monospace type outside code: Plex, VT323 — e.g. \"Skip to tools\", \"Decide what you delegate\", \".\", \"LAU / AI for designTool atlas / 2026\"",
+   "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\", \"02\", \"03\", \"04\", \"05\", \"08\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "2 thin rule(s)/divider line(s): nav#categories.categories 1352px | footer 1352px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 10px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "19 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-before\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-before\\desktop-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-before\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-before\\tablet-page-01.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-before\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\USER\\Documents\\cowork\\LAU AI WORKSHOP\\LAU-Workshop Day 1\\The Tools Landscape\\delegation-map\\.taste-skill\\inspect-before\\mobile-page-01.jpg"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+TASTESKILL · LINT   3 file(s)
+
+FAIL
+  [mono] Monospace type. Only literal code may be monospace.  (3×)
+      style.css:2  IBMPlexMono
+      style.css:3  IBMPlexMono
+      style.css:5  font-family:Plex,monospace
+  [hairline] Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields.  (4×)
+      style.css:8  border-top:1px
+      style.css:11  border-top:1px
+      style.css:12  border-top:1px
+      style.css:15  border-top:1px
+
+WARN
+  [outlined-box] A 1px outlined box. Prefer a filled surface or no box.  (1×)
+      style.css:12  border:1px solid
+  [glass] Backdrop blur. One sticky bar at most; glass cards are a tell.  (1×)
+      style.css:12  backdrop-filter:
+  [numbering] Zero-padding in script. Fine for a clock, a date or a price; if it builds 01 / 02 / 03 labels, remove it.  (2×)
+      app.js:48  padStart(2,'0')
+      app.js:77  padStart(2,'0')
+
+RESULT: 7 FAIL, 4 WARN — fix the FAILs before rendering.
+Interface fragments marked data-ui keep their own borders and shadows. Any other line that must keep a flagged pattern for a real reason can carry the comment taste-skill-ignore.

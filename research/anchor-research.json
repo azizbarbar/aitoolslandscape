@@ -1,0 +1,267 @@
+[
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM / Gemini Notebook · source-centered research",
+    "category": "research",
+    "status": "active",
+    "scope": "Standalone web notebook: selected-source chat and Studio reports; base access with plan-dependent limits. Experimental agentic actions excluded.",
+    "summary": "A reading set becomes a grounded conversation and a family of source-derived formats.",
+    "limitation": "Source grounding does not guarantee interpretation; experimental code and file agents are outside this profile.",
+    "baseScores": {
+      "N": 2.5,
+      "NE": 2.5,
+      "E": 3.25,
+      "SE": 1.25,
+      "S": 1.5,
+      "SW": 0.75,
+      "W": 1.25,
+      "NW": 1
+    },
+    "visualScores": {
+      "N": 2.5,
+      "NE": 2.5,
+      "E": 3.25,
+      "SE": 1.25,
+      "S": 1.5,
+      "SW": 0.75,
+      "W": 1.25,
+      "NW": 1
+    },
+    "baseCenter": [
+      0.5,
+      0.22
+    ],
+    "center": [
+      0.5,
+      0.22
+    ],
+    "centerEvidence": {
+      "claim": "Reading and briefing a chosen source set puts the default right and modestly above center.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Learn about Gemini Notebook",
+        "url": "https://support.google.com/gemininotebook/answer/16164461",
+        "checked": "2026-10-15",
+        "finding": "Selected-source questions, citations, and study-oriented transformations define the core notebook."
+      },
+      {
+        "id": "s2",
+        "title": "Use chat in Gemini Notebook",
+        "url": "https://support.google.com/gemininotebook/answer/16179559?hl=en",
+        "checked": "2026-10-15",
+        "finding": "Select sources, inspect quoted passages, set response style and length. Creative continuations may be declined; new agentic functions are experimental."
+      },
+      {
+        "id": "s3",
+        "title": "Generate reports in Gemini Notebook",
+        "url": "https://support.google.com/gemininotebook/answer/18323649?hl=en",
+        "checked": "2026-10-15",
+        "finding": "Reports offer suggested formats, templates, editable generation settings, and embedded learning artifacts."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Source, style, and length controls direct inspectable responses; no precise local editing contract.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Selected-source answers retain navigable citations while following response instructions.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Source restriction and quoted passages support traceable reading, short of exact output preservation.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Brainstorming stays tied to the selected material; suggestions have a narrow evidentiary base.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Suggested report formats and learning artifacts offer nearby presentation directions.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Suggested learning formats introduce limited new framing rather than independent creative strategies.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Study formats reorganize content; closed-source chat limits substantive invention.",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Customized reports vary structure within a supplied reading set.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit · structured research workflows",
+    "category": "research",
+    "status": "active",
+    "scope": "Elicit Pro systematic review, search, extraction and reports; excludes Enterprise-scale limits and Scale-only figure extraction.",
+    "summary": "Evidence is organized into editable study fields, with room to refine the research protocol.",
+    "limitation": "Audit generated screening and extraction decisions; a structured workflow is not comprehensive literature coverage.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 3.25,
+      "E": 3.5,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 0.75,
+      "W": 1,
+      "NW": 0.75
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 3.25,
+      "E": 3.5,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 0.75,
+      "W": 1,
+      "NW": 0.75
+    },
+    "baseCenter": [
+      0.62,
+      0.48
+    ],
+    "center": [
+      0.62,
+      0.48
+    ],
+    "centerEvidence": {
+      "claim": "Comparing user-specified study fields is evidence-heavy bounded production.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Elicit systematic literature reviews",
+        "url": "https://elicit.com/solutions/systematic-review",
+        "checked": "2026-10-15",
+        "finding": "Editable criteria, quote-supported screening and extraction, protocol refinement, and cited synthesis are documented."
+      },
+      {
+        "id": "s2",
+        "title": "Elicit pricing",
+        "url": "https://elicit.com/pricing",
+        "checked": "2026-10-15",
+        "finding": "Pro includes custom extraction, systematic review workflows, report templates, explanations, and exports; tiers differ."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Editable criteria and extraction fields give checkable, structured production control.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "User-defined extraction and screening preserve inspectable supporting passages.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Sentence-level citations and extraction quotes support close audit; generated judgments remain fallible.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Iterating criteria after inspecting papers combines source evidence with protocol revision.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Question refinement, screening suggestions, and iterative protocol design propose bounded research directions.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Proposed criteria add limited research framing, not broad compositional invention.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Reports synthesize existing studies; originality mainly concerns questions and templates.",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Custom extraction templates shape a derived report within the structured review workflow.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  }
+]

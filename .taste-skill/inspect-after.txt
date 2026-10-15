@@ -1,0 +1,23 @@
+TASTESKILL · INSPECT   index.html
+
+MEASURED (first viewport listed)
+  hero headline   "Decide what you delegate."  4 words · 1 line(s) · 52px (3.6vw) · VT323 400 · tracking -0.01em · leading 1
+  @768px          2 line(s) · 60px
+  @390px          2 line(s) · 60px
+  typefaces       Plex 98%, VT323 2%
+  sizes in use    14 / 16 / 19 / 24 / 40 / 52 px   body 16px / 1.5
+  colour          page #ffffff · button #f0efeb
+  page            1 screens · 131 words · 8 images · hero media 31% svg
+  headings        2 · longest 1 line(s) · median 1 words
+
+FINDINGS  none. Measurements are clean — now judge the pictures.
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  .taste-skill/inspect-after/desktop-fold.jpg
+                  .taste-skill/inspect-after/desktop-page-01.jpg
+  tablet 768px    .taste-skill/inspect-after/tablet-fold.jpg
+                  .taste-skill/inspect-after/tablet-page-01.jpg
+  mobile 390px    .taste-skill/inspect-after/mobile-fold.jpg
+                  .taste-skill/inspect-after/mobile-page-01.jpg
+
+report: .taste-skill/inspect-after/report.json
+RESULT: 0 FAIL, 0 WARN — measurements pass. Passing the meter is the floor, not the grade: score the screenshots with references/critique.md.

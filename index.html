@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="An experimental atlas of AI tools and the decisions you delegate.">
+  <title>Decide what you delegate</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="geometry.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="atlas">
+    <header class="masthead">
+      <h1>Decide what <br>you delegate.</h1>
+    </header>
+    <a class="skip-link" href="#tool-list">Skip to tools</a>
+    <nav id="categories" class="categories" aria-label="Tool categories"></nav>
+    <main class="workspace">
+      <section class="tools-panel" aria-label="Choose tools">
+        <p id="tool-count" class="panel-caption"></p>
+        <div id="tool-list" class="tool-list" tabindex="-1"></div>
+      </section>
+      <section class="map-panel" aria-label="Delegation map">
+        <div class="map-heading"><button id="clear" class="text-button" type="button">Clear <kbd>(Esc)</kbd></button></div>
+        <div class="map-frame">
+          <svg id="map" viewBox="44 30 792 768" role="img" aria-labelledby="map-title map-description">
+            <title id="map-title">Decide what you delegate: a two-axis map</title>
+            <desc id="map-description">GENERATIVE to FAITHFUL horizontally; UNDIRECTED to DIRECTED vertically. Selected tool clouds show interpreted operating envelopes.</desc>
+            <defs>
+              <linearGradient id="agency-gradient" x1="0" y1="1" x2="1" y2="0">
+                <stop offset="0%" stop-color="#dce7ef"/>
+                <stop offset="48%" stop-color="#f2f1f3"/>
+                <stop offset="100%" stop-color="#e5dff0"/>
+              </linearGradient>
+              <marker id="axis-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1f1f1d"/></marker>
+              <pattern id="dither-primary" width="48" height="42" patternUnits="userSpaceOnUse"><g class="dither-text"><text x="3" y="12">·</text><text x="24" y="12">+</text><text x="13" y="32">:</text><text x="37" y="33">·</text></g></pattern>
+              <pattern id="dither-secondary" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M 15 13 v 6 M 12 16 h 6" stroke="#1f1f1d" stroke-width=".8" opacity=".4"/></pattern>
+              <clipPath id="plot-clip"><rect x="120" y="90" width="640" height="640"/></clipPath>
+            </defs>
+            <rect class="agency-field" x="120" y="90" width="640" height="640" fill="url(#agency-gradient)"/>
+            <g id="grid" aria-hidden="true"></g>
+            <g class="quadrants" aria-hidden="true">
+              <g class="q-upper"><text x="130" y="120">STEERED INVENTION</text>
+              <text x="750" y="120" text-anchor="end">FAITHFUL PRODUCTION</text></g>
+              <g class="q-lower"><text x="130" y="708">OPEN EXPLORATION</text>
+              <text x="750" y="708" text-anchor="end">GROUNDED PROPOSALS</text></g>
+            </g>
+            <g id="outlines" clip-path="url(#plot-clip)" aria-hidden="true"></g>
+            <g id="clouds" clip-path="url(#plot-clip)"></g>
+            <g id="dots" clip-path="url(#plot-clip)" aria-hidden="true"></g>
+            <g class="axis-titles">
+              <text x="440" y="66" text-anchor="middle" class="axis-end axis-top"><tspan class="axis-label">DIRECTED</tspan></text>
+              <text x="54" y="410" text-anchor="middle" transform="rotate(-90 54 410)" class="axis-end"><tspan class="axis-label">GENERATIVE</tspan></text>
+              <text x="826" y="410" text-anchor="middle" transform="rotate(90 826 410)" class="axis-end"><tspan class="axis-label">FAITHFUL</tspan></text>
+              <text x="440" y="778" text-anchor="middle" class="axis-end"><tspan class="axis-label">UNDIRECTED</tspan></text>
+            </g>
+          </svg>
+        </div>
+        <div class="map-bottom"><label class="outline-toggle"><input id="show-outlines" type="checkbox"><span>Category outlines</span></label><span class="dot-key"><i></i> Illustrative default</span></div>
+      </section>
+      <aside class="reading-panel" aria-label="Read the map">
+        <div id="readout" class="readout" aria-live="polite" aria-atomic="true"></div>
+        <div class="working-modes">
+          <section class="mode upper"><h2>DIRECTOR</h2><p>I set the direction and delegate bounded production.</p></section>
+          <section class="mode lower"><h2>CURATOR</h2><p>I invite proposals, then select, critique and develop them.</p></section>
+        </div>
+      </aside>
+    </main>
+    <footer><span class="keyboard-hint">Keys <kbd>1</kbd>–<kbd id="category-key-max">5</kbd> switch category, <kbd>↑</kbd> <kbd>↓</kbd> move through tools</span><button id="method-open" class="text-button" type="button">How this map is scored <span aria-hidden="true">+</span></button><span>Checked 15 Oct 2026</span></footer>
+  </div>
+  <dialog id="method-dialog" aria-labelledby="method-title">
+    <div class="dialog-heading"><h2 id="method-title">Read the shape.</h2><button id="method-close" type="button" class="text-button" aria-label="Close scoring explanation">Close ×</button></div>
+    <p>A cloud is an interpretation of where a tool can work. Its dot marks an illustrative default, not a measured average.</p>
+    <dl><dt>GENERATIVE ↔ FAITHFUL</dt><dd>Generates new possibilities ↔ works from what you supply.</dd><dt>UNDIRECTED ↔ DIRECTED</dt><dd>It proposes, you select ↔ you set the direction.</dd><dt>Eight directions</dt><dd>Scores from 0–4 describe reach. Diagonals describe capabilities used together. A tight corner means a trade-off.</dd></dl>
+    <p>Profiles describe specific workflows, not every version or account. Bigger does not mean better.</p>
+    <p>An interpretive teaching map based on documented capabilities, not an accuracy benchmark. Checked October 15, 2026.</p>
+    <a href="method.md" target="_blank" rel="noopener">Read the full method ↗</a>
+  </dialog>
+  <noscript>This map needs JavaScript enabled. Its source data is available in scores.json.</noscript>
+</body>
+</html>

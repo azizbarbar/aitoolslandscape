@@ -1,0 +1,27 @@
+[
+  {
+    "id": "claude-code", "name": "Claude Code", "category": "builders", "status": "active",
+    "scope": "Coding agent with repository files, command execution, diffs and tests; suitable paid account or API access.",
+    "summary": "Broad software invention, with a strong upper-right reach for specified edits checked against code and tests.",
+    "limitation": "Tests verify selected properties, not every requirement; no automatic CAD or pixel-preservation claim.",
+    "baseScores": {"N":4,"NE":3.75,"E":4,"SE":2.5,"S":3.5,"SW":3.25,"W":3.5,"NW":3.25},
+    "visualScores": {"N":4,"NE":3.75,"E":4,"SE":2.5,"S":3.5,"SW":3.25,"W":3.5,"NW":3.25},
+    "baseCenter":[0.375,0.5],"center":[0.375,0.5],
+    "centerEvidence":{"claim":"A scoped repository change with tests is the illustrative default.","sourceIds":["overview","workflows"],"confidence":"medium","inferred":true},
+    "sources":[
+      {"id":"overview","title":"Claude Code overview","url":"https://code.claude.com/docs/en/overview","checked":"2026-10-15","finding":"Reads and edits repositories, executes commands, exposes diffs and integrates tools."},
+      {"id":"workflows","title":"Claude Code common workflows","url":"https://code.claude.com/docs/en/common-workflows","checked":"2026-10-15","finding":"Describes planning, alternative fixes, refactoring with behavior preserved, and running tests."}
+    ],
+    "evidence":{
+      "N":{"claim":"Specified file operations can be executed and verified through diffs and tests.","sourceIds":["overview","workflows"],"confidence":"high","inferred":true},
+      "NE":{"claim":"Refactoring combines bounded edits with tests of retained behavior; coverage limits the joint reach.","sourceIds":["workflows"],"confidence":"medium","inferred":true},
+      "E":{"claim":"Deterministic file operations and unchanged-file diffs make exact scoped preservation checkable.","sourceIds":["overview"],"confidence":"medium","inferred":true},
+      "SE":{"claim":"Alternative fixes can be considered within an existing codebase, without guaranteed equivalence.","sourceIds":["workflows"],"confidence":"medium","inferred":true},
+      "S":{"claim":"Plans and alternative fixes support originating software approaches under constraints.","sourceIds":["workflows"],"confidence":"medium","inferred":true},
+      "SW":{"claim":"Planning new features combines substantive invention with approach selection.","sourceIds":["overview","workflows"],"confidence":"medium","inferred":true},
+      "W":{"claim":"Creates new features across multiple files, beyond fixed templates.","sourceIds":["overview"],"confidence":"medium","inferred":true},
+      "NW":{"claim":"A specified feature can be authored and tested, while implementation retains discretion.","sourceIds":["overview"],"confidence":"medium","inferred":true}
+    },
+    "adjustments":[]
+  }
+]

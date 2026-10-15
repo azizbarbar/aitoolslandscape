@@ -1,0 +1,44 @@
+TASTESKILL · INSPECT   index.html
+
+MEASURED (first viewport listed)
+  hero headline   "Decide what you delegate."  4 words · 1 line(s) · 52px (3.6vw) · VT323 400 · tracking -0.01em · leading 1
+  @768px          2 line(s) · 60px
+  @390px          2 line(s) · 64px
+  typefaces       Plex 95%, VT323 5%
+  sizes in use    9 / 10 / 11 / 13 / 18 / 28 / 34 / 52 px   body 10px / 1.7
+  colour          page #ffffff · button #ffffff
+  page            1 screens · 150 words · 8 images · hero media 37% svg
+  headings        4 · longest 2 line(s) · median 2 words
+
+FAIL — fix every one of these
+  [eyebrow] @1440px (+768, 390)  2 eyebrow/kicker label(s) above headings: "Skip to tools" above "Decide what you delegate."; "Workflow" above "Controlled Collaborator"
+      → Delete them. If the label carried real information, fold it into the headline or the supporting sentence.
+  [mono] @1440px (+768, 390)  Monospace type outside code: Plex, VT323 — e.g. "Skip to tools", "Decide what you delegate", ".", "LAU / AI for designTool atlas / 2026"
+      → Set it in the text face. Monospace is for literal code inside <pre>/<code> only.
+  [numbering] @1440px (+768, 390)  Decorative index numbers: "01", "02", "03", "04", "05", "08"
+      → Remove them. If order truly matters, write it into the words ("First, …") or use a real <ol>.
+  [hairline] @1440px (+768, 390)  2 thin rule(s)/divider line(s): nav#categories.categories 1352px | footer 1352px
+      → Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.
+  [body-size] @1440px (+768, 390)  Body text is 10px (the size most of the running text is set in).
+      → Body copy 16–20px. Map small sizes from blueprints onto your body step.
+  [few-pictures] @1440px  Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.
+      → Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve.
+  [small-text] @1440px (+768, 390)  19 text blocks under 13px.
+      → Nothing meant to be read goes below 13px.
+  [still-page] @1440px  Only 0 element(s) moved while the page loaded and scrolled.
+      → Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback.
+
+WARN — fix, or be able to defend
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  .taste-skill/inspect-before/desktop-fold.jpg
+                  .taste-skill/inspect-before/desktop-page-01.jpg
+  tablet 768px    .taste-skill/inspect-before/tablet-fold.jpg
+                  .taste-skill/inspect-before/tablet-page-01.jpg
+  mobile 390px    .taste-skill/inspect-before/mobile-fold.jpg
+                  .taste-skill/inspect-before/mobile-page-01.jpg
+
+report: .taste-skill/inspect-before/report.json
+RESULT: 8 FAIL, 1 WARN — not done.

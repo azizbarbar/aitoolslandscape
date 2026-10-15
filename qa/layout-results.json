@@ -1,0 +1,170 @@
+[
+  {
+    "width": 1920,
+    "category": "general",
+    "page": [
+      1920,
+      1080
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "width": 1920,
+    "category": "research",
+    "page": [
+      1920,
+      1080
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "width": 1920,
+    "category": "design",
+    "page": [
+      1920,
+      1080
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "width": 1920,
+    "category": "builders",
+    "page": [
+      1920,
+      1080
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "width": 1366,
+    "category": "general",
+    "page": [
+      1366,
+      768
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      1366,
+      768
+    ]
+  },
+  {
+    "width": 1366,
+    "category": "research",
+    "page": [
+      1366,
+      768
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      1366,
+      768
+    ]
+  },
+  {
+    "width": 1366,
+    "category": "design",
+    "page": [
+      1366,
+      768
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      1366,
+      768
+    ]
+  },
+  {
+    "width": 1366,
+    "category": "builders",
+    "page": [
+      1366,
+      768
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      1366,
+      768
+    ]
+  },
+  {
+    "width": 390,
+    "category": "general",
+    "page": [
+      390,
+      1800
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      390,
+      1800
+    ]
+  },
+  {
+    "width": 390,
+    "category": "research",
+    "page": [
+      390,
+      1800
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      390,
+      1800
+    ]
+  },
+  {
+    "width": 390,
+    "category": "design",
+    "page": [
+      390,
+      1800
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      390,
+      1800
+    ]
+  },
+  {
+    "width": 390,
+    "category": "builders",
+    "page": [
+      390,
+      1800
+    ],
+    "profiles": 2,
+    "selected": 2,
+    "viewport": [
+      390,
+      1800
+    ]
+  }
+]

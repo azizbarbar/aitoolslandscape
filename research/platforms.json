@@ -1,0 +1,1769 @@
+[
+  {
+    "id": "magnific-platform",
+    "name": "Magnific",
+    "category": "platforms",
+    "status": "active",
+    "scope": "Magnific creative suite: Spaces node canvas, model selection, apps and agents; paid feature availability varies.",
+    "summary": "A broad studio: branch visual ideas, connect models in Spaces, then turn a workflow into a repeatable app.",
+    "limitation": "The full studio is scored here; the Design and making entry describes the narrower upscaling workflow. Model switching does not guarantee fidelity.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 2.75,
+      "E": 3,
+      "SE": 2,
+      "S": 3,
+      "SW": 3,
+      "W": 4,
+      "NW": 3.25
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 2.75,
+      "E": 3,
+      "SE": 2,
+      "S": 3,
+      "SW": 3,
+      "W": 4,
+      "NW": 3.25
+    },
+    "baseCenter": [
+      -0.22,
+      0.16
+    ],
+    "center": [
+      -0.22,
+      0.16
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: A broad studio: branch visual ideas, connect models in Spaces, then turn a workflow into a repeatable app.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "Magnific creative platform",
+        "url": "https://www.magnific.com/",
+        "checked": "2026-10-15",
+        "finding": "Image, video and audio models, node-based Spaces, reusable apps and agents are presented as one production environment."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Reusable node chains execute a specified production plan.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "References and saved workflows constrain repeated production.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Image editing and reference inputs support preservation, with model-dependent drift.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Agents can propose variations around supplied brand material.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Agents and branching workflows invite alternative directions.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Multiple generators open distinct creative routes.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Image, video and audio generation span a wide inventive field.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Explicit node connections make novel production steerable.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/magnific.svg"
+  },
+  {
+    "id": "higgsfield",
+    "name": "Higgsfield",
+    "category": "platforms",
+    "status": "active",
+    "scope": "Higgsfield video-first studio and model library, with Camera Controls and Cinema Studio; model and plan limits apply.",
+    "summary": "A cinematic field: strong camera direction, expansive motion, and looser attachment to the original frame.",
+    "limitation": "A camera preset directs a move; it does not guarantee exact subject geometry or frame-by-frame preservation.",
+    "baseScores": {
+      "N": 3.25,
+      "NE": 1.75,
+      "E": 2.25,
+      "SE": 1.25,
+      "S": 2.75,
+      "SW": 2.75,
+      "W": 3.75,
+      "NW": 3.25
+    },
+    "visualScores": {
+      "N": 3.25,
+      "NE": 1.5,
+      "E": 2.25,
+      "SE": 1.25,
+      "S": 2.75,
+      "SW": 2.75,
+      "W": 3.75,
+      "NW": 3.25
+    },
+    "baseCenter": [
+      -0.36,
+      0.03
+    ],
+    "center": [
+      -0.36,
+      0.03
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: A cinematic field: strong camera direction, expansive motion, and looser attachment to the original frame.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "Higgsfield Camera Controls",
+        "url": "https://higgsfield.ai/camera-controls",
+        "checked": "2026-10-15",
+        "finding": "Camera presets include dolly, crane, tracking and orbit moves, alongside the platform image and video workspaces."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Named camera moves allow a user to specify the cinematic action.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Camera direction and source-frame continuity can be combined, with imperfect precision.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Reference-led video keeps some source identity but can reinterpret it.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Reference variations remain possible but are less central than motion exploration.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Presets invite discovery of different cinematic treatments.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Motion and effects propose substantial visual departures.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Generative video supports new scenes and transformations.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Camera controls provide a strong directed-generative shoulder.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "NE",
+        "from": 1.75,
+        "to": 1.5,
+        "reason": "Keep cinematic direction visibly distinct from exact source preservation."
+      }
+    ],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/higgsfield.png"
+  },
+  {
+    "id": "krea-platform",
+    "name": "Krea",
+    "category": "platforms",
+    "status": "active",
+    "scope": "Krea creative suite: realtime image generation, multiple image/video models, Nodes and Nodes Agent on eligible plans.",
+    "summary": "A live creative instrument: realtime exploration grows into model chains, Nodes and agent-built workflows.",
+    "limitation": "Realtime feedback gives creative control, not exact recovery of the source. The Design entry emphasizes image-making rather than the whole platform.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 2,
+      "E": 2.75,
+      "SE": 2,
+      "S": 3.25,
+      "SW": 3.25,
+      "W": 4,
+      "NW": 3.5
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 2,
+      "E": 2.75,
+      "SE": 2,
+      "S": 3.25,
+      "SW": 3.25,
+      "W": 4,
+      "NW": 3.5
+    },
+    "baseCenter": [
+      -0.3,
+      0.22
+    ],
+    "center": [
+      -0.3,
+      0.22
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: A live creative instrument: realtime exploration grows into model chains, Nodes and agent-built workflows.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "Krea creative suite",
+        "url": "https://www.krea.ai/",
+        "checked": "2026-10-15",
+        "finding": "The suite lists realtime creation, multiple image/video models, App Builder and Nodes Agent."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Nodes encode a chosen sequence of transformations.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Reference-led node workflows allow bounded variations.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Source conditioning is supported but transformations may replace detail.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Existing visual material can seed multiple connected proposals.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "The agent and realtime loop support alternative routes.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Realtime generation encourages rapid speculative exploration.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "The model range sustains broad visual invention.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "A live canvas and editable nodes give invention strong human direction.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/krea.png"
+  },
+  {
+    "id": "firefly-platform",
+    "name": "Adobe Firefly",
+    "category": "platforms",
+    "status": "active",
+    "scope": "Firefly and available partner models across Firefly and Creative Cloud apps; capabilities depend on app, model and plan.",
+    "summary": "A production-weighted studio: generate across models, then carry the work into precise Creative Cloud edits.",
+    "limitation": "This profile includes integrated editing workflows; not every partner model inherits every Adobe control or preservation guarantee.",
+    "baseScores": {
+      "N": 3.75,
+      "NE": 3.5,
+      "E": 3.75,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 2.5,
+      "W": 3.5,
+      "NW": 3
+    },
+    "visualScores": {
+      "N": 3.75,
+      "NE": 3.5,
+      "E": 3.75,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 2.5,
+      "W": 3.5,
+      "NW": 3
+    },
+    "baseCenter": [
+      0.23,
+      0.35
+    ],
+    "center": [
+      0.23,
+      0.35
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: A production-weighted studio: generate across models, then carry the work into precise Creative Cloud edits.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "Partner models in Adobe products",
+        "url": "https://helpx.adobe.com/creative-cloud/apps/generative-ai/non-adobe-models-in-adobe-products.html",
+        "checked": "2026-10-15",
+        "finding": "Adobe documents partner-model availability across Firefly generation, Boards, Graph and selected Creative Cloud applications."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Integrated editors support explicit production decisions.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Selective editing within a supplied composition is a strong joint workflow.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Existing assets and local editing support comparatively strong preservation.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Boards and references enable proposals anchored to source material.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Multi-model exploration supplies creative alternatives.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Generative models propose new visual routes.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Image and video generators extend beyond supplied assets.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Creative Cloud tools and generation combine bounded invention with editing.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/firefly.png"
+  },
+  {
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "category": "platforms",
+    "status": "active",
+    "scope": "Open-source ComfyUI node workflows on local hardware or Comfy Cloud; optional models, nodes and agents require setup.",
+    "summary": "An engineered cloud: enormous freedom inside an explicit graph, with every step and parameter exposed.",
+    "limitation": "Scores assume a configured workflow. Installing a model alone does not supply a finished creative direction or reliable preservation.",
+    "baseScores": {
+      "N": 4,
+      "NE": 3,
+      "E": 3.25,
+      "SE": 0.75,
+      "S": 2,
+      "SW": 1.25,
+      "W": 4,
+      "NW": 3.75
+    },
+    "visualScores": {
+      "N": 4,
+      "NE": 3.25,
+      "E": 3.25,
+      "SE": 0.75,
+      "S": 2,
+      "SW": 1.25,
+      "W": 4,
+      "NW": 3.75
+    },
+    "baseCenter": [
+      0.05,
+      0.58
+    ],
+    "center": [
+      0.05,
+      0.58
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: An engineered cloud: enormous freedom inside an explicit graph, with every step and parameter exposed.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "Comfy visual AI platform",
+        "url": "https://comfy.org/",
+        "checked": "2026-10-15",
+        "finding": "Local and cloud node workflows expose models, parameters and processing steps; an optional agent can build and run workflows."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Editable nodes and parameters make execution unusually explicit.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Conditioning and compositing can be wired into a controlled source workflow.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Appropriate masks and conditioning preserve selected information.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Source-bound proposals need deliberate graph construction.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Optional agents and templates can suggest workflow directions.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Creative alternatives are possible but not inherent to a bare graph.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Open and partner generators provide broad inventive reach.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Explicit pipelines strongly support human-directed novel output.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "NE",
+        "from": 3,
+        "to": 3.25,
+        "reason": "Emphasize source-conditioned execution against the thinner proposal region."
+      }
+    ],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/comfyui.svg"
+  },
+  {
+    "id": "figma-weave",
+    "name": "Figma Weave",
+    "category": "platforms",
+    "status": "active",
+    "scope": "Figma Weave, formerly Weavy: node-based image/video workflows and connections with Figma design assets.",
+    "summary": "Design logic becomes a connected canvas: branch, remix and resize a visual system without losing its starting point.",
+    "limitation": "Layout and asset reuse provide constraints; generated imagery can still diverge from the original visual language.",
+    "baseScores": {
+      "N": 3.75,
+      "NE": 3.25,
+      "E": 3.5,
+      "SE": 2,
+      "S": 2.75,
+      "SW": 2.5,
+      "W": 3.5,
+      "NW": 3.25
+    },
+    "visualScores": {
+      "N": 3.75,
+      "NE": 3.25,
+      "E": 3.5,
+      "SE": 2,
+      "S": 2.75,
+      "SW": 2.5,
+      "W": 3.5,
+      "NW": 3.25
+    },
+    "baseCenter": [
+      0.15,
+      0.38
+    ],
+    "center": [
+      0.15,
+      0.38
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: Design logic becomes a connected canvas: branch, remix and resize a visual system without losing its starting point.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "Five Figma Weave workflows",
+        "url": "https://www.figma.com/blog/five-figma-weave-workflows/",
+        "checked": "2026-10-15",
+        "finding": "Documented workflows connect references, generation nodes, variations and aspect-ratio outputs on a canvas."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Visible node chains make production logic reusable.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Reference and aspect-ratio nodes join controlled output to an existing system.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Starting assets and design context encourage consistency.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Variations can remain linked to a supplied visual language.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Branching nodes invite several design alternatives.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Remixed inputs open new creative possibilities.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Image and video models support substantial invention.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Editable workflow structure directs that invention.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/figma-weave.svg"
+  },
+  {
+    "id": "flora",
+    "name": "FLORA",
+    "category": "platforms",
+    "status": "active",
+    "scope": "FLORA infinite canvas connecting text, image and video models; reusable techniques and collaborative creative workflows.",
+    "summary": "An expansive idea space: connect text, images and video, branch outward, and follow the unexpected route.",
+    "limitation": "Connections preserve creative context rather than guaranteeing exact pixel or factual fidelity.",
+    "baseScores": {
+      "N": 3,
+      "NE": 1.75,
+      "E": 2.25,
+      "SE": 2.25,
+      "S": 3.75,
+      "SW": 3.75,
+      "W": 4,
+      "NW": 2.75
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 1.75,
+      "E": 2.25,
+      "SE": 2.25,
+      "S": 4,
+      "SW": 4,
+      "W": 4,
+      "NW": 2.75
+    },
+    "baseCenter": [
+      -0.34,
+      -0.32
+    ],
+    "center": [
+      -0.34,
+      -0.32
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: An expansive idea space: connect text, images and video, branch outward, and follow the unexpected route.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "FLORA generative canvas",
+        "url": "https://flora.ai/",
+        "checked": "2026-10-15",
+        "finding": "An infinite canvas joins text, image and video models for branching exploration and iterative creative work."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Connections encode an intended sequence of creative steps.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Reusable techniques constrain production, with flexible interpretation.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Inputs carry references and context into later generations.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Connected references can seed several plausible directions.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "The canvas strongly favors branching creative exploration.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Novel ideas can be developed across text, image and video.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Broad model access supports a large generative envelope.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Directed chains temper free exploration with repeatable steps.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "S",
+        "from": 3.75,
+        "to": 4,
+        "reason": "Emphasize the canvas-led invitation to explore many possible creative directions."
+      },
+      {
+        "field": "SW",
+        "from": 3.75,
+        "to": 4,
+        "reason": "Open the lower-left lobe to distinguish exploratory branching from node-based production."
+      }
+    ],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/flora.svg"
+  },
+  {
+    "id": "leonardo",
+    "name": "Leonardo",
+    "category": "platforms",
+    "status": "active",
+    "scope": "Leonardo image platform, part of Canva, with image generation, editing, guidance and video options.",
+    "summary": "An image-led studio: explore visual styles, guide the composition, then refine a chosen image into an asset.",
+    "limitation": "Model guidance improves consistency without guaranteeing exact source geometry or typography.",
+    "baseScores": {
+      "N": 3,
+      "NE": 2.25,
+      "E": 2.75,
+      "SE": 1.75,
+      "S": 2.75,
+      "SW": 2.75,
+      "W": 3.75,
+      "NW": 2.75
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 2.25,
+      "E": 2.75,
+      "SE": 1.75,
+      "S": 2.75,
+      "SW": 2.75,
+      "W": 3.75,
+      "NW": 2.75
+    },
+    "baseCenter": [
+      -0.24,
+      0.12
+    ],
+    "center": [
+      -0.24,
+      0.12
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: An image-led studio: explore visual styles, guide the composition, then refine a chosen image into an asset.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "Leonardo creative platform",
+        "url": "https://leonardo.ai/",
+        "checked": "2026-10-15",
+        "finding": "The platform combines image generation, editing and video tools for asset creation and iterative visual work."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Guidance and editing let a user refine a chosen visual direction.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Guided edits combine source material with explicit choices.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "References preserve some composition and identity.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Variants can stay near a provided visual brief.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Style and image exploration supply alternative concepts.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Visual models generate substantially different interpretations.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Image generation is the broadest part of the workflow.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Guidance channels invention toward a chosen composition.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark."
+  },
+  {
+    "id": "openart",
+    "name": "OpenArt",
+    "category": "platforms",
+    "status": "active",
+    "scope": "OpenArt multi-model image, video and audio creation through a shared platform and credit system.",
+    "summary": "A wide pool of possibilities: move between image, video and audio models, then develop characters and stories.",
+    "limitation": "Changing models changes behavior; shared credits do not imply identical controls or consistent identity across all outputs.",
+    "baseScores": {
+      "N": 2.75,
+      "NE": 1.5,
+      "E": 2.25,
+      "SE": 1.75,
+      "S": 3.5,
+      "SW": 3.5,
+      "W": 4,
+      "NW": 2.5
+    },
+    "visualScores": {
+      "N": 2.75,
+      "NE": 1.5,
+      "E": 2.25,
+      "SE": 1.75,
+      "S": 3.5,
+      "SW": 3.5,
+      "W": 4,
+      "NW": 2.5
+    },
+    "baseCenter": [
+      -0.38,
+      -0.24
+    ],
+    "center": [
+      -0.38,
+      -0.24
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: A wide pool of possibilities: move between image, video and audio models, then develop characters and stories.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "OpenArt model platform",
+        "url": "https://openart.ai/",
+        "checked": "2026-10-15",
+        "finding": "OpenArt lists multiple image/video models, image editing, character creation and story-based production workflows."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Editors and workflow tools direct selected tasks.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Reference controls exist but vary across models.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Character tools help retain identity with variable fidelity.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Source characters can become alternative story treatments.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Story and model exploration invite multiple directions.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "A wide model pool creates diverse speculative outputs.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Image, video and audio generation span a broad field.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Prompts and editors provide some directed-generative control.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/openart.png"
+  },
+  {
+    "id": "ltx-studio",
+    "name": "LTX Studio",
+    "category": "platforms",
+    "status": "active",
+    "scope": "LTX Studio storyboard-to-film workflow with multiple image/video models, shot controls and recurring elements.",
+    "summary": "A narrative cloud: a brief becomes a storyboard, then shot choices, characters and timing shape the film.",
+    "limitation": "Character and scene continuity remain probabilistic. The narrative workflow contributes more than model selection alone.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 2.5,
+      "E": 2.75,
+      "SE": 2.5,
+      "S": 3.25,
+      "SW": 3,
+      "W": 3.5,
+      "NW": 3
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 2.5,
+      "E": 2.75,
+      "SE": 2.5,
+      "S": 3.25,
+      "SW": 3,
+      "W": 3.5,
+      "NW": 3
+    },
+    "baseCenter": [
+      -0.05,
+      -0.12
+    ],
+    "center": [
+      -0.05,
+      -0.12
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: A narrative cloud: a brief becomes a storyboard, then shot choices, characters and timing shape the film.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "Choosing models in LTX Studio",
+        "url": "https://ltx.io/blog/how-to-choose-the-right-model",
+        "checked": "2026-10-15",
+        "finding": "LTX documents multiple image/video model choices; the studio supports storyboards, camera direction and reference-led shots."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Shot-level controls and a timeline execute a chosen sequence.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "References and recurring elements constrain specified shots.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Character and scene references support partial continuity.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "A supplied script can become several storyboard interpretations.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Storyboarding proposes narrative and shot directions.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Concept-to-film can invent substantial visual narratives.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Multiple video models create scenes from prompts and references.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Camera and keyframe choices direct generated scenes.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark."
+  },
+  {
+    "id": "lovart",
+    "name": "Lovart",
+    "category": "platforms",
+    "status": "active",
+    "scope": "Lovart design agent: brief-led visual concepts, brand and layout development, editable canvas and multi-format output.",
+    "summary": "Brief in, design directions out: an agent proposes a visual language and carries it across formats.",
+    "limitation": "The agent makes design decisions on the user’s behalf; review is still needed for copy, layout detail and brand fidelity.",
+    "baseScores": {
+      "N": 2.75,
+      "NE": 1.75,
+      "E": 2.5,
+      "SE": 2.5,
+      "S": 4,
+      "SW": 3.75,
+      "W": 4,
+      "NW": 2.5
+    },
+    "visualScores": {
+      "N": 2.75,
+      "NE": 1.75,
+      "E": 2.75,
+      "SE": 2.75,
+      "S": 4,
+      "SW": 3.75,
+      "W": 4,
+      "NW": 2.5
+    },
+    "baseCenter": [
+      -0.2,
+      -0.45
+    ],
+    "center": [
+      -0.2,
+      -0.45
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: Brief in, design directions out: an agent proposes a visual language and carries it across formats.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "Lovart design agent",
+        "url": "https://www.lovart.ai/",
+        "checked": "2026-10-15",
+        "finding": "Lovart presents agent-led design across branding, posters, product imagery and other visual design tasks."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Canvas edits and follow-up requests direct revisions.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Supplied assets and explicit edits constrain parts of a layout.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Brand references can guide output but may be reinterpreted.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "A supplied brief or identity can lead to several coherent layouts.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "The agent takes substantial responsibility for proposing design directions.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Briefs can expand into new visual concepts and campaigns.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Image and design generation support broad invention.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Specific revisions guide output after the first proposal.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "E",
+        "from": 2.5,
+        "to": 2.75,
+        "reason": "Recognize the role of supplied brand material in the brief-to-design workflow."
+      },
+      {
+        "field": "SE",
+        "from": 2.5,
+        "to": 2.75,
+        "reason": "Emphasize brief-bound proposals beside the broad free-invention lobe."
+      }
+    ],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/lovart.svg"
+  },
+  {
+    "id": "google-flow",
+    "name": "Google Flow",
+    "category": "platforms",
+    "status": "active",
+    "scope": "Google Flow: a single-vendor studio chaining Google image models, including Nano Banana, with Veo video and refinement tools.",
+    "summary": "An image-to-motion pathway: shape a Nano Banana frame, bring it into Veo, then refine the scene.",
+    "limitation": "Several models from one vendor; not a cross-vendor marketplace. Video generation may change the details of the starting image.",
+    "baseScores": {
+      "N": 3.25,
+      "NE": 2.25,
+      "E": 2.75,
+      "SE": 1.75,
+      "S": 2.75,
+      "SW": 2.75,
+      "W": 3.5,
+      "NW": 3
+    },
+    "visualScores": {
+      "N": 3.25,
+      "NE": 2.25,
+      "E": 2.75,
+      "SE": 1.75,
+      "S": 2.75,
+      "SW": 2.75,
+      "W": 3.5,
+      "NW": 3
+    },
+    "baseCenter": [
+      -0.18,
+      0.05
+    ],
+    "center": [
+      -0.18,
+      0.05
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: An image-to-motion pathway: shape a Nano Banana frame, bring it into Veo, then refine the scene.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "Refining and editing in Google Flow",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-refine-videos/",
+        "checked": "2026-10-15",
+        "finding": "Google describes a dedicated image workspace with Nano Banana and image/video refinement controls inside Flow."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Scene and editing controls direct a chosen shot.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "A refined starting frame helps constrain subsequent motion.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Image references retain aspects of subject and composition.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "A source frame can support alternative scene treatments.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Prompted scenes offer several possible directions.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Image-to-video can introduce new motion and setting.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Google image and video models support broad visual generation.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Frame preparation and refinement guide that generation.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/google-flow.png"
+  },
+  {
+    "id": "fal",
+    "name": "fal",
+    "category": "platforms",
+    "status": "active",
+    "scope": "fal developer API for hosted generative models and custom deployments; assumes a developer-controlled integration.",
+    "summary": "A production engine: choose the model, specify the inputs, and execute the call. Creative direction stays with you.",
+    "limitation": "The API runs models; it does not itself supply a creative strategy. Fidelity depends on the selected endpoint and inputs.",
+    "baseScores": {
+      "N": 4,
+      "NE": 1.75,
+      "E": 2,
+      "SE": 0.25,
+      "S": 0.75,
+      "SW": 0.5,
+      "W": 4,
+      "NW": 3.5
+    },
+    "visualScores": {
+      "N": 4,
+      "NE": 1.75,
+      "E": 2,
+      "SE": 0,
+      "S": 0.75,
+      "SW": 0.5,
+      "W": 4,
+      "NW": 3.5
+    },
+    "baseCenter": [
+      -0.12,
+      0.6
+    ],
+    "center": [
+      -0.12,
+      0.6
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: A production engine: choose the model, specify the inputs, and execute the call. Creative direction stays with you.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "fal model API",
+        "url": "https://fal.ai/",
+        "checked": "2026-10-15",
+        "finding": "A unified API and SDK provide image, video, voice and other hosted models, with custom deployment options."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Explicit API inputs and orchestration execute developer instructions.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Source-preserving operations must be selected and configured per endpoint.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Some models transform supplied inputs; consistency is endpoint-dependent.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "The API offers little native source-bound creative direction.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Creative proposals mostly come from the caller or a chosen model.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Open exploration requires an external loop designed by the caller.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Generative endpoints support a very wide range of new output.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Code and parameter choices strongly direct generation.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "SE",
+        "from": 0.25,
+        "to": 0,
+        "reason": "Contract native source-bound proposal reach: the caller supplies the creative direction."
+      }
+    ],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/fal.svg"
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate",
+    "category": "platforms",
+    "status": "active",
+    "scope": "Replicate API and model playgrounds for hosted/community models, fine-tuning and custom model deployments.",
+    "summary": "A model workbench: run hosted or community models, tune the inputs, and build your own chain of decisions.",
+    "limitation": "Community models differ in maintenance, interfaces and preservation behavior; the hosting layer is not a design agent.",
+    "baseScores": {
+      "N": 3.75,
+      "NE": 2.25,
+      "E": 2.75,
+      "SE": 0.5,
+      "S": 1.25,
+      "SW": 0.75,
+      "W": 3.75,
+      "NW": 3.25
+    },
+    "visualScores": {
+      "N": 3.75,
+      "NE": 2.25,
+      "E": 2.75,
+      "SE": 0.5,
+      "S": 1.25,
+      "SW": 0.75,
+      "W": 3.75,
+      "NW": 3.25
+    },
+    "baseCenter": [
+      0.12,
+      0.47
+    ],
+    "center": [
+      0.12,
+      0.47
+    ],
+    "centerEvidence": {
+      "claim": "Editorial placement of the representative workflow: A model workbench: run hosted or community models, tune the inputs, and build your own chain of decisions.",
+      "sourceIds": [
+        "platform"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "platform",
+        "title": "Replicate model platform",
+        "url": "https://replicate.com/",
+        "checked": "2026-10-15",
+        "finding": "Replicate hosts community models through a common API and supports fine-tuning and custom deployments with Cog."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Versioned model calls execute a developer-selected operation.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Task-specific restoration and conditioning can be made explicit.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Input-preserving behavior comes from the selected model rather than the platform.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Exploring variants of a source needs caller-designed orchestration.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Examples and model browsing suggest methods more than complete design directions.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Creative exploration requires deliberate selection and iteration.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Community and hosted generators provide broad inventive options.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Programmatic inputs channel novel output into chosen tasks.",
+        "sourceIds": [
+          "platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [],
+    "profileBasis": "Editorial estimate from documented workflow; not a product benchmark.",
+    "logo": "logos/replicate.svg"
+  }
+]

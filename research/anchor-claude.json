@@ -1,0 +1,146 @@
+{
+  "id": "claude",
+  "name": "Claude · general assistant",
+  "category": "general",
+  "status": "active",
+  "scope": "Claude web/desktop chat with projects, documents, code execution and web search; Free or paid within limits. Excludes Research, Design and Claude Code workflows.",
+  "summary": "Broad invention with a strong directed-writing shoulder; source-bound proposals are narrower than free exploration.",
+  "limitation": "Local edits and executable files are inspectable, but prose preservation and citations still require human checking.",
+  "baseScores": {
+    "N": 3.5,
+    "NE": 3,
+    "E": 3.25,
+    "SE": 2.5,
+    "S": 3,
+    "SW": 3,
+    "W": 3.75,
+    "NW": 3.25
+  },
+  "visualScores": {
+    "N": 3.5,
+    "NE": 3,
+    "E": 3.25,
+    "SE": 2.5,
+    "S": 3,
+    "SW": 3,
+    "W": 3.75,
+    "NW": 3.25
+  },
+  "baseCenter": [
+    -0.15,
+    0.2
+  ],
+  "center": [
+    -0.15,
+    0.2
+  ],
+  "centerEvidence": {
+    "claim": "A representative workflow develops a brief into a document, then revises selected passages: modest invention with human direction.",
+    "sourceIds": [
+      "c1",
+      "c3"
+    ],
+    "confidence": "medium",
+    "inferred": true
+  },
+  "sources": [
+    {
+      "id": "c1",
+      "title": "What are artifacts and how do I use them?",
+      "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "checked": "2026-10-15",
+      "finding": "Documents, code and interactive artifacts support selected-text edits and branching a conversation into another direction."
+    },
+    {
+      "id": "c2",
+      "title": "Create and edit files with Claude",
+      "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
+      "checked": "2026-10-15",
+      "finding": "Sandbox code execution produces downloadable files, processes supplied data, and exposes auditable actions; outputs need review."
+    },
+    {
+      "id": "c3",
+      "title": "How can I create and manage projects?",
+      "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+      "checked": "2026-10-15",
+      "finding": "Project knowledge and instructions provide reusable supplied context across chats."
+    },
+    {
+      "id": "c4",
+      "title": "Enable and use web search",
+      "url": "https://support.claude.com/en/articles/10684626-enable-and-use-web-search",
+      "checked": "2026-10-15",
+      "finding": "Web responses have source links and citations; direct links can be fetched, and important information should be cross-checked."
+    }
+  ],
+  "evidence": {
+    "N": {
+      "claim": "Selected-passage edits and auditable file creation support checkable instructions; exact general obedience is not established.",
+      "sourceIds": [
+        "c1",
+        "c2"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "NE": {
+      "claim": "A specified PDF-table extraction into a spreadsheet can be inspected beside its input; no automatic exactness guarantee.",
+      "sourceIds": [
+        "c2"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "E": {
+      "claim": "Cited web synthesis and auditable processing of supplied files exceed loose reference conditioning, without universal exact preservation.",
+      "sourceIds": [
+        "c2",
+        "c4"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "SE": {
+      "claim": "Supplied CSV data can yield a report with recommendations, but source-bound proposal control remains prompt-led.",
+      "sourceIds": [
+        "c2"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "S": {
+      "claim": "Branching the conversation explores another artifact direction and permits iterative revision; strategy quality is not benchmarked.",
+      "sourceIds": [
+        "c1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "SW": {
+      "claim": "Fresh document or interactive-tool directions can be explored through separate conversation branches.",
+      "sourceIds": [
+        "c1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "W": {
+      "claim": "Chat creates and iteratively changes substantive documents, code and interactive content beyond fixed templates.",
+      "sourceIds": [
+        "c1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "NW": {
+      "claim": "Requested structures and formatting can be realized in generated files and selected passages revised locally.",
+      "sourceIds": [
+        "c1",
+        "c2"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    }
+  },
+  "adjustments": []
+}

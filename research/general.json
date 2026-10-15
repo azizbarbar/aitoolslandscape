@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "category": "general",
+    "status": "active",
+    "scope": "ChatGPT Chat and Work for brainstorming, supplied files and image creation; plan/workspace access required. Excludes dedicated Deep Research and Codex.",
+    "summary": "A broad field of ideas, images and documents, with room to turn source material into competing directions.",
+    "limitation": "Generated assets and source-based recommendations need review; a preservation prompt is not an exactness guarantee.",
+    "baseScores": {
+      "N": 3.25,
+      "NE": 2.75,
+      "E": 3,
+      "SE": 2.75,
+      "S": 3.5,
+      "SW": 3.25,
+      "W": 3.75,
+      "NW": 3
+    },
+    "visualScores": {
+      "N": 3.25,
+      "NE": 2.75,
+      "E": 3,
+      "SE": 2.75,
+      "S": 3.5,
+      "SW": 3.25,
+      "W": 3.75,
+      "NW": 3
+    },
+    "baseCenter": [
+      -0.3,
+      -0.08
+    ],
+    "center": [
+      -0.3,
+      -0.08
+    ],
+    "centerEvidence": {
+      "claim": "An illustrative brief-to-options conversation emphasizes new alternatives, then iterates toward a useful artifact.",
+      "sourceIds": [
+        "o1",
+        "o2"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "o1",
+        "title": "Use ChatGPT",
+        "url": "https://learn.chatgpt.com/docs/use-chatgpt",
+        "checked": "2026-10-15",
+        "finding": "Chat brainstorms and compares options; Work creates files, analyzes supplied material and supports review and revision."
+      },
+      {
+        "id": "o2",
+        "title": "Image generation",
+        "url": "https://learn.chatgpt.com/docs/image-generation",
+        "checked": "2026-10-15",
+        "finding": "ChatGPT generates and edits images from prompts and references; targeted revisions help control composition."
+      },
+      {
+        "id": "o3",
+        "title": "Model strategic scenarios and tradeoffs",
+        "url": "https://learn.chatgpt.com/use-cases/scenario-tradeoff-model",
+        "checked": "2026-10-15",
+        "finding": "The shared ChatGPT desktop workflow compares constrained scenarios, revises assumptions and inspects tradeoffs; coding-specific UI is not scored."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Specific revisions and reviewable finished files support bounded production; no general exact execution guarantee.",
+        "sourceIds": [
+          "o1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Supplied-file extraction and reorganization produces inspectable outputs, with human review still required.",
+        "sourceIds": [
+          "o1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Files and source comparison guide outputs; evidence can be inspected but is not automatically preserved exactly.",
+        "sourceIds": [
+          "o1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Source-informed scenario comparisons keep assumptions inspectable and revisable.",
+        "sourceIds": [
+          "o3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Competing scenarios can be developed and tested against changed constraints and assumptions.",
+        "sourceIds": [
+          "o3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Brainstorming several approaches and iterating them supplies substantive direction-setting.",
+        "sourceIds": [
+          "o1",
+          "o3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Text, images and interactive artifacts allow substantial compositional invention.",
+        "sourceIds": [
+          "o1",
+          "o2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Specified image composition and targeted revisions combine invention with human-directed edits.",
+        "sourceIds": [
+          "o2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "category": "general",
+    "status": "active",
+    "scope": "Claude web/desktop chat with projects, documents, code execution and web search; Free or paid within limits. Excludes Research, Design and Claude Code workflows.",
+    "summary": "Broad invention with a strong directed-writing shoulder; source-bound proposals are narrower than free exploration.",
+    "limitation": "Local edits and executable files are inspectable, but prose preservation and citations still require human checking.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 3,
+      "E": 3.25,
+      "SE": 2.5,
+      "S": 3,
+      "SW": 3,
+      "W": 3.75,
+      "NW": 3.25
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 3,
+      "E": 3.25,
+      "SE": 2.5,
+      "S": 3,
+      "SW": 3,
+      "W": 3.75,
+      "NW": 3.25
+    },
+    "baseCenter": [
+      -0.15,
+      0.2
+    ],
+    "center": [
+      -0.15,
+      0.2
+    ],
+    "centerEvidence": {
+      "claim": "A representative workflow develops a brief into a document, then revises selected passages: modest invention with human direction.",
+      "sourceIds": [
+        "c1",
+        "c3"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "c1",
+        "title": "What are artifacts and how do I use them?",
+        "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+        "checked": "2026-10-15",
+        "finding": "Documents, code and interactive artifacts support selected-text edits and branching a conversation into another direction."
+      },
+      {
+        "id": "c2",
+        "title": "Create and edit files with Claude",
+        "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
+        "checked": "2026-10-15",
+        "finding": "Sandbox code execution produces downloadable files, processes supplied data, and exposes auditable actions; outputs need review."
+      },
+      {
+        "id": "c3",
+        "title": "How can I create and manage projects?",
+        "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+        "checked": "2026-10-15",
+        "finding": "Project knowledge and instructions provide reusable supplied context across chats."
+      },
+      {
+        "id": "c4",
+        "title": "Enable and use web search",
+        "url": "https://support.claude.com/en/articles/10684626-enable-and-use-web-search",
+        "checked": "2026-10-15",
+        "finding": "Web responses have source links and citations; direct links can be fetched, and important information should be cross-checked."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Selected-passage edits and auditable file creation support checkable instructions; exact general obedience is not established.",
+        "sourceIds": [
+          "c1",
+          "c2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "A specified PDF-table extraction into a spreadsheet can be inspected beside its input; no automatic exactness guarantee.",
+        "sourceIds": [
+          "c2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Cited web synthesis and auditable processing of supplied files exceed loose reference conditioning, without universal exact preservation.",
+        "sourceIds": [
+          "c2",
+          "c4"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Supplied CSV data can yield a report with recommendations, but source-bound proposal control remains prompt-led.",
+        "sourceIds": [
+          "c2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Branching the conversation explores another artifact direction and permits iterative revision; strategy quality is not benchmarked.",
+        "sourceIds": [
+          "c1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Fresh document or interactive-tool directions can be explored through separate conversation branches.",
+        "sourceIds": [
+          "c1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Chat creates and iteratively changes substantive documents, code and interactive content beyond fixed templates.",
+        "sourceIds": [
+          "c1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Requested structures and formatting can be realized in generated files and selected passages revised locally.",
+        "sourceIds": [
+          "c1",
+          "c2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "category": "general",
+    "status": "active",
+    "scope": "Gemini Apps on desktop with Canvas, uploaded briefs and code preview; sign-in required, plan limits apply. Excludes Deep Research and standalone Notebook.",
+    "summary": "Briefs can branch into several formats, while selected-text edits and code previews pull the cloud upward.",
+    "limitation": "Canvas versions and code changes are inspectable; converting a brief does not ensure every supplied detail survives.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 2.75,
+      "E": 2.75,
+      "SE": 2.25,
+      "S": 2.75,
+      "SW": 2.5,
+      "W": 3.5,
+      "NW": 3.25
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 2.75,
+      "E": 2.75,
+      "SE": 2.25,
+      "S": 2.75,
+      "SW": 2.5,
+      "W": 3.5,
+      "NW": 3.25
+    },
+    "baseCenter": [
+      -0.05,
+      0.3
+    ],
+    "center": [
+      -0.05,
+      0.3
+    ],
+    "centerEvidence": {
+      "claim": "A supplied document becomes a Canvas artifact, followed by targeted edits and preview inspection.",
+      "sourceIds": [
+        "g1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "g1",
+        "title": "Create docs, apps and more with Canvas",
+        "url": "https://support.google.com/gemini/answer/16047321?hl=en",
+        "checked": "2026-10-15",
+        "finding": "Canvas accepts uploaded material, creates multiple artifact formats, edits selected text, suggests edits, and exposes code changes and logs."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Selected text and app regions are addressable; code changes and preview logs help inspect results.",
+        "sourceIds": [
+          "g1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "A selected passage can be revised in context and compared through saved versions.",
+        "sourceIds": [
+          "g1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Uploaded material conditions Canvas outputs and version history aids comparison; exact preservation is not established.",
+        "sourceIds": [
+          "g1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Suggest edits proposes changes to supplied passages, with human review and bounded scope.",
+        "sourceIds": [
+          "g1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Suggested edits and alternate document-derived formats offer directions within a brief.",
+        "sourceIds": [
+          "g1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Documents can become custom apps or visuals, yielding multiple substantive forms for selection.",
+        "sourceIds": [
+          "g1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Docs, apps, slides and custom visuals support new content and structure across formats.",
+        "sourceIds": [
+          "g1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Prompted app changes can target a selected region and be inspected in code and preview.",
+        "sourceIds": [
+          "g1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "category": "general",
+    "status": "active",
+    "scope": "Microsoft 365 Copilot in Word, including licensed work-context access and edit mode; eligible subscription and organization enablement required.",
+    "summary": "An existing document sets the center of gravity: local production is broad, open-ended exploration more restrained.",
+    "limitation": "This is licensed Word-based Copilot, not consumer Copilot or a guarantee that every rewrite retains meaning.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 3.25,
+      "E": 3.25,
+      "SE": 2.75,
+      "S": 2.75,
+      "SW": 2,
+      "W": 2.75,
+      "NW": 2.5
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 3.25,
+      "E": 3.25,
+      "SE": 2.75,
+      "S": 2.75,
+      "SW": 2,
+      "W": 2.75,
+      "NW": 2.5
+    },
+    "baseCenter": [
+      0.48,
+      0.4
+    ],
+    "center": [
+      0.48,
+      0.4
+    ],
+    "centerEvidence": {
+      "claim": "Refining an existing work document with reviewable local changes is a representative supplied-content production workflow.",
+      "sourceIds": [
+        "p1",
+        "p2"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "p1",
+        "title": "Welcome to Copilot in Word",
+        "url": "https://support.microsoft.com/en-us/word/welcome-to-copilot-in-word.",
+        "checked": "2026-10-15",
+        "finding": "Word drafts from notes and referenced files, pressure-tests ideas, and supports local or document-wide changes with review."
+      },
+      {
+        "id": "p2",
+        "title": "Edit content and rewrite",
+        "url": "https://support.microsoft.com/en-us/word/copilot/edit-rewrite-content",
+        "checked": "2026-10-15",
+        "finding": "Selected text can be rewritten, formatted or converted into a table; users replace, insert separately or regenerate."
+      },
+      {
+        "id": "p3",
+        "title": "Find references in Word file",
+        "url": "https://support.microsoft.com/en-us/word/copilot-tutorial-find-references-in-word-file",
+        "checked": "2026-10-15",
+        "finding": "Answers can link directly to relevant sections of the document."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Specified local and document-wide edits have visible review and insertion controls.",
+        "sourceIds": [
+          "p1",
+          "p2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "A selected passage can become a user-specified table while the original remains available beside the revision.",
+        "sourceIds": [
+          "p2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Document references navigate to original sections; local rewrites remain reviewable rather than exact by contract.",
+        "sourceIds": [
+          "p2",
+          "p3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Pressure-testing ideas and comparing passages proposes revisions grounded in the current document.",
+        "sourceIds": [
+          "p1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Chat critiques clarity and identifies needed decisions, supporting direction within an existing work brief.",
+        "sourceIds": [
+          "p1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Drafting outlines and regenerating passages supplies alternate content, within a document-centered workflow.",
+        "sourceIds": [
+          "p1",
+          "p2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "New briefs and infographic content can be generated, though this scope centers on written deliverables.",
+        "sourceIds": [
+          "p1",
+          "p2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Specified new sections or infographics can be inserted into a chosen document location.",
+        "sourceIds": [
+          "p2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "category": "general",
+    "status": "unverified",
+    "scope": "Hosted DeepSeek assistant app; excludes DeepSeek Harness and API operations.",
+    "summary": "The assistant is available, but its full directional profile needs stronger app-specific evidence.",
+    "limitation": "Official pages verify chat, search and extraction; they do not sufficiently establish all four joint workflows.",
+    "baseScores": null,
+    "visualScores": null,
+    "baseCenter": null,
+    "center": null,
+    "centerEvidence": null,
+    "statusEvidence": {
+      "claim": "Availability is confirmed. Scoring is withheld because app-specific combined control and proposal workflows could not be verified; API capabilities are not substituted.",
+      "sourceIds": [
+        "d1",
+        "d2"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "d1",
+        "title": "Download DeepSeek",
+        "url": "https://www.deepseek.com/en/download/",
+        "checked": "2026-10-15",
+        "finding": "The current official assistant is available for free; desktop Harness is separately described."
+      },
+      {
+        "id": "d2",
+        "title": "Introducing DeepSeek App",
+        "url": "https://www.deepseek.com/en/news/deepseek-app/",
+        "checked": "2026-10-15",
+        "finding": "The official app launch documents web search, thinking mode, file upload and text extraction."
+      }
+    ],
+    "evidence": {},
+    "adjustments": []
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "category": "general",
+    "status": "active",
+    "scope": "Vibe Work (formerly Le Chat), paid Pro with Canvas and sandbox code interpreter; uploaded files and ordinary search. Excludes Vibe Code.",
+    "summary": "A supplied dataset can become tables, recommendations and slides, with a strong controlled-production side.",
+    "limitation": "Inspect code and source values; the sandbox's precise calculations do not validate every interpretation or generated recommendation.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 3.25,
+      "E": 3.5,
+      "SE": 2.5,
+      "S": 2.75,
+      "SW": 2.25,
+      "W": 3.25,
+      "NW": 2.75
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 3.25,
+      "E": 3.5,
+      "SE": 2.5,
+      "S": 2.75,
+      "SW": 2.25,
+      "W": 3.25,
+      "NW": 2.75
+    },
+    "baseCenter": [
+      0.3,
+      0.25
+    ],
+    "center": [
+      0.3,
+      0.25
+    ],
+    "centerEvidence": {
+      "claim": "Turning a CSV into an editable report and slide recommendations foregrounds supplied material with bounded production.",
+      "sourceIds": [
+        "m1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "m1",
+        "title": "Work with Files and Canvas",
+        "url": "https://docs.mistral.ai/vibe/work/files-and-canvas",
+        "checked": "2026-10-15",
+        "finding": "Canvas carries files into editable tables, summaries and slides, with inline edits, version tracking and a data-to-slides workflow."
+      },
+      {
+        "id": "m2",
+        "title": "Code Interpreter",
+        "url": "https://docs.mistral.ai/vibe/work/code-interpreter",
+        "checked": "2026-10-15",
+        "finding": "Paid Work runs Python and TypeScript in a sandbox for filters, calculations and file transformations; code can be shown."
+      },
+      {
+        "id": "m3",
+        "title": "Search the web",
+        "url": "https://docs.mistral.ai/vibe/work/web-search-open-url",
+        "checked": "2026-10-15",
+        "finding": "Ordinary web answers provide inline source links; Deep Research is a separate skill."
+      },
+      {
+        "id": "m4",
+        "title": "Vibe overview",
+        "url": "https://docs.mistral.ai/vibe",
+        "checked": "2026-10-15",
+        "finding": "Chat and Work merged into one experience; Work plans tasks, shows progress and accepts steering."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Inline edits, change tracking and inspectable executed code support checkable instructions.",
+        "sourceIds": [
+          "m1",
+          "m2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Named columns and filters can drive a code transformation with downloadable results and visible code.",
+        "sourceIds": [
+          "m2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Inspectable data transformations plus cited web outputs support close audit, without universal semantic fidelity.",
+        "sourceIds": [
+          "m2",
+          "m3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "The documented data-to-slides workflow adds recommendations grounded in the uploaded table.",
+        "sourceIds": [
+          "m1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "A proposed task plan can be steered and revised; analytical recommendations remain draft judgments.",
+        "sourceIds": [
+          "m1",
+          "m4"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Creating briefs and iterating presentation recommendations offers new framing within a work context.",
+        "sourceIds": [
+          "m1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Canvas supports substantive documents, presentations and code prototypes beyond summaries.",
+        "sourceIds": [
+          "m1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Inline prompts can direct novel sections while change tracking exposes what changed.",
+        "sourceIds": [
+          "m1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "category": "general",
+    "status": "active",
+    "scope": "Grok web/app chat with file uploads, conversational writing and Imagine image/video creation; Free or SuperGrok within limits. Excludes Grok Build, Bot and connector actions.",
+    "summary": "Conversational invention and file comparison share a broad middle; exact local production has less documented control.",
+    "limitation": "Long files may be summarized or processed in sections; conversational extraction is not a preservation guarantee.",
+    "baseScores": {
+      "N": 2.75,
+      "NE": 2.25,
+      "E": 2.75,
+      "SE": 2.25,
+      "S": 3,
+      "SW": 2.75,
+      "W": 3.5,
+      "NW": 2.5
+    },
+    "visualScores": {
+      "N": 2.75,
+      "NE": 2.25,
+      "E": 2.75,
+      "SE": 2.25,
+      "S": 3,
+      "SW": 2.75,
+      "W": 3.5,
+      "NW": 2.5
+    },
+    "baseCenter": [
+      -0.3,
+      -0.25
+    ],
+    "center": [
+      -0.3,
+      -0.25
+    ],
+    "centerEvidence": {
+      "claim": "Brainstorming and writing through back-and-forth chat is an illustrative direction-seeking default.",
+      "sourceIds": [
+        "x1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "x1",
+        "title": "Welcome to Grok",
+        "url": "https://docs.x.ai/grok/overview",
+        "checked": "2026-10-15",
+        "finding": "Grok supports conversational brainstorming and writing, file analysis and creative media; paid plans expand limits."
+      },
+      {
+        "id": "x2",
+        "title": "Grok FAQ: Files and Data",
+        "url": "https://docs.x.ai/grok/faq",
+        "checked": "2026-10-15",
+        "finding": "Uploaded files support synthesis, comparison, extraction, rewriting and code execution; long files may be summarized and format limits apply."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Requested file sections can be extracted and code processed; addressable edit and verification controls are less specified.",
+        "sourceIds": [
+          "x2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Asking for particular PDF tables gives inspectable extracted output, without an exact-preservation contract.",
+        "sourceIds": [
+          "x2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Multi-file comparison and extraction use supplied documents, with summarization limits for long inputs.",
+        "sourceIds": [
+          "x2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Comparing supplied documents and synthesizing new content offers evidence-conditioned alternatives with coarse controls.",
+        "sourceIds": [
+          "x2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Back-and-forth brainstorming and problem solving support developing and revising possible approaches.",
+        "sourceIds": [
+          "x1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Conversational brainstorming and writing generate new directions for human selection.",
+        "sourceIds": [
+          "x1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Writing, synthesis and creative media allow substantive new content across several formats.",
+        "sourceIds": [
+          "x1",
+          "x2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Rewriting supplied material into a specified style combines invention with explicit but conversational instructions.",
+        "sourceIds": [
+          "x2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "meta-ai",
+    "name": "Meta AI",
+    "category": "general",
+    "status": "active",
+    "scope": "Meta AI consumer app and meta.ai: conversational creation, image editing and shopping inspiration in supported markets. Excludes staged July task agents.",
+    "summary": "Personal inspiration and visual remixing spread left and downward; source preservation remains comparatively narrow.",
+    "limitation": "Regional availability varies; contextual recommendations and image edits do not provide exact evidence or layout guarantees.",
+    "baseScores": {
+      "N": 2.5,
+      "NE": 2,
+      "E": 2.5,
+      "SE": 1.75,
+      "S": 2.75,
+      "SW": 2.5,
+      "W": 3.25,
+      "NW": 2.25
+    },
+    "visualScores": {
+      "N": 2.5,
+      "NE": 2,
+      "E": 2.5,
+      "SE": 1.75,
+      "S": 2.75,
+      "SW": 2.5,
+      "W": 3.25,
+      "NW": 2.25
+    },
+    "baseCenter": [
+      -0.48,
+      -0.35
+    ],
+    "center": [
+      -0.48,
+      -0.35
+    ],
+    "centerEvidence": {
+      "claim": "Exploring styling ideas and remixing visual prompts is an illustrative everyday creative workflow.",
+      "sourceIds": [
+        "a1",
+        "a2"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "a1",
+        "title": "Introducing the Meta AI app",
+        "url": "https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/",
+        "checked": "2026-10-15",
+        "finding": "Text or voice supports image generation/editing; the Discover feed supports prompt remixing and the web offers style controls."
+      },
+      {
+        "id": "a2",
+        "title": "Introducing Muse Spark",
+        "url": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+        "checked": "2026-10-15",
+        "finding": "The app and website support visual coding, styling inspiration and shopping alternatives refined by price, style or distance."
+      },
+      {
+        "id": "a3",
+        "title": "Meta AI creative tools",
+        "url": "https://about.fb.com/news/2024/07/meta-ai-is-now-multilingual-more-creative-and-smarter/",
+        "checked": "2026-10-15",
+        "finding": "Conversational object substitution and image refinement are described; no independent pixel-verification mechanism is supplied."
+      },
+      {
+        "id": "a4",
+        "title": "Meta AI Does Not Just Think, It Acts",
+        "url": "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
+        "checked": "2026-10-15",
+        "finding": "Task planning, slides and email/calendar actions were announced as rolling out in selected markets; excluded pending broader availability verification."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Prompted object substitutions and style controls support inspectable edits without technical verification.",
+        "sourceIds": [
+          "a1",
+          "a3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Changing an object while retaining the surrounding scene is a documented edit intent, not a verified pixel guarantee.",
+        "sourceIds": [
+          "a3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "An existing image guides edits; contextual shopping filters constrain recommendations but do not ensure exact source preservation.",
+        "sourceIds": [
+          "a2",
+          "a3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Shopping options can be refined against price, style and distance, a narrow grounded proposal workflow.",
+        "sourceIds": [
+          "a2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Style inspiration and refined shopping alternatives develop choices within everyday creative briefs.",
+        "sourceIds": [
+          "a2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Remixed prompts and styling ideas encourage materially different visual possibilities for human selection.",
+        "sourceIds": [
+          "a1",
+          "a2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Images, custom sites and mini-games add substantial original content beyond text paraphrase.",
+        "sourceIds": [
+          "a1",
+          "a2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Style, mood and object-edit instructions direct new imagery through conversational controls.",
+        "sourceIds": [
+          "a1",
+          "a3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  }
+]

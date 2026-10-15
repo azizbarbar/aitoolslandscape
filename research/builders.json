@@ -1,0 +1,1259 @@
+[
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "builders",
+    "status": "active",
+    "scope": "Cursor desktop Agent and Plan Mode in an existing repository; terminal/browser verification enabled, plan-dependent usage.",
+    "summary": "A codebase becomes a controllable place to propose, implement and inspect software changes.",
+    "limitation": "Diffs and tests verify chosen properties; they do not guarantee correct requirements or visual fidelity.",
+    "baseScores": {
+      "N": 4,
+      "NE": 3.75,
+      "E": 4,
+      "SE": 2.75,
+      "S": 3.5,
+      "SW": 3,
+      "W": 3.5,
+      "NW": 3.25
+    },
+    "visualScores": {
+      "N": 4,
+      "NE": 3.75,
+      "E": 4,
+      "SE": 2.5,
+      "S": 3.5,
+      "SW": 3,
+      "W": 3.5,
+      "NW": 3.25
+    },
+    "baseCenter": [
+      0.45,
+      0.42
+    ],
+    "center": [
+      0.45,
+      0.42
+    ],
+    "centerEvidence": {
+      "claim": "An existing-code feature or fix puts the default toward faithful, controlled implementation.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Cursor Agent overview",
+        "url": "https://cursor.com/docs/agent/overview",
+        "checked": "2026-10-15",
+        "finding": "Code search, file edits, terminal execution, browser verification and checkpoints support iterative repository work."
+      },
+      {
+        "id": "s2",
+        "title": "Cursor Plan Mode",
+        "url": "https://cursor.com/docs/agent/plan-mode",
+        "checked": "2026-10-15",
+        "finding": "Researches code, clarifies requirements, and produces editable plans for multi-approach architectural work."
+      },
+      {
+        "id": "s3",
+        "title": "Cursor Agent Review",
+        "url": "https://cursor.com/docs/agent/agent-review",
+        "checked": "2026-10-15",
+        "finding": "Dedicated review examines local code changes."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "File and terminal operations can be specified and checked through commands and browser verification.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Bounded repository changes combine inspectable files with verification and rollback checkpoints.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Exact file contents and deterministic terminal operations make scoped preservation independently checkable.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Architecture planning uses the current repository and user-edited constraints.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Editable architecture plans explore requirements and multiple implementation approaches.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Planning an unfamiliar feature develops new software structure before implementation.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "New code and project assets allow substantial composition beyond templates.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "A specified feature is authored across files and checked in the running application.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "SE",
+        "from": 2.75,
+        "to": 2.5,
+        "reason": "Tighten the existing-code proposal corner; proposal breadth is not preservation of all behavior."
+      }
+    ]
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "category": "builders",
+    "status": "active",
+    "scope": "Coding agent with repository files, command execution, diffs and tests; suitable paid account or API access.",
+    "summary": "Broad software invention, with a strong upper-right reach for specified edits checked against code and tests.",
+    "limitation": "Tests verify selected properties, not every requirement; no automatic CAD or pixel-preservation claim.",
+    "baseScores": {
+      "N": 4,
+      "NE": 3.75,
+      "E": 4,
+      "SE": 2.5,
+      "S": 3.5,
+      "SW": 3.25,
+      "W": 3.5,
+      "NW": 3.25
+    },
+    "visualScores": {
+      "N": 4,
+      "NE": 3.75,
+      "E": 4,
+      "SE": 2.5,
+      "S": 3.5,
+      "SW": 3.25,
+      "W": 3.5,
+      "NW": 3.25
+    },
+    "baseCenter": [
+      0.375,
+      0.5
+    ],
+    "center": [
+      0.375,
+      0.5
+    ],
+    "centerEvidence": {
+      "claim": "A scoped repository change with tests is the illustrative default.",
+      "sourceIds": [
+        "overview",
+        "workflows"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "overview",
+        "title": "Claude Code overview",
+        "url": "https://code.claude.com/docs/en/overview",
+        "checked": "2026-10-15",
+        "finding": "Reads and edits repositories, executes commands, exposes diffs and integrates tools."
+      },
+      {
+        "id": "workflows",
+        "title": "Claude Code common workflows",
+        "url": "https://code.claude.com/docs/en/common-workflows",
+        "checked": "2026-10-15",
+        "finding": "Describes planning, alternative fixes, refactoring with behavior preserved, and running tests."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Specified file operations can be executed and verified through diffs and tests.",
+        "sourceIds": [
+          "overview",
+          "workflows"
+        ],
+        "confidence": "high",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Refactoring combines bounded edits with tests of retained behavior; coverage limits the joint reach.",
+        "sourceIds": [
+          "workflows"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Deterministic file operations and unchanged-file diffs make exact scoped preservation checkable.",
+        "sourceIds": [
+          "overview"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Alternative fixes can be considered within an existing codebase, without guaranteed equivalence.",
+        "sourceIds": [
+          "workflows"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Plans and alternative fixes support originating software approaches under constraints.",
+        "sourceIds": [
+          "workflows"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Planning new features combines substantive invention with approach selection.",
+        "sourceIds": [
+          "overview",
+          "workflows"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Creates new features across multiple files, beyond fixed templates.",
+        "sourceIds": [
+          "overview"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "A specified feature can be authored and tested, while implementation retains discretion.",
+        "sourceIds": [
+          "overview"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "category": "builders",
+    "status": "active",
+    "scope": "Lovable web Chat, Plan and Build modes for hosted web apps; preview selection, diffs and requested verification. Usage credits apply.",
+    "summary": "Conversation develops app directions, then turns selected decisions into visible code changes.",
+    "limitation": "Verification tools often require an explicit request; generated app behavior still needs acceptance checks.",
+    "baseScores": {
+      "N": 3.75,
+      "NE": 3.25,
+      "E": 3.5,
+      "SE": 2.75,
+      "S": 3.75,
+      "SW": 3.5,
+      "W": 3.5,
+      "NW": 3
+    },
+    "visualScores": {
+      "N": 3.75,
+      "NE": 3.25,
+      "E": 3.5,
+      "SE": 2.75,
+      "S": 3.75,
+      "SW": 3.5,
+      "W": 3.5,
+      "NW": 3
+    },
+    "baseCenter": [
+      -0.15,
+      0.12
+    ],
+    "center": [
+      -0.2,
+      0.07
+    ],
+    "centerEvidence": {
+      "claim": "The representative task is a conversational new app build with iterative feedback.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Lovable Build mode",
+        "url": "https://docs.lovable.dev/features/agent-mode",
+        "checked": "2026-10-15",
+        "finding": "Implements across files, exposes diffs, permits file constraints, and can run browser, frontend and backend verification."
+      },
+      {
+        "id": "s2",
+        "title": "Lovable Plan mode",
+        "url": "https://docs.lovable.dev/features/plan-mode",
+        "checked": "2026-10-15",
+        "finding": "Compares approaches and tradeoffs, develops architecture, and edits a reviewable plan before building."
+      },
+      {
+        "id": "s3",
+        "title": "Lovable preview toolbar",
+        "url": "https://docs.lovable.dev/features/preview-toolbar",
+        "checked": "2026-10-15",
+        "finding": "Select and annotate elements to direct preview-based changes."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "File-addressed instructions, diffs and requested tests make constrained implementation inspectable.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Named-file boundaries and tests support controlled refactoring, without a universal preservation promise.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Existing components, file constraints and diffs support strong structural retention.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Plans inspect existing code and identify affected components before revising an approach.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Tradeoff comparisons and editable architecture plans support developed alternatives.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Plan mode compares new app architectures and develops a selected direction.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Coordinated frontend, backend and generated asset changes provide broad app composition.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "An approved implementation plan leads to multi-file construction with visible checks.",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "center",
+        "from": [
+          -0.15,
+          0.12
+        ],
+        "to": [
+          -0.2,
+          0.07
+        ],
+        "reason": "Emphasize conversational new-app planning relative to file-first coding agents."
+      }
+    ]
+  },
+  {
+    "id": "emergent",
+    "name": "Emergent",
+    "category": "builders",
+    "status": "active",
+    "scope": "Emergent full-stack app sessions with Build/Plan and live preview; excludes E3 and Brainstorm Plan-mode availability and Pro-only Maxx.",
+    "summary": "An app idea quickly becomes a proposed structure and a running preview you can revise.",
+    "limitation": "Preview checks and checkpoints are limited; rollback does not restore database records or validate the whole app.",
+    "baseScores": {
+      "N": 3,
+      "NE": 2.5,
+      "E": 2.75,
+      "SE": 2.25,
+      "S": 3.25,
+      "SW": 3,
+      "W": 3.5,
+      "NW": 2.5
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 2.25,
+      "E": 2.75,
+      "SE": 2.25,
+      "S": 3.25,
+      "SW": 3,
+      "W": 3.5,
+      "NW": 2.5
+    },
+    "baseCenter": [
+      -0.38,
+      -0.08
+    ],
+    "center": [
+      -0.38,
+      -0.08
+    ],
+    "centerEvidence": {
+      "claim": "A new app described in conversation delegates substantial structure choices before review.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Emergent build and preview",
+        "url": "https://emergent.sh/docs/watch-your-app-come-alive",
+        "checked": "2026-10-15",
+        "finding": "Builds from descriptions, performs automatic error checks, and supports prompt-driven iteration in a live preview."
+      },
+      {
+        "id": "s2",
+        "title": "Emergent discussion and planning",
+        "url": "https://emergent.sh/docs/talk-it-through",
+        "checked": "2026-10-15",
+        "finding": "Discusses app types and approaches, then presents an adjustable plan before code generation."
+      },
+      {
+        "id": "s3",
+        "title": "Emergent checkpoints",
+        "url": "https://emergent.sh/docs/checkpoints-undo-anything",
+        "checked": "2026-10-15",
+        "finding": "Supports code rollback and independent forks; database data is not restored by rollback."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Specific feedback directs inspectable preview changes, with automatic error checks.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "A targeted change can be exercised in preview; prompt compliance is not exact preservation.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Code checkpoints and forks retain states, while database records sit outside rollback.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Plans retain app context while proposing revised structure and integrations.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Discussion compares app approaches and revises a proposed build plan.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Exploring app types and architecture develops new directions before construction.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "App descriptions become code, structure and functioning interfaces.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "A specified app feature can be generated and exercised, with implementation discretion.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "NE",
+        "from": 2.5,
+        "to": 2.25,
+        "reason": "Accent the distinction between inspectable previews and stronger file-level preservation controls."
+      }
+    ]
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "category": "builders",
+    "status": "active",
+    "scope": "Bolt browser app builder with Plan Mode, code targeting/locks and visual edits; free/paid token limits vary.",
+    "summary": "A browser prototype can open into alternatives or narrow to selected files and components.",
+    "limitation": "File locks bound edits; generated behavior and database changes require separate checks.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 3.25,
+      "E": 3.75,
+      "SE": 2.5,
+      "S": 3.25,
+      "SW": 3,
+      "W": 3.5,
+      "NW": 3
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 3.25,
+      "E": 3.75,
+      "SE": 2.25,
+      "S": 3.25,
+      "SW": 3,
+      "W": 3.5,
+      "NW": 3
+    },
+    "baseCenter": [
+      -0.2,
+      0.24
+    ],
+    "center": [
+      -0.2,
+      0.24
+    ],
+    "centerEvidence": {
+      "claim": "A chosen prototype feature is built in the browser with targeted edits and visible code.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Bolt Code view",
+        "url": "https://support.bolt.new/building/code-view",
+        "checked": "2026-10-15",
+        "finding": "Target files, lock files/directories and reference selected code to constrain AI edits."
+      },
+      {
+        "id": "s2",
+        "title": "Bolt Plan mode guide",
+        "url": "https://bolt.new/blog/bolt-new-plan-mode",
+        "checked": "2026-10-15",
+        "finding": "Reads existing projects, suggests design changes, compares services and creates revisable plans before building."
+      },
+      {
+        "id": "s3",
+        "title": "Bolt visual edits",
+        "url": "https://support.bolt.new/building/visual-edits",
+        "checked": "2026-10-15",
+        "finding": "Preview-based editing provides a way to address particular interface elements."
+      },
+      {
+        "id": "s4",
+        "title": "Bolt overview",
+        "url": "https://support.bolt.new/",
+        "checked": "2026-10-15",
+        "finding": "Builds websites and apps across several interface and workflow types."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Targeted files and code selections constrain the scope of specified changes.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Targeted edits can coexist with locked files, making retained code directly inspectable.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "File and directory locks provide strong preservation boundaries for excluded code.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Existing-project planning proposes changes informed by retained code context.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Plan Mode develops design suggestions and implementation options before a build.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Early planning compares functional and visual possibilities for a new app.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Generates new multi-part websites and applications beyond one fixed template.",
+        "sourceIds": [
+          "s4"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "A chosen implementation plan becomes editable code and a working preview.",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "SE",
+        "from": 2.5,
+        "to": 2.25,
+        "reason": "Restrain constrained proposals relative to explicit file targeting and locks."
+      }
+    ]
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "category": "builders",
+    "status": "active",
+    "scope": "v0 web app generation and latest-runtime Design Mode with sandbox tests; desktop editing, plan-dependent usage.",
+    "summary": "Interfaces move between open invention and selected visual edits with reviewable code.",
+    "limitation": "Design edits still generate code; a matching preview does not prove production correctness or exact screenshot reconstruction.",
+    "baseScores": {
+      "N": 3.75,
+      "NE": 3.5,
+      "E": 3.5,
+      "SE": 2.5,
+      "S": 3.5,
+      "SW": 3.25,
+      "W": 3.75,
+      "NW": 3.5
+    },
+    "visualScores": {
+      "N": 3.75,
+      "NE": 3.5,
+      "E": 3.5,
+      "SE": 2.5,
+      "S": 3.5,
+      "SW": 3.25,
+      "W": 3.75,
+      "NW": 3.75
+    },
+    "baseCenter": [
+      -0.32,
+      0.28
+    ],
+    "center": [
+      -0.32,
+      0.28
+    ],
+    "centerEvidence": {
+      "claim": "Creating and refining a new interface emphasizes invention with substantial local control.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "What is v0?",
+        "url": "https://v0.app/docs",
+        "checked": "2026-10-15",
+        "finding": "Generates full-stack apps and interfaces from prompts and mockups, with iteration and project planning."
+      },
+      {
+        "id": "s2",
+        "title": "v0 Design mode",
+        "url": "https://v0.app/docs/design-mode",
+        "checked": "2026-10-15",
+        "finding": "Selected elements accept style parameters and instructions, produce live before/after previews, and apply as reviewable code versions."
+      },
+      {
+        "id": "s3",
+        "title": "v0 agentic features",
+        "url": "https://v0.app/docs/agentic-features",
+        "checked": "2026-10-15",
+        "finding": "Browser critique, screenshots, error fixes and sandbox terminal tests support iterative implementation."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Selected elements, style values and code diffs give precise local control with verifiable results.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Selected visual changes become a new code version whose diff can be reviewed and reverted.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Element selection and source-code diffs support structural retention, not guaranteed pixel equivalence.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Existing interfaces can be inspected and critiqued before revised design approaches.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Plans, prototypes and browser critique develop alternative interface approaches.",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Prototypes and iterative design critique develop new app directions.",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Full-stack and visual interface generation support broad composition across app structure and content.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "A specified interface change combines generation with element selection and browser checks.",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "NW",
+        "from": 3.5,
+        "to": 3.75,
+        "reason": "Accent selected-interface construction with local instructions and reviewable code, inside both cardinal limits."
+      }
+    ]
+  },
+  {
+    "id": "browser-agents",
+    "name": "Browser/computer-use agents",
+    "category": "builders",
+    "status": "active",
+    "scope": "Representative: ChatGPT Work on web/mobile for eligible paid accounts with cloud browsing enabled, reviewable files and permitted plugins. Website sign-in is limited by plan/rollout and does not enlarge this profile.",
+    "summary": "A goal becomes a sequence of browser steps and a finished result you can review.",
+    "limitation": "This represents ChatGPT Work, not every agent; website availability, permissions and authentication constrain actions.",
+    "baseScores": {
+      "N": 3.25,
+      "NE": 2.75,
+      "E": 3,
+      "SE": 2.5,
+      "S": 3,
+      "SW": 2.75,
+      "W": 3.25,
+      "NW": 2.75
+    },
+    "visualScores": {
+      "N": 3.25,
+      "NE": 2.75,
+      "E": 3,
+      "SE": 2.5,
+      "S": 3,
+      "SW": 2.75,
+      "W": 3.25,
+      "NW": 2.75
+    },
+    "baseCenter": [
+      0.22,
+      0.36
+    ],
+    "center": [
+      0.22,
+      0.36
+    ],
+    "centerEvidence": {
+      "claim": "A bounded website-to-deliverable task delegates execution while retaining human criteria and review.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Get started with ChatGPT Work",
+        "url": "https://learn.chatgpt.com/docs/get-started-with-work",
+        "checked": "2026-10-15",
+        "finding": "Creates reviewable files from sources, uses approved tools, accepts steering and performs recurring workflows."
+      },
+      {
+        "id": "s2",
+        "title": "ChatGPT Work browser",
+        "url": "https://learn.chatgpt.com/docs/browser",
+        "checked": "2026-10-15",
+        "finding": "Reads, clicks and types across websites; can compare options and perform bounded actions with access controls and confirmations."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Specified online steps have visible outcomes, while consequential actions require confirmation.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Selected website workflows use supplied criteria and inspectable results, without guaranteed perfect transfer.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Files, source constraints and reviewable deliverables support evidence-bound work, short of universal exact preservation.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Comparing plans or listings keeps proposed options tied to retrieved facts and user criteria.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "A goal can develop into a plan and recommendations revised through follow-up guidance.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Drafts and recommendations supply new structure within a delegated outcome.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Briefs, decks and other artifacts allow substantial composition across content and structure.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "An explicit deliverable brief controls generation and revision of finished files.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "perplexity-computer",
+    "name": "Perplexity Computer",
+    "category": "builders",
+    "status": "active",
+    "scope": "Cloud Computer with an active subscription and available credits; authorized plugins and generated documents/apps. Portable hardware mode excluded.",
+    "summary": "Research, creation and connected actions form a broad workflow around a delegated outcome.",
+    "limitation": "A long workflow does not prove precise preservation; permissions, output quality and usage need inspection.",
+    "baseScores": {
+      "N": 3.25,
+      "NE": 2.75,
+      "E": 3,
+      "SE": 2.5,
+      "S": 3,
+      "SW": 2.75,
+      "W": 3.5,
+      "NW": 3
+    },
+    "visualScores": {
+      "N": 3.25,
+      "NE": 2.5,
+      "E": 3,
+      "SE": 2.5,
+      "S": 3,
+      "SW": 2.75,
+      "W": 3.5,
+      "NW": 3
+    },
+    "baseCenter": [
+      0.02,
+      0.2
+    ],
+    "center": [
+      0.02,
+      0.2
+    ],
+    "centerEvidence": {
+      "claim": "A research-to-artifact assignment mixes synthesis and invention with delegated delivery steps.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "What is Computer?",
+        "url": "https://www.perplexity.ai/help-center/en/articles/13837784-what-is-computer",
+        "checked": "2026-10-15",
+        "finding": "Chains cited research, analysis, document/media/code creation, connected actions and scheduled follow-up in a cloud sandbox."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "A specified research-to-delivery workflow executes across tools, though precise compliance needs review.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "A requested comparison can become a sourced table and branded deck within one workflow.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Cited research and connected context ground deliverables without exact preservation guarantees.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Competitive analysis uses retrieved evidence to develop a comparative account.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Multi-step research and analysis support bounded proposed approaches; orchestration alone adds no design agency.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Research-informed artifact composition offers novel framing and organization.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Documents, media, slides and code support substantial new compositions across output types.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "One brief can specify a branded presentation built from conducted research.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "NE",
+        "from": 2.75,
+        "to": 2.5,
+        "reason": "Do not let long cross-tool execution imply exact evidence preservation."
+      }
+    ]
+  },
+  {
+    "id": "blotato",
+    "name": "Blotato",
+    "category": "builders",
+    "status": "active",
+    "scope": "Blotato paid content workspace: source remix, custom writing prompts, AI media and connected social scheduling; API access varies.",
+    "summary": "Source material becomes platform-specific post variants and a controlled publishing sequence.",
+    "limitation": "Style imitation and remixing do not preserve facts exactly; photo uploads are media attachments, not remix sources.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 2.75,
+      "E": 2.75,
+      "SE": 1.75,
+      "S": 2.25,
+      "SW": 2,
+      "W": 2.75,
+      "NW": 2.5
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 2.75,
+      "E": 2.75,
+      "SE": 1.5,
+      "S": 2.25,
+      "SW": 2,
+      "W": 2.75,
+      "NW": 2.5
+    },
+    "baseCenter": [
+      -0.3,
+      0.35
+    ],
+    "center": [
+      -0.3,
+      0.35
+    ],
+    "centerEvidence": {
+      "claim": "A source-to-post workflow delegates composition while keeping platform and publication decisions explicit.",
+      "sourceIds": [
+        "s1"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Blotato introduction",
+        "url": "https://help.blotato.com/",
+        "checked": "2026-10-15",
+        "finding": "Remixes source content into social formats, creates AI media and schedules distribution."
+      },
+      {
+        "id": "s2",
+        "title": "Make output sound like you",
+        "url": "https://help.blotato.com/tips-and-tricks/make-output-sound-like-you",
+        "checked": "2026-10-15",
+        "finding": "Custom prompts, examples and guidelines condition tone, structure and source-based expansion."
+      },
+      {
+        "id": "s3",
+        "title": "Blotato FAQs",
+        "url": "https://help.blotato.com/support/faqs",
+        "checked": "2026-10-15",
+        "finding": "Drafts, supplied media, scheduled times and calendar status support controlled publication; sources and media attachments differ."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Scheduled times, drafts and calendar states give explicit, inspectable distribution control.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Existing draft text and supplied media can be scheduled and reviewed as calendar entries.",
+        "sourceIds": [
+          "s3"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Selected sources and style examples condition output, while expansion can alter meaning.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "A source and chosen template produce nearby post interpretations for review.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Remixing and inspiration support content angles within social posting, not general design strategy.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Multiple social formats and generated media offer bounded creative alternatives.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "New captions, scripts and media extend beyond simple extractive summaries.",
+        "sourceIds": [
+          "s1"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Detailed examples and guidelines direct new post composition from supplied sources.",
+        "sourceIds": [
+          "s2"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "SE",
+        "from": 1.75,
+        "to": 1.5,
+        "reason": "Emphasize remixing as bounded source interpretation rather than broad evidence-grounded strategy."
+      }
+    ]
+  }
+]

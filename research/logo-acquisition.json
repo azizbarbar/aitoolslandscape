@@ -1,0 +1,123 @@
+[
+  {
+    "id": "elicit",
+    "file": "logos/elicit.png",
+    "url": "https://framerusercontent.com/images/GBpaTmhagvahuZIt8uDryBpioi4.png",
+    "site": "https://elicit.com",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "consensus",
+    "file": "logos/consensus.svg",
+    "url": "https://consensus.app/favicon.svg",
+    "site": "https://consensus.app",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "scite",
+    "site": "https://scite.ai",
+    "error": "403"
+  },
+  {
+    "id": "researchrabbit",
+    "file": "logos/researchrabbit.png",
+    "url": "https://cdn.prod.website-files.com/68367775ca3b1655a71e1698/6902a7c6e08f5fb714469b84_Frame%202-2.png",
+    "site": "https://www.researchrabbit.ai",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "gamma",
+    "site": "https://gamma.app",
+    "error": "403"
+  },
+  {
+    "id": "canva-ai",
+    "site": "https://www.canva.com",
+    "error": "403"
+  },
+  {
+    "id": "magnific",
+    "file": "logos/magnific.svg",
+    "url": "https://media.magnific.com/magnific-favicons/favicon.svg?v=2",
+    "site": "https://www.magnific.com",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "vizcom",
+    "file": "logos/vizcom.png",
+    "url": "https://cdn.prod.website-files.com/68da69e18c8988d039a9f6fe/694ae66a4a93864b1d6b6130_favicon.png",
+    "site": "https://www.vizcom.ai",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "newarc",
+    "site": "https://www.newarc.ai",
+    "error": "403"
+  },
+  {
+    "id": "clo",
+    "file": "logos/clo.ico",
+    "url": "https://www.clo3d.com/favicon.ico?favicon.2vob68tjqpejf.ico",
+    "site": "https://www.clo3d.com",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "emergent",
+    "file": "logos/emergent.png",
+    "url": "https://cdn.prod.website-files.com/6a0edf12ef1a8562ed56d806/6a16a21a5e20b41ad3b391c5_favicon.png",
+    "site": "https://emergent.sh",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "bolt",
+    "file": "logos/bolt.svg",
+    "url": "https://bolt.new/static/favicon.svg",
+    "site": "https://bolt.new",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "blotato",
+    "file": "logos/blotato.webp",
+    "url": "https://www.blotato.com/favicon.webp",
+    "site": "https://www.blotato.com",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "higgsfield",
+    "file": "logos/higgsfield.png",
+    "url": "https://higgsfield.ai/icon.png",
+    "site": "https://higgsfield.ai",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "figma-weave",
+    "file": "logos/figma-weave.svg",
+    "url": "https://cdn.prod.website-files.com/681b040781d5b5e278a69989/6829dad31872740b3fb4f912_favicon.svg",
+    "site": "https://www.weavy.ai",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "leonardo",
+    "site": "https://leonardo.ai",
+    "error": "403"
+  },
+  {
+    "id": "openart",
+    "file": "logos/openart.png",
+    "url": "https://openart.ai/pageforge-assets/favicon/favicon-96x96.png",
+    "site": "https://openart.ai",
+    "kind": "Official website icon"
+  },
+  {
+    "id": "ltx-studio",
+    "site": "https://ltx.io/studio",
+    "error": "fetch failed"
+  },
+  {
+    "id": "google-flow",
+    "file": "logos/google-flow.png",
+    "url": "https://www.gstatic.com/aitestkitchen/website/flow/favicon/flow_favicon_b.png",
+    "site": "https://flow.google.com",
+    "kind": "Official website icon"
+  }
+]

@@ -1,0 +1,297 @@
+{
+  "checked": "2026-10-15",
+  "source": "../../day-1-research/02-tool-landscape-matrix.md",
+  "amendment": "Grok and Meta AI plus 14 Multi-Model Platform profiles requested by the user. Shared brands have distinct workflow profiles. No Llama.",
+  "tools": [
+    {
+      "name": "ChatGPT",
+      "category": "general",
+      "id": "chatgpt"
+    },
+    {
+      "name": "Claude",
+      "category": "general",
+      "id": "claude"
+    },
+    {
+      "name": "Gemini",
+      "category": "general",
+      "id": "gemini"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "category": "general",
+      "id": "microsoft-copilot"
+    },
+    {
+      "name": "DeepSeek",
+      "category": "general",
+      "id": "deepseek"
+    },
+    {
+      "name": "Mistral",
+      "category": "general",
+      "id": "mistral"
+    },
+    {
+      "name": "Grok",
+      "category": "general",
+      "id": "grok"
+    },
+    {
+      "name": "Meta AI",
+      "category": "general",
+      "id": "meta-ai"
+    },
+    {
+      "name": "Perplexity",
+      "category": "research",
+      "id": "perplexity"
+    },
+    {
+      "name": "NotebookLM / Gemini Notebook",
+      "category": "research",
+      "id": "notebooklm"
+    },
+    {
+      "name": "ChatGPT Deep Research",
+      "category": "research",
+      "id": "chatgpt-deep-research"
+    },
+    {
+      "name": "Claude Research",
+      "category": "research",
+      "id": "claude-research"
+    },
+    {
+      "name": "Gemini Deep Research",
+      "category": "research",
+      "id": "gemini-deep-research"
+    },
+    {
+      "name": "Elicit",
+      "category": "research",
+      "id": "elicit"
+    },
+    {
+      "name": "Consensus",
+      "category": "research",
+      "id": "consensus"
+    },
+    {
+      "name": "Scite",
+      "category": "research",
+      "id": "scite"
+    },
+    {
+      "name": "Semantic Scholar",
+      "category": "research",
+      "id": "semantic-scholar"
+    },
+    {
+      "name": "ResearchRabbit",
+      "category": "research",
+      "id": "researchrabbit"
+    },
+    {
+      "name": "Claude Design",
+      "category": "design",
+      "id": "claude-design"
+    },
+    {
+      "name": "Gamma",
+      "category": "design",
+      "id": "gamma"
+    },
+    {
+      "name": "Canva AI",
+      "category": "design",
+      "id": "canva-ai"
+    },
+    {
+      "name": "Adobe Firefly",
+      "category": "design",
+      "id": "adobe-firefly"
+    },
+    {
+      "name": "GPT Image",
+      "category": "design",
+      "id": "gpt-image"
+    },
+    {
+      "name": "Nano Banana",
+      "category": "design",
+      "id": "nano-banana"
+    },
+    {
+      "name": "FLUX",
+      "category": "design",
+      "id": "flux"
+    },
+    {
+      "name": "Midjourney",
+      "category": "design",
+      "id": "midjourney"
+    },
+    {
+      "name": "Magnific",
+      "category": "design",
+      "id": "magnific"
+    },
+    {
+      "name": "Krea",
+      "category": "design",
+      "id": "krea"
+    },
+    {
+      "name": "Vizcom",
+      "category": "design",
+      "id": "vizcom"
+    },
+    {
+      "name": "NewArc.ai",
+      "category": "design",
+      "id": "newarc"
+    },
+    {
+      "name": "CLO",
+      "category": "design",
+      "id": "clo"
+    },
+    {
+      "name": "Veo",
+      "category": "design",
+      "id": "veo"
+    },
+    {
+      "name": "Sora",
+      "category": "design",
+      "id": "sora"
+    },
+    {
+      "name": "Kling",
+      "category": "design",
+      "id": "kling"
+    },
+    {
+      "name": "Runway",
+      "category": "design",
+      "id": "runway"
+    },
+    {
+      "name": "Cursor",
+      "category": "builders",
+      "id": "cursor"
+    },
+    {
+      "name": "Claude Code",
+      "category": "builders",
+      "id": "claude-code"
+    },
+    {
+      "name": "Lovable",
+      "category": "builders",
+      "id": "lovable"
+    },
+    {
+      "name": "Emergent",
+      "category": "builders",
+      "id": "emergent"
+    },
+    {
+      "name": "Bolt",
+      "category": "builders",
+      "id": "bolt"
+    },
+    {
+      "name": "v0",
+      "category": "builders",
+      "id": "v0"
+    },
+    {
+      "name": "Browser/computer-use agents",
+      "category": "builders",
+      "id": "browser-agents"
+    },
+    {
+      "name": "Perplexity Computer",
+      "category": "builders",
+      "id": "perplexity-computer"
+    },
+    {
+      "name": "Blotato",
+      "category": "builders",
+      "id": "blotato"
+    },
+    {
+      "name": "Magnific",
+      "category": "platforms",
+      "id": "magnific-platform"
+    },
+    {
+      "name": "Higgsfield",
+      "category": "platforms",
+      "id": "higgsfield"
+    },
+    {
+      "name": "Krea",
+      "category": "platforms",
+      "id": "krea-platform"
+    },
+    {
+      "name": "Adobe Firefly",
+      "category": "platforms",
+      "id": "firefly-platform"
+    },
+    {
+      "name": "ComfyUI",
+      "category": "platforms",
+      "id": "comfyui"
+    },
+    {
+      "name": "Figma Weave",
+      "category": "platforms",
+      "id": "figma-weave"
+    },
+    {
+      "name": "FLORA",
+      "category": "platforms",
+      "id": "flora"
+    },
+    {
+      "name": "Leonardo",
+      "category": "platforms",
+      "id": "leonardo"
+    },
+    {
+      "name": "OpenArt",
+      "category": "platforms",
+      "id": "openart"
+    },
+    {
+      "name": "LTX Studio",
+      "category": "platforms",
+      "id": "ltx-studio"
+    },
+    {
+      "name": "Lovart",
+      "category": "platforms",
+      "id": "lovart"
+    },
+    {
+      "name": "Google Flow",
+      "category": "platforms",
+      "id": "google-flow"
+    },
+    {
+      "name": "fal",
+      "category": "platforms",
+      "id": "fal"
+    },
+    {
+      "name": "Replicate",
+      "category": "platforms",
+      "id": "replicate"
+    }
+  ]
+}

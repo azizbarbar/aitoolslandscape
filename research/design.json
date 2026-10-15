@@ -1,0 +1,2140 @@
+[
+  {
+    "id": "claude-design",
+    "name": "Claude Design · visual artifact environment",
+    "category": "design",
+    "status": "active",
+    "scope": "Claude Design visual workspace: prototypes, slides and one-pagers with imported design systems; Free and paid usage per current plans.",
+    "summary": "Broad visual direction finding, with editable layouts and controls for refining the selected idea.",
+    "limitation": "Exported prototypes need production, accessibility and brand review; design-system guidance is not exact preservation.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 3,
+      "E": 3,
+      "SE": 2.75,
+      "S": 3.25,
+      "SW": 3.25,
+      "W": 3.75,
+      "NW": 3.25
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 3,
+      "E": 3,
+      "SE": 2.75,
+      "S": 3.25,
+      "SW": 3.25,
+      "W": 3.75,
+      "NW": 3.25
+    },
+    "baseCenter": [
+      -0.3,
+      0.05
+    ],
+    "center": [
+      -0.3,
+      0.05
+    ],
+    "centerEvidence": {
+      "claim": "Brief-to-prototype exploration combines invention with iterative refinement, placing this example slightly left of center.",
+      "sourceIds": [
+        "cd-design"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "cd-design",
+        "title": "Introducing Claude Design",
+        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+        "checked": "2026-10-15",
+        "finding": "Supports design exploration, imported systems, inline feedback, direct edits, adjustment knobs and artifact export."
+      },
+      {
+        "id": "cd-plans",
+        "title": "Claude plans",
+        "url": "https://claude.com/pricing",
+        "checked": "2026-10-15",
+        "finding": "Current table includes Design on Free and paid plans, superseding the launch access statement."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Inline comments and adjustment knobs make layout decisions addressable and inspectable.",
+        "sourceIds": [
+          "cd-design"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Design-system context and element-level edits combine brand constraints with directed refinement.",
+        "sourceIds": [
+          "cd-design"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Imported code and design files supply colors, typography and components; adherence still needs review.",
+        "sourceIds": [
+          "cd-design"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Imported systems constrain multiple design explorations without ensuring identical source reproduction.",
+        "sourceIds": [
+          "cd-design"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Conversation can refine proposed directions across prototypes and communication artifacts.",
+        "sourceIds": [
+          "cd-design"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Exploration followed by conversation develops materially different visual concepts.",
+        "sourceIds": [
+          "cd-design"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Code-powered prototypes and visual artifacts permit substantial compositional invention.",
+        "sourceIds": [
+          "cd-design"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Specific layout feedback can reshape newly invented prototypes through inspectable controls.",
+        "sourceIds": [
+          "cd-design"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma · decks/documents/sites",
+    "category": "design",
+    "status": "active",
+    "scope": "Gamma presentation generation and AI slide refinement; Free with credits, Pro for custom branding.",
+    "summary": "Turns source material into an organized visual draft with slide-by-slide refinement.",
+    "limitation": "Generated copy and export layout require review; source imports do not guarantee verbatim preservation.",
+    "baseScores": {
+      "N": 2.75,
+      "NE": 2.25,
+      "E": 2.5,
+      "SE": 2,
+      "S": 2.25,
+      "SW": 2.25,
+      "W": 3,
+      "NW": 2.5
+    },
+    "visualScores": {
+      "N": 2.75,
+      "NE": 2.25,
+      "E": 2.5,
+      "SE": 2,
+      "S": 2.25,
+      "SW": 2.25,
+      "W": 3,
+      "NW": 2.25
+    },
+    "baseCenter": [
+      -0.15,
+      0.15
+    ],
+    "center": [
+      -0.15,
+      0.15
+    ],
+    "centerEvidence": {
+      "claim": "A supplied outline becomes a themed deck; automatic structuring mixes new layout choices with bounded production.",
+      "sourceIds": [
+        "gamma-present"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "gamma-present",
+        "title": "Gamma presentations",
+        "url": "https://gamma.app/products/presentations",
+        "checked": "2026-10-15",
+        "finding": "Accepts outlines/documents, selects layouts and visuals, offers suggestions, and supports AI refinement per slide."
+      },
+      {
+        "id": "gamma-plans",
+        "title": "Gamma pricing",
+        "url": "https://gamma.app/pricing",
+        "checked": "2026-10-15",
+        "finding": "Free includes document imports and exports; paid tiers add branding and generation allowances."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "AI refinement targets individual slides; visual results can be reviewed.",
+        "sourceIds": [
+          "gamma-present"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Slide refinement operates within an imported document and chosen theme.",
+        "sourceIds": [
+          "gamma-present"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Source imports and themes guide output; copy is generated rather than mechanically preserved.",
+        "sourceIds": [
+          "gamma-present"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Source-led deck drafts propose layouts while retaining the supplied topic boundary.",
+        "sourceIds": [
+          "gamma-present"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Smart suggestions and themed drafts offer visual approaches, without documented strategic evaluation.",
+        "sourceIds": [
+          "gamma-present"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Prompt-based decks propose new copy, structure and visual combinations.",
+        "sourceIds": [
+          "gamma-present"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Generates substantial text, visual structure and image choices within presentations.",
+        "sourceIds": [
+          "gamma-present"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "User-selected themes and slide-level requests direct newly generated layouts.",
+        "sourceIds": [
+          "gamma-present"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "NW",
+        "from": 2.5,
+        "to": 2.25,
+        "reason": "Category review: Distinguish automatic slide layout from addressable prototype controls."
+      }
+    ]
+  },
+  {
+    "id": "canva-ai",
+    "name": "Canva AI · template/layout platform",
+    "category": "design",
+    "status": "active",
+    "scope": "Currently available Canva AI editor features: generated templates/elements, Style Match, Magic Layers and photo editing; excludes announced AI 2.0.",
+    "summary": "Reusable layouts and brand cues keep experimentation close to an editable design.",
+    "limitation": "AI 2.0 is marked coming soon; generated layouts and source-style matching still require checking.",
+    "baseScores": {
+      "N": 3,
+      "NE": 2.75,
+      "E": 2.75,
+      "SE": 1.75,
+      "S": 2,
+      "SW": 2,
+      "W": 3.25,
+      "NW": 2.75
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 2.75,
+      "E": 2.75,
+      "SE": 1.75,
+      "S": 1.75,
+      "SW": 1.75,
+      "W": 3.25,
+      "NW": 2.75
+    },
+    "baseCenter": [
+      0.15,
+      0.3
+    ],
+    "center": [
+      0.15,
+      0.3
+    ],
+    "centerEvidence": {
+      "claim": "An existing branded design refined with current AI tools emphasizes carrying out local production choices.",
+      "sourceIds": [
+        "canva-tools"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "canva-tools",
+        "title": "Canva AI tools available now",
+        "url": "https://www.canva.com/canva-ai/",
+        "checked": "2026-10-15",
+        "finding": "The current section lists editable AI layouts, elements, templates, Style Match, point-and-click photo edits and resizing; AI 2.0 is coming soon."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Point-and-click photo edits and editable AI layouts support local decisions.",
+        "sourceIds": [
+          "canva-tools"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Style Match and editable generated layers combine supplied design cues with targeted changes.",
+        "sourceIds": [
+          "canva-tools"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Styles and existing layouts guide generation without an exact preservation guarantee.",
+        "sourceIds": [
+          "canva-tools"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "On-style template generation proposes options bounded by existing visual cues.",
+        "sourceIds": [
+          "canva-tools"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Generated templates and elements provide options for human selection.",
+        "sourceIds": [
+          "canva-tools"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Prompts generate alternative layouts and visual elements rather than strategic design critiques.",
+        "sourceIds": [
+          "canva-tools"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Creates templates, writing, images and shapes across a visual design workflow.",
+        "sourceIds": [
+          "canva-tools"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Generated elements can be inserted and refined within an existing editable layout.",
+        "sourceIds": [
+          "canva-tools"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "S",
+        "from": 2,
+        "to": 1.75,
+        "reason": "Category review: Emphasize available editor production over upcoming AI 2.0 proposal features."
+      },
+      {
+        "field": "SW",
+        "from": 2,
+        "to": 1.75,
+        "reason": "Category review: Align generative proposals with current template selection scope."
+      }
+    ]
+  },
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly · creative platform/models",
+    "category": "design",
+    "status": "active",
+    "scope": "Firefly web image generation, Generative Fill and photo-edit workflow using Adobe image tools; Standard or higher for expanded usage; excludes partner-model union.",
+    "summary": "Image invention meets a more directed workflow of fills, recolors and contextual edits.",
+    "limitation": "Specific edits need visual inspection; platform marketing does not establish exact pixel preservation.",
+    "baseScores": {
+      "N": 3.25,
+      "NE": 3,
+      "E": 3,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 2.5,
+      "W": 3.5,
+      "NW": 3
+    },
+    "visualScores": {
+      "N": 3.25,
+      "NE": 3,
+      "E": 3,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 2.5,
+      "W": 3.5,
+      "NW": 3
+    },
+    "baseCenter": [
+      0.05,
+      0.25
+    ],
+    "center": [
+      0.05,
+      0.25
+    ],
+    "centerEvidence": {
+      "claim": "Editing an existing image with Fill and recolor keeps the example near supplied material and above the center.",
+      "sourceIds": [
+        "firefly-edit"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "firefly-edit",
+        "title": "Firefly AI photo editor",
+        "url": "https://www.adobe.com/products/firefly/features/ai-photo-editor.html",
+        "checked": "2026-10-15",
+        "finding": "Documents prompt editing, Generative Fill, recolor, background changes, expansion and image controls."
+      },
+      {
+        "id": "firefly-platform",
+        "title": "Adobe Firefly",
+        "url": "https://www.adobe.com/products/firefly.html",
+        "checked": "2026-10-15",
+        "finding": "Supports image generation, visual ideation in Boards and Standard-plan image editing features."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Fill, recolor and composition controls make changes locally addressable.",
+        "sourceIds": [
+          "firefly-edit"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Fills and background edits apply specified changes to existing image context.",
+        "sourceIds": [
+          "firefly-edit"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Image-based edits and bounded fill preserve context, without proven exactness.",
+        "sourceIds": [
+          "firefly-edit"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Boards permits iterating image concepts from supplied material and references.",
+        "sourceIds": [
+          "firefly-platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Boards supports generating and organizing alternative visual directions.",
+        "sourceIds": [
+          "firefly-platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Generated moodboard concepts combine new scenes and styles for selection.",
+        "sourceIds": [
+          "firefly-platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Image generation and expansion create substantial new content and compositions.",
+        "sourceIds": [
+          "firefly-platform"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Expansion and fill generate new content under user-selected editing decisions.",
+        "sourceIds": [
+          "firefly-edit"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "gpt-image",
+    "name": "GPT Image · image model family",
+    "category": "design",
+    "status": "active",
+    "scope": "Paid GPT Image 2.5 Sunburst through image/Responses API, with references, mask guidance and iterative editing; not a claim about ChatGPT routing.",
+    "summary": "Instruction-led image creation with iterative edits and expressive compositional range.",
+    "limitation": "Masks are guidance, not exact boundaries; typography, layout and recurring identities can drift.",
+    "baseScores": {
+      "N": 3,
+      "NE": 2.5,
+      "E": 2.75,
+      "SE": 1.75,
+      "S": 2.25,
+      "SW": 2.25,
+      "W": 3.5,
+      "NW": 2.75
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 2.25,
+      "E": 2.75,
+      "SE": 1.75,
+      "S": 2.25,
+      "SW": 2.25,
+      "W": 3.5,
+      "NW": 2.75
+    },
+    "baseCenter": [
+      -0.25,
+      0.15
+    ],
+    "center": [
+      -0.25,
+      0.15
+    ],
+    "centerEvidence": {
+      "claim": "Generating a composed image from a detailed brief emphasizes invention directed by instructions.",
+      "sourceIds": [
+        "gpt-image-guide"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "gpt-image-guide",
+        "title": "OpenAI image generation guide",
+        "url": "https://developers.openai.com/api/docs/guides/image-generation",
+        "checked": "2026-10-15",
+        "finding": "Documents Sunburst generation, multi-turn edits, references and masks, including precision and consistency limitations."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Instructions, output dimensions and multi-turn edits allow checkable visual iteration.",
+        "sourceIds": [
+          "gpt-image-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Reference-guided masked edits combine supplied content and local requests, with soft boundaries.",
+        "sourceIds": [
+          "gpt-image-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Masks and high-fidelity inputs support partial preservation; exact placement remains limited.",
+        "sourceIds": [
+          "gpt-image-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Reference-based variations preserve a brief's context but need consistency review.",
+        "sourceIds": [
+          "gpt-image-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Repeated generation offers alternative visual treatments within a supplied brief.",
+        "sourceIds": [
+          "gpt-image-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Multi-turn style changes develop alternative images, without autonomous strategy comparison.",
+        "sourceIds": [
+          "gpt-image-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Can invent scenes and compositions, then vary their content and styling.",
+        "sourceIds": [
+          "gpt-image-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Specific follow-up edits direct new content while retaining conversational image context.",
+        "sourceIds": [
+          "gpt-image-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "NE",
+        "from": 2.5,
+        "to": 2.25,
+        "reason": "Category review: Accentuate documented soft mask boundaries."
+      }
+    ]
+  },
+  {
+    "id": "nano-banana",
+    "name": "Nano Banana · Gemini native image family",
+    "category": "design",
+    "status": "active",
+    "scope": "Nano Banana 2.1 in Gemini API: paid image generation/editing, semantic masking and reference composition; excludes other family members' capabilities.",
+    "summary": "Conversational image revision combines reference subjects, layouts and text into new compositions.",
+    "limitation": "Semantic masks are instructions; reference counts and resemblance are model-specific rather than exact guarantees.",
+    "baseScores": {
+      "N": 3,
+      "NE": 2.75,
+      "E": 3,
+      "SE": 2,
+      "S": 2.5,
+      "SW": 2.5,
+      "W": 3.5,
+      "NW": 2.75
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 2.75,
+      "E": 3,
+      "SE": 2,
+      "S": 2.5,
+      "SW": 2.5,
+      "W": 3.5,
+      "NW": 2.75
+    },
+    "baseCenter": [
+      -0.05,
+      0.05
+    ],
+    "center": [
+      -0.05,
+      0.05
+    ],
+    "centerEvidence": {
+      "claim": "A multi-reference composition revised in conversation balances supplied subjects and invented arrangements.",
+      "sourceIds": [
+        "nano-guide"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "nano-guide",
+        "title": "Gemini native image generation",
+        "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+        "checked": "2026-10-15",
+        "finding": "2.1 supports multi-turn edits, semantic masking, multiple object/character references and text-image composition."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Multi-turn editing targets named elements with inspectable outputs.",
+        "sourceIds": [
+          "nano-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Semantic masks request element changes while retaining surrounding image context.",
+        "sourceIds": [
+          "nano-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Multiple references and semantic local edits provide structural guidance, not guaranteed identity.",
+        "sourceIds": [
+          "nano-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Reference compositions can be revised into alternative arrangements around supplied subjects.",
+        "sourceIds": [
+          "nano-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Conversational refinement supports alternative visual approaches within a brief.",
+        "sourceIds": [
+          "nano-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Text-image generation and subsequent revisions develop new visual concepts.",
+        "sourceIds": [
+          "nano-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Composes new imagery from prompts, text and multiple supplied subjects.",
+        "sourceIds": [
+          "nano-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Named-element follow-ups and compositional instructions direct novel image production.",
+        "sourceIds": [
+          "nano-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "flux",
+    "name": "FLUX · image model family",
+    "category": "design",
+    "status": "active",
+    "scope": "FLUX 3 Image via paid BFL API/playground, including multi-reference compositions and documented layout/edit controls; excludes FLUX Action and Video.",
+    "summary": "Composition-aware generation combines reference material with editable spatial direction.",
+    "limitation": "Provider precision claims are not independent benchmarks; inspect reference identity and unedited areas.",
+    "baseScores": {
+      "N": 3.25,
+      "NE": 3,
+      "E": 3.5,
+      "SE": 2,
+      "S": 2.25,
+      "SW": 2.25,
+      "W": 3.5,
+      "NW": 3
+    },
+    "visualScores": {
+      "N": 3.25,
+      "NE": 3,
+      "E": 3.5,
+      "SE": 2,
+      "S": 2.25,
+      "SW": 2.25,
+      "W": 3.5,
+      "NW": 3
+    },
+    "baseCenter": [
+      -0.3,
+      0.2
+    ],
+    "center": [
+      -0.3,
+      0.2
+    ],
+    "centerEvidence": {
+      "claim": "A specified composition with reference images still creates a new frame, giving invention a modest lead.",
+      "sourceIds": [
+        "flux-image"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "flux-image",
+        "title": "FLUX 3 Image",
+        "url": "https://bfl.ai/models/flux-3-image",
+        "checked": "2026-10-15",
+        "finding": "Documents ten-reference composition, editable layout boxes and local image edits with preservation claims."
+      },
+      {
+        "id": "flux-home",
+        "title": "Black Forest Labs",
+        "url": "https://bfl.ai/",
+        "checked": "2026-10-15",
+        "finding": "Offers an image playground and API; identifies the Image product separately from Action and Video."
+      },
+      {
+        "id": "flux-pricing",
+        "title": "BFL pricing",
+        "url": "https://bfl.ai/pricing",
+        "checked": "2026-10-15",
+        "finding": "Pay-as-you-go API access is distinct from model-specific open-weight licensing."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Editable layout boxes and local changes provide explicit spatial decisions.",
+        "sourceIds": [
+          "flux-image"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Local edits combine retained image content with specified replacements.",
+        "sourceIds": [
+          "flux-image"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Documented local preservation and references support high fidelity; exactness remains a provider claim.",
+        "sourceIds": [
+          "flux-image"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Multi-reference generation proposes arrangements around supplied content.",
+        "sourceIds": [
+          "flux-image"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Playground prompt iteration and reference recombination support alternative compositions.",
+        "sourceIds": [
+          "flux-image"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "New multi-reference arrangements produce visual options, without strategic comparison.",
+        "sourceIds": [
+          "flux-image"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "New scenes combine styles, text and multiple subjects.",
+        "sourceIds": [
+          "flux-image"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Generation within editable element boxes combines novel imagery with layout decisions.",
+        "sourceIds": [
+          "flux-image"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney · image product",
+    "category": "design",
+    "status": "active",
+    "scope": "Paid Midjourney web image creation, V8.2 and its documented Edit Model / Editor; excludes experimental Thinking Mode and video. E4 refers only to unchanged visible pixels in layered edits, not whole-image or reference-identity fidelity.",
+    "summary": "Inventive image exploration with a precise foothold in masked editing and layered composition.",
+    "limitation": "Unmasked regions can stay unchanged, but generated details and reference identities are not exact guarantees.",
+    "baseScores": {
+      "N": 3.25,
+      "NE": 3,
+      "E": 4,
+      "SE": 2,
+      "S": 2.5,
+      "SW": 2.5,
+      "W": 3.75,
+      "NW": 3
+    },
+    "visualScores": {
+      "N": 3.25,
+      "NE": 3,
+      "E": 4,
+      "SE": 2,
+      "S": 2.5,
+      "SW": 2.5,
+      "W": 3.75,
+      "NW": 3
+    },
+    "baseCenter": [
+      -0.55,
+      -0.3
+    ],
+    "center": [
+      -0.6,
+      -0.3
+    ],
+    "centerEvidence": {
+      "claim": "Illustrative prompt-to-image exploration: V8.2 emphasizes aesthetics and personalization, so new visual possibilities lead while humans select the direction.",
+      "sourceIds": [
+        "mj-version"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "mj-version",
+        "title": "Midjourney Version",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version",
+        "checked": "2026-10-15",
+        "finding": "V8.2 is the default; its documentation emphasizes aesthetics, personalization and the current Edit Model."
+      },
+      {
+        "id": "mj-edit",
+        "title": "Midjourney Edit Model",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/48495453462797-Edit-Model",
+        "checked": "2026-10-15",
+        "finding": "V8.1/8.2 support instruction editing, four references, new compositions, perspective changes and retexturing; Raw reduces added styling."
+      },
+      {
+        "id": "mj-editor",
+        "title": "Midjourney Editor",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor",
+        "checked": "2026-10-15",
+        "finding": "Masks, layers, canvas transforms and iterative result panels are documented; only transparent areas regenerate in submitted layered edits."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Masks, move/resize, layers and custom aspect ratios allow addressable decisions with visible results; generated content remains probabilistic.",
+        "sourceIds": [
+          "mj-editor"
+        ],
+        "confidence": "high",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Layer editing regenerates selected transparent regions while retaining visible supplied image areas, supporting iterative bounded production.",
+        "sourceIds": [
+          "mj-editor"
+        ],
+        "confidence": "high",
+        "inferred": true
+      },
+      "E": {
+        "claim": "The Editor explicitly retains visible pixels during layered edits; this scoped preservation is inspectable in exported images.",
+        "sourceIds": [
+          "mj-editor"
+        ],
+        "confidence": "high",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "A masked edit returns four alternatives within a supplied image; selection remains human-led rather than an explicit critique process.",
+        "sourceIds": [
+          "mj-editor"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Aesthetic personalization and iterative alternatives support discovering visual directions, but these sources do not establish strategic comparison or critique.",
+        "sourceIds": [
+          "mj-version",
+          "mj-editor"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Reference recombination and restyling offer materially different visual possibilities; coherent strategy selection remains with the designer.",
+        "sourceIds": [
+          "mj-edit"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Multi-reference composition, perspective changes and retexturing support substantial invention across image content, spatial arrangement and style.",
+        "sourceIds": [
+          "mj-edit"
+        ],
+        "confidence": "high",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Inpainting and outpainting invent content in user-selected areas with explicit instructions and iterative visual inspection.",
+        "sourceIds": [
+          "mj-edit",
+          "mj-editor"
+        ],
+        "confidence": "high",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "center.x",
+        "from": -0.55,
+        "to": -0.6,
+        "reason": "Category review: accentuate the aesthetics-first illustrative workflow."
+      }
+    ]
+  },
+  {
+    "id": "magnific",
+    "name": "Magnific · multi-model creative platform",
+    "category": "design",
+    "status": "active",
+    "scope": "Paid Magnific Creative Suite image workflow: Photo Editor, generation, enhancement and Spaces; scores describe documented controls, not every partner model's maximum.",
+    "summary": "A production workspace for transforming, extending and refining supplied images.",
+    "limitation": "Model routing affects preservation; creative enhancement can invent detail and must be compared with the original.",
+    "baseScores": {
+      "N": 3,
+      "NE": 2.5,
+      "E": 3,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 2.25,
+      "W": 3.25,
+      "NW": 2.75
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 2.5,
+      "E": 3,
+      "SE": 2.25,
+      "S": 2.5,
+      "SW": 2.25,
+      "W": 3.25,
+      "NW": 2.75
+    },
+    "baseCenter": [
+      0.2,
+      0.25
+    ],
+    "center": [
+      0.2,
+      0.25
+    ],
+    "centerEvidence": {
+      "claim": "An existing image retouched, restyled and enhanced makes supplied material the starting point.",
+      "sourceIds": [
+        "magnific-editor"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "magnific-editor",
+        "title": "Magnific AI Photo Editor",
+        "url": "https://www.magnific.com/ai/photo-editor?from_element=mainmenu_ai_tools_v1_image_image-editor",
+        "checked": "2026-10-15",
+        "finding": "Documents annotated/reference edits, retouch, expansion, camera changes, restyling and creative/precision enhancement."
+      },
+      {
+        "id": "magnific-platform",
+        "title": "Magnific creative platform",
+        "url": "https://www.magnific.com/",
+        "checked": "2026-10-15",
+        "finding": "Documents generation and node-based Spaces for repeatable creative workflows."
+      },
+      {
+        "id": "magnific-plans",
+        "title": "Magnific pricing",
+        "url": "https://www.magnific.com/pricing",
+        "checked": "2026-10-15",
+        "finding": "Premium and higher plans include editing tools, generation access and Spaces."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Annotations and retouch make local changes addressable and inspectable.",
+        "sourceIds": [
+          "magnific-editor"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Retouch and reference-led edits combine supplied images with directed replacements.",
+        "sourceIds": [
+          "magnific-editor"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Restyle retains composition; precision enhancement emphasizes fidelity, without proving unchanged pixels.",
+        "sourceIds": [
+          "magnific-editor"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Restyle options and camera views explore alternatives around an existing composition.",
+        "sourceIds": [
+          "magnific-editor"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Restyling and reimagining yield alternatives for human selection.",
+        "sourceIds": [
+          "magnific-editor"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "New backgrounds and camera interpretations create alternative visual treatments.",
+        "sourceIds": [
+          "magnific-editor"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Image generation and expansion create new scenes beyond enhancement alone.",
+        "sourceIds": [
+          "magnific-platform",
+          "magnific-editor"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Retouch and expansion invent elements inside specified image-edit workflows.",
+        "sourceIds": [
+          "magnific-editor"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "krea",
+    "name": "Krea · multi-model creative workspace",
+    "category": "design",
+    "status": "active",
+    "scope": "Krea Realtime image creation and Nodes workflow editor, with paid Pro access for broader generation/compute; excludes unverified partner-model unions.",
+    "summary": "A live sketch surface where moving a mark changes the image immediately.",
+    "limitation": "The canvas is interpreted rather than copied; Nodes repeat workflows, not guaranteed visual outcomes.",
+    "baseScores": {
+      "N": 3,
+      "NE": 2.5,
+      "E": 3,
+      "SE": 2.5,
+      "S": 2.75,
+      "SW": 2.75,
+      "W": 3.25,
+      "NW": 2.75
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 2.5,
+      "E": 3,
+      "SE": 2.25,
+      "S": 2.75,
+      "SW": 2.75,
+      "W": 3.25,
+      "NW": 2.75
+    },
+    "baseCenter": [
+      -0.35,
+      -0.15
+    ],
+    "center": [
+      -0.35,
+      -0.15
+    ],
+    "centerEvidence": {
+      "claim": "Live sketch exploration invites discoveries through immediate model interpretation of loose shapes.",
+      "sourceIds": [
+        "krea-realtime"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "krea-realtime",
+        "title": "Krea Realtime documentation",
+        "url": "https://www.krea.ai/docs/user-guide/features/realtime",
+        "checked": "2026-10-15",
+        "finding": "Canvas strokes, shapes, references and prompts guide live outputs; seeds generate variants; fidelity varies with AI strength."
+      },
+      {
+        "id": "krea-plans",
+        "title": "Krea pricing",
+        "url": "https://www.krea.ai/pricing",
+        "checked": "2026-10-15",
+        "finding": "Includes realtime models, Nodes, workflow apps and paid generation allowances."
+      },
+      {
+        "id": "krea-nodes",
+        "title": "Krea Nodes",
+        "url": "https://www.krea.ai/nodes",
+        "checked": "2026-10-15",
+        "finding": "Connects tools and models into repeatable visual pipelines."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Canvas movement and drawing provide addressable spatial direction with immediate feedback.",
+        "sourceIds": [
+          "krea-realtime"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Reference layers and editable canvas shapes guide controlled image revisions.",
+        "sourceIds": [
+          "krea-realtime"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Sketch structure and uploaded images constrain generation, without exact copying.",
+        "sourceIds": [
+          "krea-realtime"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Seed variations explore alternatives from the same canvas and reference inputs.",
+        "sourceIds": [
+          "krea-realtime"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Immediate feedback supports exploring composition and developing a selected direction.",
+        "sourceIds": [
+          "krea-realtime"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Loose shapes, style models and seed variation support emergent visual exploration.",
+        "sourceIds": [
+          "krea-realtime"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Text-only creation and canvas interpretation invent substantial new image content.",
+        "sourceIds": [
+          "krea-realtime"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Placing shapes and moving elements directs newly generated compositions.",
+        "sourceIds": [
+          "krea-realtime"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "SE",
+        "from": 2.5,
+        "to": 2.25,
+        "reason": "Category review: Live variation interprets source marks rather than maintaining them exactly."
+      }
+    ]
+  },
+  {
+    "id": "vizcom",
+    "name": "Vizcom · sketch-to-render",
+    "category": "design",
+    "status": "active",
+    "scope": "Vizcom Professional sketch rendering, Live Render and variation workflow; qualified Education may provide access; no engineering validation inferred.",
+    "summary": "The designer's drawing leads; materials, light and form develop through live visual iteration.",
+    "limitation": "Renders and generated 3D views do not validate dimensions, fabrication or structural performance.",
+    "baseScores": {
+      "N": 3,
+      "NE": 2.75,
+      "E": 3,
+      "SE": 2.5,
+      "S": 2.5,
+      "SW": 2.25,
+      "W": 2.75,
+      "NW": 2.5
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 2.75,
+      "E": 3,
+      "SE": 2.5,
+      "S": 2.5,
+      "SW": 2.25,
+      "W": 2.75,
+      "NW": 2.5
+    },
+    "baseCenter": [
+      0.45,
+      0.3
+    ],
+    "center": [
+      0.45,
+      0.3
+    ],
+    "centerEvidence": {
+      "claim": "Rendering a supplied sketch places the designer's first move at the center of the workflow.",
+      "sourceIds": [
+        "vizcom-product"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "vizcom-product",
+        "title": "Vizcom features",
+        "url": "https://vizcom.com/product",
+        "checked": "2026-10-15",
+        "finding": "Sketches guide renders; Live Render reacts to drawing/prompt edits; variations and views support exploration."
+      },
+      {
+        "id": "vizcom-plans",
+        "title": "Vizcom pricing",
+        "url": "https://vizcom.com/pricing",
+        "checked": "2026-10-15",
+        "finding": "Professional includes Live Render and multi-image generation; Education has qualifying access."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Live drawing and prompt edits allow addressable changes with visible feedback.",
+        "sourceIds": [
+          "vizcom-product"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Revising a sketch updates a rendering tied to the designer's supplied form.",
+        "sourceIds": [
+          "vizcom-product"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Line work and context photos provide structural guidance without dimensional guarantees.",
+        "sourceIds": [
+          "vizcom-product"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Variations explore materials and views around a supplied design.",
+        "sourceIds": [
+          "vizcom-product"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Iteration develops alternatives before committing to a design.",
+        "sourceIds": [
+          "vizcom-product"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Changing form and finish yields alternatives within a product concept.",
+        "sourceIds": [
+          "vizcom-product"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Adds lighting, form and texture interpretations to sketches.",
+        "sourceIds": [
+          "vizcom-product"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Specified drawing edits direct new rendered detail and material appearance.",
+        "sourceIds": [
+          "vizcom-product"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "newarc",
+    "name": "NewArc.ai · fashion/material visualization",
+    "category": "design",
+    "status": "active",
+    "scope": "NewArc.ai sketch/material rendering, Patterns masks and Colorize tools; free limits and paid plans; image visualization rather than garment engineering.",
+    "summary": "Fashion sketches become material studies, with tight control over pattern placement and color.",
+    "limitation": "Images do not certify pattern construction, fit or fabric physics; rendering may reinterpret the source.",
+    "baseScores": {
+      "N": 3.5,
+      "NE": 3,
+      "E": 3,
+      "SE": 2.25,
+      "S": 2.25,
+      "SW": 2,
+      "W": 2.75,
+      "NW": 2.5
+    },
+    "visualScores": {
+      "N": 3.5,
+      "NE": 3,
+      "E": 3,
+      "SE": 2.25,
+      "S": 2.25,
+      "SW": 1.75,
+      "W": 2.75,
+      "NW": 2.5
+    },
+    "baseCenter": [
+      0.5,
+      0.2
+    ],
+    "center": [
+      0.5,
+      0.2
+    ],
+    "centerEvidence": {
+      "claim": "Applying a chosen material to a supplied garment sketch emphasizes constrained visual refinement.",
+      "sourceIds": [
+        "newarc-home"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "newarc-home",
+        "title": "NewArc.ai product and tools",
+        "url": "https://www.newarc.ai/",
+        "checked": "2026-10-15",
+        "finding": "Sketches and material photos guide renders; masks control pattern placement; scale, rotation and HEX colors are selectable."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Masking, pattern scale/rotation and HEX color controls specify inspectable production decisions.",
+        "sourceIds": [
+          "newarc-home"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Masked patterns and chosen colors apply explicit changes to supplied designs.",
+        "sourceIds": [
+          "newarc-home"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Sketch and material references constrain appearance, with no engineering preservation guarantee.",
+        "sourceIds": [
+          "newarc-home"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Colorways and material variants propose alternatives around the same design.",
+        "sourceIds": [
+          "newarc-home"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Material, color and shape explorations offer bounded fashion directions.",
+        "sourceIds": [
+          "newarc-home"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Sketch-led experimentation generates alternative garment appearances.",
+        "sourceIds": [
+          "newarc-home"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Converts drawings into substantial new rendered forms, scenes and material treatments.",
+        "sourceIds": [
+          "newarc-home"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Material choices and patterned regions direct generation of new garment visuals.",
+        "sourceIds": [
+          "newarc-home"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "SW",
+        "from": 2,
+        "to": 1.75,
+        "reason": "Category review: Emphasize garment and material alternatives over open composition."
+      }
+    ]
+  },
+  {
+    "id": "clo",
+    "name": "CLO · garment workflow with AI texture tools",
+    "category": "design",
+    "status": "active",
+    "scope": "CLO AI Texture Generator only, in a licensed CLO installation; excludes manual pattern editing, CAD dimensions and simulation capabilities.",
+    "summary": "A compact texture specialist inside a human-directed garment workflow.",
+    "limitation": "Maintain Result only approximates prior characteristics; generated texture does not establish physical fabric properties.",
+    "baseScores": {
+      "N": 2.75,
+      "NE": 1.75,
+      "E": 2,
+      "SE": 1.25,
+      "S": 1.5,
+      "SW": 1.5,
+      "W": 2,
+      "NW": 2
+    },
+    "visualScores": {
+      "N": 2.75,
+      "NE": 1.75,
+      "E": 2,
+      "SE": 1.25,
+      "S": 1.25,
+      "SW": 1.25,
+      "W": 2,
+      "NW": 2
+    },
+    "baseCenter": [
+      0.1,
+      0.45
+    ],
+    "center": [
+      0.1,
+      0.45
+    ],
+    "centerEvidence": {
+      "claim": "Choosing fabric, repeat and pattern size then applying a texture exemplifies bounded production.",
+      "sourceIds": [
+        "clo-texture"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "clo-texture",
+        "title": "CLO AI Texture Generator",
+        "url": "https://support.clo3d.com/hc/en-us/articles/24181031004313-AI-Texture-Generator",
+        "checked": "2026-10-15",
+        "finding": "Documents fabric/style/repeat options, pattern sizing, prompted variants, approximate result retention and garment preview."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Fabric, repeat and pattern-size settings define bounded operations with garment preview.",
+        "sourceIds": [
+          "clo-texture"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Maintain Result combines revised prompts with approximate retention of prior texture characteristics.",
+        "sourceIds": [
+          "clo-texture"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Previous texture characteristics can guide revisions, but changes may alter the result.",
+        "sourceIds": [
+          "clo-texture"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Maintaining a result supports nearby texture alternatives with limited preservation.",
+        "sourceIds": [
+          "clo-texture"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Random prompts and new generations suggest nearby texture directions.",
+        "sourceIds": [
+          "clo-texture"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Different prompted textures supply alternatives within a narrow material task.",
+        "sourceIds": [
+          "clo-texture"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Generates new texture images in one bounded domain.",
+        "sourceIds": [
+          "clo-texture"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Specified fabric, style and repeat settings guide newly generated textures.",
+        "sourceIds": [
+          "clo-texture"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": [
+      {
+        "field": "S",
+        "from": 1.5,
+        "to": 1.25,
+        "reason": "Category review: Narrow texture proposals to local sample variation."
+      },
+      {
+        "field": "SW",
+        "from": 1.5,
+        "to": 1.25,
+        "reason": "Category review: Align texture novelty with narrow proposal scope."
+      }
+    ]
+  },
+  {
+    "id": "veo",
+    "name": "Veo · video model family",
+    "category": "design",
+    "status": "active",
+    "scope": "Veo 3.1 through paid Gemini API; documented publicly accessible preview generation, reference images, frame controls and extension; excludes Gemini Omni Flash.",
+    "summary": "Generates short audiovisual scenes between a brief, reference images and chosen endpoints.",
+    "limitation": "Not a general video editor; multi-video prompting is unsupported and continuity still needs review.",
+    "baseScores": {
+      "N": 2.75,
+      "NE": 2.5,
+      "E": 2.5,
+      "SE": 1.5,
+      "S": 2,
+      "SW": 2,
+      "W": 3.25,
+      "NW": 2.5
+    },
+    "visualScores": {
+      "N": 2.75,
+      "NE": 2.5,
+      "E": 2.5,
+      "SE": 1.5,
+      "S": 2,
+      "SW": 2,
+      "W": 3.25,
+      "NW": 2.5
+    },
+    "baseCenter": [
+      -0.35,
+      0.15
+    ],
+    "center": [
+      -0.35,
+      0.15
+    ],
+    "centerEvidence": {
+      "claim": "Prompting a short scene with a starting image leaves substantial motion and sound invention to the model.",
+      "sourceIds": [
+        "veo-guide"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "veo-guide",
+        "title": "Generate videos with Veo 3.1",
+        "url": "https://ai.google.dev/gemini-api/docs/veo",
+        "checked": "2026-10-15",
+        "finding": "Supports native audio, image references, first/last frames and extension; documents duration and multi-video limits."
+      },
+      {
+        "id": "veo-overview",
+        "title": "Gemini API video generation",
+        "url": "https://ai.google.dev/gemini-api/docs/video",
+        "checked": "2026-10-15",
+        "finding": "Separates Veo 3.1 frame/extension workflows from newer Omni conversational editing."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Frame endpoints, aspect ratio and duration constrain a checkable generated clip.",
+        "sourceIds": [
+          "veo-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "First/last-frame generation combines supplied visual endpoints with specified motion requests.",
+        "sourceIds": [
+          "veo-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Reference images and endpoints guide content, without exact intermediate-frame preservation.",
+        "sourceIds": [
+          "veo-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Reference-led clip variations propose movement within supplied visual constraints.",
+        "sourceIds": [
+          "veo-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Prompt variants offer different short scenes, without an explicit planning/critique loop.",
+        "sourceIds": [
+          "veo-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Scene prompts generate alternative visual and audio interpretations.",
+        "sourceIds": [
+          "veo-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Invents motion, scenes, cinematic styling and native audio.",
+        "sourceIds": [
+          "veo-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Frame and camera instructions direct newly invented motion between supplied constraints.",
+        "sourceIds": [
+          "veo-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "sora",
+    "name": "Sora · discontinued video offering",
+    "category": "design",
+    "status": "discontinued",
+    "scope": "Former Sora web/app and API video product.",
+    "summary": "A retired video tool: kept in the atlas as a reminder that availability changes.",
+    "limitation": "No active contemporary capability profile.",
+    "baseScores": null,
+    "visualScores": null,
+    "baseCenter": null,
+    "center": null,
+    "statusEvidence": {
+      "claim": "Official notice says web/app discontinued April 26, 2026 and API discontinued September 24, 2026; both dates precede this check.",
+      "sourceIds": [
+        "sora-notice"
+      ],
+      "confidence": "high",
+      "inferred": false
+    },
+    "sources": [
+      {
+        "id": "sora-notice",
+        "title": "Sora discontinuation",
+        "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+        "checked": "2026-10-15",
+        "finding": "Lists the web/app closure and subsequent API retirement dates."
+      }
+    ],
+    "evidence": {},
+    "adjustments": []
+  },
+  {
+    "id": "kling",
+    "name": "Kling · video platform/models",
+    "category": "design",
+    "status": "active",
+    "scope": "Kling VIDEO 3.0 web workflow with paid credits, reference Elements and automatic/custom multishot; excludes unverified 4.0 rollout.",
+    "summary": "Can invent the shot coverage or follow a specified sequence around supplied characters.",
+    "limitation": "Automatic multishot may choose a single shot; reference consistency claims still need frame-by-frame checking.",
+    "baseScores": {
+      "N": 3,
+      "NE": 2.75,
+      "E": 2.75,
+      "SE": 2.25,
+      "S": 2.75,
+      "SW": 2.75,
+      "W": 3.5,
+      "NW": 2.75
+    },
+    "visualScores": {
+      "N": 3,
+      "NE": 2.75,
+      "E": 2.75,
+      "SE": 2.25,
+      "S": 2.75,
+      "SW": 2.75,
+      "W": 3.5,
+      "NW": 2.75
+    },
+    "baseCenter": [
+      -0.35,
+      -0.2
+    ],
+    "center": [
+      -0.35,
+      -0.2
+    ],
+    "centerEvidence": {
+      "claim": "Automatic multishot from a scene prompt delegates framing and transitions while the human chooses the result.",
+      "sourceIds": [
+        "kling-guide"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "kling-guide",
+        "title": "Kling VIDEO 3.0 model guide",
+        "url": "https://kling.ai/quickstart/klingai-video-3-model-user-guide",
+        "checked": "2026-10-15",
+        "finding": "Documents automatic/custom multishot, reference Elements, start/end frames, native audio and shot duration controls."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Custom multishot specifies shot count and duration with scene instructions.",
+        "sourceIds": [
+          "kling-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "Reference Elements and custom shots combine subject guidance with specified coverage.",
+        "sourceIds": [
+          "kling-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Images/video Elements anchor characters and scenes; exact preservation is unproven.",
+        "sourceIds": [
+          "kling-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Reference-led automatic multishot proposes coverage around supplied subjects.",
+        "sourceIds": [
+          "kling-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Automatic mode plans transitions, framing and camera changes from a scene brief.",
+        "sourceIds": [
+          "kling-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Automatic multishot develops newly generated audiovisual scene coverage.",
+        "sourceIds": [
+          "kling-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Creates novel scenes, motion, dialogue and multishot compositions.",
+        "sourceIds": [
+          "kling-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Custom multishot directs newly generated scenes with specified timing and coverage.",
+        "sourceIds": [
+          "kling-guide"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  },
+  {
+    "id": "runway",
+    "name": "Runway · video production platform",
+    "category": "design",
+    "status": "active",
+    "scope": "Paid Runway desktop web: Gen-4.5 generation and Aleph 2.0 Edit Studio; no partner-model union.",
+    "summary": "A video production workflow with a strong route from an approved still edit to a revised clip.",
+    "limitation": "Frame-level previews improve control; full-clip preservation and continuity still need inspection.",
+    "baseScores": {
+      "N": 3.25,
+      "NE": 3,
+      "E": 3.25,
+      "SE": 2,
+      "S": 2.25,
+      "SW": 2,
+      "W": 3.25,
+      "NW": 3
+    },
+    "visualScores": {
+      "N": 3.25,
+      "NE": 3,
+      "E": 3.25,
+      "SE": 2,
+      "S": 2.25,
+      "SW": 2,
+      "W": 3.25,
+      "NW": 3
+    },
+    "baseCenter": [
+      0.3,
+      0.35
+    ],
+    "center": [
+      0.3,
+      0.35
+    ],
+    "centerEvidence": {
+      "claim": "Editing existing footage from an approved keyframe places the example toward faithful, directed production.",
+      "sourceIds": [
+        "runway-aleph"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "sources": [
+      {
+        "id": "runway-aleph",
+        "title": "Introducing Aleph 2.0 and Edit Studio",
+        "url": "https://runway.com/news/introducing-aleph-2-and-edit-studio",
+        "checked": "2026-10-15",
+        "finding": "Paid Edit Studio previews edits as images, carries them across shots and targets changes in supplied footage."
+      },
+      {
+        "id": "runway-guide",
+        "title": "Aleph 2.0 prompting guide",
+        "url": "https://help.runwayml.com/hc/en-us/articles/52150503729171-Aleph-2-0-Prompting-Guide",
+        "checked": "2026-10-15",
+        "finding": "Shows local wardrobe, background, weather and lighting edits while retaining the remaining scene."
+      },
+      {
+        "id": "runway-plans",
+        "title": "Runway pricing",
+        "url": "https://runway.com/pricing",
+        "checked": "2026-10-15",
+        "finding": "Paid plans include Gen-4.5 generation and Aleph 2.0; access and credits vary."
+      }
+    ],
+    "evidence": {
+      "N": {
+        "claim": "Previewing a keyframe edit before propagation enables inspectable production decisions.",
+        "sourceIds": [
+          "runway-aleph"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NE": {
+        "claim": "An approved edited frame guides the corresponding change throughout supplied footage.",
+        "sourceIds": [
+          "runway-aleph"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "E": {
+        "claim": "Localized editing aims to retain source action and context; exactness requires review.",
+        "sourceIds": [
+          "runway-aleph"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SE": {
+        "claim": "Image previews compare alternative edits within an existing clip.",
+        "sourceIds": [
+          "runway-aleph"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "S": {
+        "claim": "Trying edit versions develops bounded alternatives; strategic comparison remains human.",
+        "sourceIds": [
+          "runway-aleph"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "SW": {
+        "claim": "Restyling and background changes create new visual directions within footage.",
+        "sourceIds": [
+          "runway-aleph"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "W": {
+        "claim": "Gen-4.5 generation and Aleph restyling support substantial new video content.",
+        "sourceIds": [
+          "runway-plans",
+          "runway-aleph"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      },
+      "NW": {
+        "claim": "Approved frame edits direct novel backgrounds, wardrobe and lighting through a clip.",
+        "sourceIds": [
+          "runway-aleph"
+        ],
+        "confidence": "medium",
+        "inferred": true
+      }
+    },
+    "adjustments": []
+  }
+]

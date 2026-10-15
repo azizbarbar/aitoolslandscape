@@ -1,0 +1,137 @@
+{
+  "id": "midjourney",
+  "name": "Midjourney · image product",
+  "category": "design",
+  "status": "active",
+  "scope": "Paid Midjourney web image creation, V8.2 and its documented Edit Model / Editor; excludes experimental Thinking Mode and video.",
+  "summary": "Inventive image exploration with a precise foothold in masked editing and layered composition.",
+  "limitation": "Unmasked regions can stay unchanged, but generated details and reference identities are not exact guarantees.",
+  "baseScores": {
+    "N": 3.25,
+    "NE": 3,
+    "E": 4,
+    "SE": 2,
+    "S": 2.5,
+    "SW": 2.5,
+    "W": 3.75,
+    "NW": 3
+  },
+  "visualScores": {
+    "N": 3.25,
+    "NE": 3,
+    "E": 4,
+    "SE": 2,
+    "S": 2.5,
+    "SW": 2.5,
+    "W": 3.75,
+    "NW": 3
+  },
+  "baseCenter": [
+    -0.55,
+    -0.3
+  ],
+  "center": [
+    -0.55,
+    -0.3
+  ],
+  "centerEvidence": {
+    "claim": "Illustrative prompt-to-image exploration: V8.2 emphasizes aesthetics and personalization, so new visual possibilities lead while humans select the direction.",
+    "sourceIds": [
+      "mj-version"
+    ],
+    "confidence": "medium",
+    "inferred": true
+  },
+  "sources": [
+    {
+      "id": "mj-version",
+      "title": "Midjourney Version",
+      "url": "https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version",
+      "checked": "2026-10-15",
+      "finding": "V8.2 is the default; its documentation emphasizes aesthetics, personalization and the current Edit Model."
+    },
+    {
+      "id": "mj-edit",
+      "title": "Midjourney Edit Model",
+      "url": "https://docs.midjourney.com/hc/en-us/articles/48495453462797-Edit-Model",
+      "checked": "2026-10-15",
+      "finding": "V8.1/8.2 support instruction editing, four references, new compositions, perspective changes and retexturing; Raw reduces added styling."
+    },
+    {
+      "id": "mj-editor",
+      "title": "Midjourney Editor",
+      "url": "https://docs.midjourney.com/hc/en-us/articles/32764383466893-Editor",
+      "checked": "2026-10-15",
+      "finding": "Masks, layers, canvas transforms and iterative result panels are documented; only transparent areas regenerate in submitted layered edits."
+    }
+  ],
+  "evidence": {
+    "N": {
+      "claim": "Masks, move/resize, layers and custom aspect ratios allow addressable decisions with visible results; generated content remains probabilistic.",
+      "sourceIds": [
+        "mj-editor"
+      ],
+      "confidence": "high",
+      "inferred": true
+    },
+    "NE": {
+      "claim": "Layer editing regenerates selected transparent regions while retaining visible supplied image areas, supporting iterative bounded production.",
+      "sourceIds": [
+        "mj-editor"
+      ],
+      "confidence": "high",
+      "inferred": true
+    },
+    "E": {
+      "claim": "The Editor explicitly retains visible pixels during layered edits; this scoped preservation is inspectable in exported images.",
+      "sourceIds": [
+        "mj-editor"
+      ],
+      "confidence": "high",
+      "inferred": true
+    },
+    "SE": {
+      "claim": "A masked edit returns four alternatives within a supplied image; selection remains human-led rather than an explicit critique process.",
+      "sourceIds": [
+        "mj-editor"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "S": {
+      "claim": "Aesthetic personalization and iterative alternatives support discovering visual directions, but these sources do not establish strategic comparison or critique.",
+      "sourceIds": [
+        "mj-version",
+        "mj-editor"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "SW": {
+      "claim": "Reference recombination and restyling offer materially different visual possibilities; coherent strategy selection remains with the designer.",
+      "sourceIds": [
+        "mj-edit"
+      ],
+      "confidence": "medium",
+      "inferred": true
+    },
+    "W": {
+      "claim": "Multi-reference composition, perspective changes and retexturing support substantial invention across image content, spatial arrangement and style.",
+      "sourceIds": [
+        "mj-edit"
+      ],
+      "confidence": "high",
+      "inferred": true
+    },
+    "NW": {
+      "claim": "Inpainting and outpainting invent content in user-selected areas with explicit instructions and iterative visual inspection.",
+      "sourceIds": [
+        "mj-edit",
+        "mj-editor"
+      ],
+      "confidence": "high",
+      "inferred": true
+    }
+  },
+  "adjustments": []
+}
