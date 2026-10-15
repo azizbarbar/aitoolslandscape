@@ -23,16 +23,25 @@
   }
   function drawGrid() {
     $('grid').replaceChildren();
-    let ox=440,oy=410;
-    if(viewMode==='tendency' && selected.length){
+    $('map').classList.toggle('hide-clouds',viewMode==='balanced');
+    const originFor = center => {
+      if(!center) return [440,410];
+      const sx=center[0]===0?1:Math.sign(center[0]),sy=center[1]===0?1:Math.sign(center[1]);
+      const dx=Math.min(.14,.04+Math.abs(center[0])*.24),dy=Math.min(.14,.04+Math.abs(center[1])*.24);
+      return project([-sx*dx,-sy*dy]);
+    };
+    let origins=[];
+    if(viewMode==='balanced' && selected.length) origins=selected.map(id=>originFor(byId.get(id)?.center));
+    else if(viewMode==='tendency' && selected.length){
       const centers=selected.map(id=>byId.get(id)?.center).filter(Boolean);
       const ref=centers.reduce((sum,point)=>[sum[0]+point[0]/centers.length,sum[1]+point[1]/centers.length],[0,0]);
-      const sx=ref[0]===0?1:Math.sign(ref[0]),sy=ref[1]===0?1:Math.sign(ref[1]);
-      const dx=Math.min(.14,.04+Math.abs(ref[0])*.24),dy=Math.min(.14,.04+Math.abs(ref[1])*.24);
-      [ox,oy]=project([-sx*dx,-sy*dy]);
-    }
-    $('grid').append(svg('path',{d:`M96 ${oy} H784`,class:'axis-line',fill:'none','marker-start':'url(#axis-arrow)','marker-end':'url(#axis-arrow)'}));
-    $('grid').append(svg('path',{d:`M${ox} 748 V72`,class:'axis-line',fill:'none','marker-start':'url(#axis-arrow)','marker-end':'url(#axis-arrow)'}));
+      origins=[originFor(ref)];
+    } else origins=[[440,410]];
+    origins.forEach(([ox,oy],index)=>{
+      const axisClass='axis-line'+(index===1?' secondary':'');
+      $('grid').append(svg('path',{d:`M96 ${oy} H784`,class:axisClass,fill:'none','marker-start':'url(#axis-arrow)','marker-end':'url(#axis-arrow)'}));
+      $('grid').append(svg('path',{d:`M${ox} 748 V72`,class:axisClass,fill:'none','marker-start':'url(#axis-arrow)','marker-end':'url(#axis-arrow)'}));
+    });
   }
   function drawCategories() {
     $('categories').setAttribute('role','tablist');

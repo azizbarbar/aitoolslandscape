@@ -24,8 +24,9 @@ kbd{font:inherit}
 .atlas{max-width:2100px;margin:auto;padding:28px 44px 0;min-height:100svh;display:flex;flex-direction:column}
 
 /* Masthead: the title alone. */
-.masthead{display:flex;align-items:center;padding-bottom:22px}
+.masthead{display:flex;align-items:center;justify-content:space-between;padding-bottom:22px}
 .masthead h1{font:clamp(48px,4.4vw,84px)/1 VT323,monospace;letter-spacing:-.01em}
+.masthead-view{margin-top:8px}
 
 /* Categories: sentence-case tabs; the open one sits on a tone field. */
 .categories{display:grid;grid-template-columns:1fr 1.25fr 1fr 1.4fr 1.1fr;gap:4px}
@@ -60,6 +61,7 @@ kbd{font:inherit}
 .map-frame svg{display:block;width:100%;max-height:calc(100svh - 290px);overflow:visible;aspect-ratio:792/768}
 .agency-field{fill:url(#agency-gradient)}
 .axis-line{stroke:var(--ink);stroke-width:1.35}
+.axis-line.secondary{stroke-dasharray:1 6;stroke-linecap:round}
 .quadrants{font-family:Plex,monospace;font-size:12px;letter-spacing:.01em} /* taste-skill-ignore: mono signature waived */
 .quadrants text{paint-order:stroke;stroke-width:2px;stroke-linejoin:round;stroke-opacity:.45}
 .quadrants .q-gloss{font-size:10px;fill:var(--gray);stroke:none;font-weight:400}
@@ -75,6 +77,7 @@ kbd{font:inherit}
 .cloud-outline{fill:none;stroke:var(--ink);stroke-width:1.9;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}
 .cloud-outline.secondary{stroke-dasharray:6 5;stroke-width:1.6}
 .tendency-outline .cloud-outline.secondary{stroke-dasharray:1 6;stroke-width:1.9}
+#map.hide-clouds #clouds,#map.hide-clouds #dots,#map.hide-clouds #outlines{display:none}
 .faint-outline{fill:none;stroke:var(--ink);stroke-opacity:.16;stroke-width:1.2;vector-effect:non-scaling-stroke}
 .cloud-dot{stroke:var(--ink);stroke-width:1.4;fill:var(--ground)}
 .cloud-dot.secondary{fill:var(--ink);stroke:var(--ground)}

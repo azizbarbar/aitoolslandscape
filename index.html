@@ -16,6 +16,7 @@
   <div class="atlas">
     <header class="masthead">
       <h1>AI Tools <br>Landscape.</h1>
+      <label class="map-view-control masthead-view"><span>View</span><select id="map-view-select" class="map-view-select" aria-label="Map view"><option value="balanced">Balanced map</option><option value="tendency">Tendency map</option></select></label>
     </header>
     <a class="skip-link" href="#tool-list">Skip to tools</a>
     <nav id="categories" class="categories" aria-label="Tool categories"></nav>
@@ -25,7 +26,7 @@
         <div id="tool-list" class="tool-list" tabindex="-1"></div>
       </section>
       <section class="map-panel" aria-label="Delegation map">
-        <div class="map-heading"><button id="clear" class="text-button" type="button">Clear <kbd>(Esc)</kbd></button><label class="map-view-control"><span>View</span><select id="map-view-select" class="map-view-select" aria-label="Map view"><option value="balanced">Balanced map</option><option value="tendency">Tendency map</option></select></label></div>
+        <div class="map-heading"><button id="clear" class="text-button" type="button">Clear <kbd>(Esc)</kbd></button></div>
         <div class="map-frame">
           <svg id="map" viewBox="44 30 792 768" role="img" aria-labelledby="map-title map-description">
             <title id="map-title">AI Tools Landscape: a two-axis map</title>
