@@ -130,6 +130,7 @@
       slot.group.dataset.motion='idle';
       if(!tool?.geometry){slot.group.style.display='none';slot.dot.style.display='none';slot.id=null;slot.points=null;continue;}
       slot.group.style.display='';slot.dot.style.display='';slot.group.setAttribute('aria-label',tool.name+' cloud');
+      slot.group.classList.toggle('tendency-outline',viewMode==='tendency');
       if(slot.id===tool.id){paint(slot,tool.geometry,tool.center);continue;}
       const startPoints=slot.points,startCenter=slot.center;slot.id=tool.id;
       if(reducedMotion.matches){paint(slot,tool.geometry,tool.center);continue;}
@@ -153,8 +154,8 @@
     for(const tool of data.tools.filter(t=>t.category===category&&t.geometry&&!selected.includes(t.id))){$('outlines').append(svg('path',{d:G.contour(tool.geometry,project).path,class:'faint-outline'}));}
   }
   function render(){renderTools();renderReadout();drawGrid();drawOutlines();drawClouds();syncUrl();}
-  function setView(mode){viewMode=mode==='tendency'?'tendency':'balanced';drawGrid();syncUrl();}
-  document.querySelectorAll('input[name="map-view"]').forEach(input=>input.addEventListener('change',e=>{if(e.target.checked)setView(e.target.value);}));
+  function setView(mode){viewMode=mode==='tendency'?'tendency':'balanced';drawGrid();drawClouds();syncUrl();}
+  $('map-view-select').addEventListener('change',e=>setView(e.target.value));
   $('show-outlines').addEventListener('change',e=>{outlines=e.target.checked;drawOutlines();syncUrl();});
   $('clear').addEventListener('click',()=>{selected=[];render();});
   const dialog=$('method-dialog');
@@ -175,10 +176,10 @@
     selected=(route.get('tools')||'').split(',').filter(id=>byId.get(id)?.category===category).slice(0,2);
     outlines=route.get('outlines')==='1';
     viewMode=route.get('view')==='tendency'?'tendency':'balanced';
-    document.querySelectorAll('input[name="map-view"]').forEach(input=>{input.checked=input.value===viewMode;});
+    $('map-view-select').value=viewMode;
     categoryButtons.forEach((b,i)=>{const yes=data.categories[i].id===category;b.setAttribute('aria-selected',String(yes));b.tabIndex=yes?0:-1;});
     render();
   });
-  document.querySelectorAll('input[name="map-view"]').forEach(input=>{input.checked=input.value===viewMode;});
+  $('map-view-select').value=viewMode;
   drawGrid();$('map').append(document.querySelector('.quadrants'));drawCategories();render();
 })();
