@@ -40,6 +40,7 @@ kbd{font:inherit}
 .tools-panel{min-width:0;display:flex;flex-direction:column}
 .panel-caption{font-size:1rem;line-height:1.4;padding:0 12px 12px}
 .tool-list{display:flex;flex-direction:column;gap:2px;max-height:calc(100svh - 345px);overflow:auto;scrollbar-width:thin;padding:0 6px 4px 0}
+.tool-row{display:flex;align-items:stretch;gap:2px}
 .tool{width:100%;display:flex;align-items:center;gap:12px;text-align:left;min-height:46px;padding:9px 12px;line-height:1.3;font-size:1rem;transition:background-color .15s}
 .tool img{width:24px;height:24px;object-fit:contain;filter:grayscale(1);mix-blend-mode:multiply;flex-shrink:0}
 .tool .logo-spacer{width:24px;flex-shrink:0}
@@ -47,6 +48,9 @@ kbd{font:inherit}
 .tool small{display:block;font-size:.875rem;margin-top:2px}
 .tool:hover:not([aria-pressed=true]){background:var(--hover)}
 .tool[aria-pressed=true]{background:var(--field);font-weight:700}
+.lock-tool{display:none;padding:0 8px;font-size:.75rem;white-space:nowrap;text-decoration:underline;text-underline-offset:3px}
+.tool-row:hover .lock-tool:not([hidden]),.tool-row:focus-within .lock-tool:not([hidden]){display:block}
+.lock-tool:hover{background:var(--hover)}
 .selection-mark{width:16px;text-align:center;font-size:1rem;font-weight:700}
 .tool:not([aria-pressed=true]) .selection-mark{opacity:0}
 .tool:hover:not([aria-pressed=true]) .selection-mark{opacity:1}
@@ -73,7 +77,6 @@ kbd{font:inherit}
 .axis-end{letter-spacing:.01em}.axis-label{font-weight:700;fill:var(--ink)}.axis-gloss{font-weight:400;fill:var(--gray)}
 .dither-text{font:15px Plex,monospace;fill:var(--ink);opacity:.55}
 .cloud-base{fill:var(--ink);fill-opacity:.018;stroke:none}
-.tendency-outline .cloud-base,.tendency-outline>path:nth-child(2){display:none}
 .cloud-outline{fill:none;stroke:var(--ink);stroke-width:1.9;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}
 .cloud-outline.secondary{stroke-dasharray:6 5;stroke-width:1.6}
 .tendency-outline .cloud-outline.secondary{stroke-dasharray:1 6;stroke-width:1.9}

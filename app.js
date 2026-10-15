@@ -15,6 +15,8 @@
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const slots = [];
   let categoryButtons = [];
+  let gridOrigins = null;
+  let gridRaf = 0;
   function syncUrl() {
     const state = new URLSearchParams({ category, tools: selected.join(',') });
     if (outlines) state.set('outlines','1');
@@ -22,7 +24,6 @@
     try { history.replaceState(null, '', '#' + state); } catch { /* file:// may restrict History API in some browsers */ }
   }
   function drawGrid() {
-    $('grid').replaceChildren();
     $('map').classList.toggle('hide-clouds',viewMode==='balanced');
     $('map').closest('.map-panel').classList.toggle('balanced-view',viewMode==='balanced');
     const originFor = center => {
@@ -38,11 +39,20 @@
       const ref=centers.reduce((sum,point)=>[sum[0]+point[0]/centers.length,sum[1]+point[1]/centers.length],[0,0]);
       origins=[originFor(ref)];
     } else origins=[[440,410]];
-    origins.forEach(([ox,oy],index)=>{
-      const axisClass='axis-line'+(index===1?' secondary':'');
-      $('grid').append(svg('path',{d:`M96 ${oy} H784`,class:axisClass,fill:'none','marker-start':'url(#axis-arrow)','marker-end':'url(#axis-arrow)'}));
-      $('grid').append(svg('path',{d:`M${ox} 748 V72`,class:axisClass,fill:'none','marker-start':'url(#axis-arrow)','marker-end':'url(#axis-arrow)'}));
-    });
+    const start=gridOrigins&&gridOrigins.length?gridOrigins.map((p,i)=>p||origins[i]||origins[0]):origins;
+    cancelAnimationFrame(gridRaf);
+    const paint=(points)=>{
+      $('grid').replaceChildren();
+      points.forEach(([ox,oy],index)=>{
+        const axisClass='axis-line'+(index===1?' secondary':'');
+        $('grid').append(svg('path',{d:`M96 ${oy} H784`,class:axisClass,fill:'none','marker-start':'url(#axis-arrow)','marker-end':'url(#axis-arrow)'}));
+        $('grid').append(svg('path',{d:`M${ox} 748 V72`,class:axisClass,fill:'none','marker-start':'url(#axis-arrow)','marker-end':'url(#axis-arrow)'}));
+      });
+    };
+    if(reducedMotion.matches||!gridOrigins){paint(origins);gridOrigins=origins;return;}
+    const from=origins.map((p,i)=>start[i]||p), began=performance.now();
+    const frame=now=>{const progress=Math.min(1,(now-began)/500),t=1-(1-progress)**3;paint(origins.map((p,i)=>[from[i][0]+(p[0]-from[i][0])*t,from[i][1]+(p[1]-from[i][1])*t]));if(progress<1)gridRaf=requestAnimationFrame(frame);else gridOrigins=origins;};
+    gridRaf=requestAnimationFrame(frame);
   }
   function drawCategories() {
     $('categories').setAttribute('role','tablist');
@@ -70,39 +80,48 @@
     categoryButtons.forEach((b,i)=>{const yes=data.categories[i].id===category;b.setAttribute('aria-selected',String(yes));b.tabIndex=yes?0:-1;});
     render();
   }
-  function toggleTool(id) {
-    if(selected.includes(id)) selected=selected.filter(x=>x!==id);
-    else if(selected.length<2) selected.push(id);
-    else selected=[selected[0],id];
+  function selectTool(id) {
+    if(selected[1]===id) selected=[id,selected[0]];
+    else if(selected[0]===id) selected=[];
+    else selected=[id];
     render();
     $('tool-list').querySelector(`[data-tool="${id}"]`)?.focus({preventScroll:true});
   }
+  function lockTool(id) {
+    if(selected[0]===id)return;
+    if(selected[1]===id)return;
+    selected=selected.length?[selected[0],id]:[id];
+    render();
+    $('tool-list').querySelector(`[data-tool="${id}"]`)?.focus({preventScroll:true});
+  }
+  function removeTool(id) { selected=selected.filter(x=>x!==id); render(); }
   function renderTools() {
     const tools=data.tools.filter(t=>t.category===category), container=$('tool-list'), scroll=container.scrollTop;container.replaceChildren();
     container.setAttribute('aria-labelledby','category-'+category);
     $('tool-count').textContent=tools.length+' tools';
     tools.forEach((tool,i)=>{
-      const pos=selected.indexOf(tool.id), b=el('button','tool'+(pos===1?' secondary':''));b.type='button';b.dataset.tool=tool.id;
+      const pos=selected.indexOf(tool.id), row=el('div','tool-row'), b=el('button','tool tool-main'+(pos===1?' secondary':''));b.type='button';b.dataset.tool=tool.id;
       b.setAttribute('aria-pressed',String(pos>=0));b.setAttribute('aria-label',tool.name+(tool.status==='active'?'':tool.status==='discontinued'?' — discontinued':' — profile pending'));
       if(tool.logo){const img=el('img');img.src=tool.logo;img.alt='';img.width=22;img.height=22;b.append(img);}else b.append(el('span','logo-spacer'));
       const label=el('span','tool-name',tool.name);
       if(tool.status!=='active')label.append(el('small','',tool.status==='discontinued'?'Discontinued':'Profile pending'));
       b.append(label,el('span','selection-mark',pos>=0?String(pos+1):'+'));
-      b.addEventListener('click',()=>toggleTool(tool.id));
+      b.addEventListener('click',()=>selectTool(tool.id));
+      const lock=el('button','lock-tool','Lock on');lock.type='button';lock.hidden=!selected.length||pos>=0;lock.setAttribute('aria-label','Lock '+tool.name+' as comparison');lock.addEventListener('click',e=>{e.stopPropagation();lockTool(tool.id);});
       b.addEventListener('keydown',e=>{
         let target;if(e.key==='ArrowDown'||e.key==='ArrowRight')target=(i+1)%tools.length;
         if(e.key==='ArrowUp'||e.key==='ArrowLeft')target=(i+tools.length-1)%tools.length;
         if(e.key==='Home')target=0;if(e.key==='End')target=tools.length-1;
-        if(target!=null){e.preventDefault();container.children[target].focus();}
+        if(target!=null){e.preventDefault();container.children[target].querySelector('.tool-main')?.focus();}
       });
-      container.append(b);
+      row.append(b,lock);container.append(row);
     });
     container.scrollTop=scroll;
   }
   function detail(tool,index) {
     const article=el('article','profile');article.dataset.profile=tool.id;
     article.append(el('span','profile-line'+(index?' secondary':'')));
-    const header=el('div','profile-header'),title=el('h2','',tool.name),remove=el('button','remove','×');remove.type='button';remove.setAttribute('aria-label','Remove '+tool.name);remove.addEventListener('click',()=>toggleTool(tool.id));header.append(title,remove);article.append(header);
+    const header=el('div','profile-header'),title=el('h2','',tool.name),remove=el('button','remove','×');remove.type='button';remove.setAttribute('aria-label','Remove '+tool.name);remove.addEventListener('click',()=>removeTool(tool.id));header.append(title,remove);article.append(header);
     if(tool.status!=='active')article.append(el('span','profile-status',tool.status==='discontinued'?'Discontinued / historical profile':'Estimated profile'));
     article.append(el('p','profile-summary',tool.summary));
     const details=el('details'),summary=el('summary','','Scores & sources');details.append(summary);
