@@ -83,6 +83,7 @@ kbd{font:inherit}
 .cloud-dot.secondary{fill:var(--ink);stroke:var(--ground)}
 .map-bottom{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:6px 8px 14px;font-size:1rem}
 .map-view-control{display:flex;align-items:center;gap:7px;color:var(--gray)}.map-view-select{border:0;border-bottom:1px solid var(--ink);border-radius:0;background:transparent;color:var(--ink);font:inherit;font-size:.95rem;padding:3px 18px 3px 0;cursor:pointer}
+.map-panel.balanced-view .map-bottom{visibility:hidden}
 .outline-toggle{display:flex;gap:10px;align-items:center;cursor:pointer;min-height:32px}
 .outline-toggle input{appearance:none;width:18px;height:18px;border:2px solid var(--ink);margin:0;border-radius:0;display:grid;place-content:center;cursor:pointer}
 .outline-toggle input:checked{background:var(--ink)}

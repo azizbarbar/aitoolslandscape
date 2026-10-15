@@ -24,6 +24,7 @@
   function drawGrid() {
     $('grid').replaceChildren();
     $('map').classList.toggle('hide-clouds',viewMode==='balanced');
+    $('map').closest('.map-panel').classList.toggle('balanced-view',viewMode==='balanced');
     const originFor = center => {
       if(!center) return [440,410];
       const sx=center[0]===0?1:Math.sign(center[0]),sy=center[1]===0?1:Math.sign(center[1]);
@@ -159,7 +160,8 @@
     $('map-description').textContent='Generative to faithful horizontally; proposes directions to executes my decisions vertically. '+selected.map(id=>byId.get(id).name+': '+byId.get(id).summary).join(' ');
   }
   function drawOutlines(){
-    $('outlines').replaceChildren();$('show-outlines').checked=outlines;if(!outlines)return;
+    $('outlines').replaceChildren();$('show-outlines').checked=outlines;
+    if(viewMode==='balanced'||!outlines)return;
     for(const tool of data.tools.filter(t=>t.category===category&&t.geometry&&!selected.includes(t.id))){$('outlines').append(svg('path',{d:G.contour(tool.geometry,project).path,class:'faint-outline'}));}
   }
   function render(){renderTools();renderReadout();drawGrid();drawOutlines();drawClouds();syncUrl();}
