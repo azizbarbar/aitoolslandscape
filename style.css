@@ -40,7 +40,7 @@ kbd{font:inherit}
 .tools-panel{min-width:0;display:flex;flex-direction:column}
 .panel-caption{font-size:1rem;line-height:1.4;padding:0 12px 12px}
 .tool-list{display:flex;flex-direction:column;gap:2px;max-height:calc(100svh - 345px);overflow:auto;scrollbar-width:thin;padding:0 6px 4px 0}
-.tool-row{display:flex;align-items:stretch;gap:2px}
+.tool-row{display:flex;align-items:stretch;gap:2px;position:relative;flex-shrink:0}
 .tool{width:100%;display:flex;align-items:center;gap:12px;text-align:left;min-height:46px;padding:9px 12px;line-height:1.3;font-size:1rem;transition:background-color .15s}
 .tool img{width:24px;height:24px;object-fit:contain;filter:grayscale(1);mix-blend-mode:multiply;flex-shrink:0}
 .tool .logo-spacer{width:24px;flex-shrink:0}
@@ -48,10 +48,12 @@ kbd{font:inherit}
 .tool small{display:block;font-size:.875rem;margin-top:2px}
 .tool:hover:not([aria-pressed=true]){background:var(--hover)}
 .tool[aria-pressed=true]{background:var(--field);font-weight:700}
-.lock-tool{display:none;padding:0 8px;font-size:.75rem;white-space:nowrap;text-decoration:underline;text-underline-offset:3px}
-.tool-row:hover .lock-tool:not([hidden]),.tool-row:focus-within .lock-tool:not([hidden]){display:block}
+.lock-tool{position:absolute;right:8px;top:50%;transform:translateY(-50%);opacity:0;pointer-events:none;padding:6px 8px;background:var(--field);font-size:.75rem;white-space:nowrap;text-decoration:underline;text-underline-offset:3px;transition:opacity .15s}
+.tool-row:hover .lock-tool:not([hidden]),.tool-row:focus-within .lock-tool:not([hidden]){opacity:1;pointer-events:auto}
 .lock-tool:hover{background:var(--hover)}
-.selection-mark{width:16px;text-align:center;font-size:1rem;font-weight:700}
+.selection-mark{width:16px;flex-shrink:0;border-top:2px solid transparent}
+.selection-mark.active{border-top-color:var(--ink)}
+.selection-mark.locked{border-top:2px dotted var(--ink)}
 .tool:not([aria-pressed=true]) .selection-mark{opacity:0}
 .tool:hover:not([aria-pressed=true]) .selection-mark{opacity:1}
 
@@ -98,7 +100,7 @@ kbd{font:inherit}
 .readout{max-height:calc(100svh - 440px);min-height:138px;overflow:auto;scrollbar-width:thin;padding-right:6px}
 .profile+.profile{margin-top:28px}
 .profile-line{width:32px;border-top:3px solid var(--ink);display:block;margin:0 0 12px}
-.profile-line.secondary{border-top-style:dashed}
+.profile-line.secondary{border-top-style:dotted}
 .profile-header{display:flex;gap:10px;align-items:flex-start}
 .profile-header h2{font:40px/.95 VT323,monospace;flex:1;overflow-wrap:anywhere}
 .profile-header .remove{font:1.5rem/1 Plex,monospace;padding:0 0 4px 8px}
