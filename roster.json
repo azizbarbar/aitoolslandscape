@@ -43,44 +43,9 @@
       "id": "meta-ai"
     },
     {
-      "name": "Perplexity",
+      "name": "ResearchRabbit",
       "category": "research",
-      "id": "perplexity"
-    },
-    {
-      "name": "NotebookLM / Gemini Notebook",
-      "category": "research",
-      "id": "notebooklm"
-    },
-    {
-      "name": "ChatGPT Deep Research",
-      "category": "research",
-      "id": "chatgpt-deep-research"
-    },
-    {
-      "name": "Claude Research",
-      "category": "research",
-      "id": "claude-research"
-    },
-    {
-      "name": "Gemini Deep Research",
-      "category": "research",
-      "id": "gemini-deep-research"
-    },
-    {
-      "name": "Elicit",
-      "category": "research",
-      "id": "elicit"
-    },
-    {
-      "name": "Consensus",
-      "category": "research",
-      "id": "consensus"
-    },
-    {
-      "name": "Scite",
-      "category": "research",
-      "id": "scite"
+      "id": "researchrabbit"
     },
     {
       "name": "Semantic Scholar",
@@ -88,9 +53,44 @@
       "id": "semantic-scholar"
     },
     {
-      "name": "ResearchRabbit",
+      "name": "Scite",
       "category": "research",
-      "id": "researchrabbit"
+      "id": "scite"
+    },
+    {
+      "name": "NotebookLM / Gemini Notebook",
+      "category": "research",
+      "id": "notebooklm"
+    },
+    {
+      "name": "Consensus",
+      "category": "research",
+      "id": "consensus"
+    },
+    {
+      "name": "Elicit",
+      "category": "research",
+      "id": "elicit"
+    },
+    {
+      "name": "Claude Research",
+      "category": "research",
+      "id": "claude-research"
+    },
+    {
+      "name": "Perplexity",
+      "category": "research",
+      "id": "perplexity"
+    },
+    {
+      "name": "Gemini Deep Research",
+      "category": "research",
+      "id": "gemini-deep-research"
+    },
+    {
+      "name": "ChatGPT Deep Research",
+      "category": "research",
+      "id": "chatgpt-deep-research"
     },
     {
       "name": "Claude Design",
