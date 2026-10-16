@@ -29,8 +29,8 @@ Approving this brief approves the two roster additions as explicit exceptions to
 ## The map stays fixed
 
 - Origin at the center. Both axes have equal scale and run from −1 to +1.
-- Horizontal: **GENERATIVE** at −1, left; **FAITHFUL** at +1, right.
-- Faithful means working from supplied material: evidence-bound, input-preserving. Generative means producing new possibilities.
+- Horizontal: **GENERATIVE** at −1, left; **GROUNDED** at +1, right.
+- Grounded means working from supplied material: evidence-bound, input-preserving. Generative means producing new possibilities.
 - Vertical: **PROPOSES DIRECTIONS** at −1, bottom; **EXECUTES MY DECISIONS** at +1, top.
 - The vertical axis describes the design agency delegated by the human, not the number of automated steps.
 
@@ -43,9 +43,9 @@ These describe ways of working, not types of AI.
 
 Quadrant names remain:
 
-| | Generative | Faithful |
+| | Generative | Grounded |
 |---|---|---|
-| Executes my decisions | DIRECTED EXPERIMENTATION | FAITHFUL PRODUCTION |
+| Executes my decisions | DIRECTED EXPERIMENTATION | GROUNDED PRODUCTION |
 | Proposes directions | OPEN EXPLORATION | CONSTRAINED PROPOSALS |
 
 ## Tool roster and categories
@@ -77,7 +77,7 @@ Keep two separate records internally: the evidence-based profile and the final v
 Use eight directional scores: N, NE, E, SE, S, SW, W, NW, plus an illustrative default position. Retain the 0–4 anchors in `method.md`, with the following refinements:
 
 - Allow quarter-point increments when documented differences justify a position between integer anchors. Explain the relevant capability and limitation; decimals are editorial resolution, not measurement precision.
-- Use the same anchors across all categories. A tool does not acquire a different meaning for “faithful” merely because its neighbors are different.
+- Use the same anchors across all categories. A tool does not acquire a different meaning for “grounded” merely because its neighbors are different.
 - Score the actual scoped product and workflow, not the union of every model, connector, or promotional claim associated with its brand.
 - Distinguish default behavior from what a tool can reach with deliberate use.
 - Do not treat citations as exact preservation, autonomous step count as decision precision, or paraphrasing as broad invention.

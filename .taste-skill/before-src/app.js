@@ -150,7 +150,7 @@
         slot.raf=requestAnimationFrame(frame);
       }
     }
-    $('map-description').textContent='Generative to faithful horizontally; proposes directions to executes my decisions vertically. '+selected.map(id=>byId.get(id).name+': '+byId.get(id).summary).join(' ');
+    $('map-description').textContent='Generative to grounded horizontally; proposes directions to executes my decisions vertically. '+selected.map(id=>byId.get(id).name+': '+byId.get(id).summary).join(' ');
   }
   function drawOutlines(){
     $('outlines').replaceChildren();$('show-outlines').checked=outlines;if(!outlines)return;

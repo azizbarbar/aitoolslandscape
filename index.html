@@ -30,7 +30,7 @@
         <div class="map-frame">
           <svg id="map" viewBox="44 30 792 768" role="img" aria-labelledby="map-title map-description">
             <title id="map-title">AI Tools Landscape: a two-axis map</title>
-            <desc id="map-description">GENERATIVE to FAITHFUL horizontally; UNDIRECTED to DIRECTED vertically. Selected tool clouds show interpreted operating envelopes.</desc>
+            <desc id="map-description">GENERATIVE to GROUNDED horizontally; UNDIRECTED to DIRECTED vertically. Selected tool clouds show interpreted operating envelopes.</desc>
             <defs>
               <linearGradient id="agency-gradient" gradientUnits="userSpaceOnUse" x1="120" y1="730" x2="760" y2="90">
                 <stop offset="0%" stop-color="#dce7ef"/>
@@ -65,7 +65,7 @@
             <g id="grid" aria-hidden="true"></g>
             <g class="quadrants" aria-hidden="true">
               <g class="q-upper"><text x="130" y="120">STEERED INVENTION</text>
-              <text x="750" y="120" text-anchor="end">FAITHFUL PRODUCTION</text></g>
+              <text x="750" y="120" text-anchor="end">GROUNDED PRODUCTION</text></g>
               <g class="q-lower"><text x="130" y="708">OPEN EXPLORATION</text>
               <text x="750" y="708" text-anchor="end">GROUNDED PROPOSALS</text></g>
             </g>
@@ -75,7 +75,7 @@
             <g class="axis-titles">
               <text x="440" y="66" text-anchor="middle" class="axis-end axis-top"><tspan class="axis-label">DIRECTED</tspan></text>
               <text x="54" y="410" text-anchor="middle" transform="rotate(-90 54 410)" class="axis-end"><tspan class="axis-label">GENERATIVE</tspan></text>
-              <text x="826" y="410" text-anchor="middle" transform="rotate(90 826 410)" class="axis-end"><tspan class="axis-label">FAITHFUL</tspan></text>
+              <text x="826" y="410" text-anchor="middle" transform="rotate(90 826 410)" class="axis-end"><tspan class="axis-label">GROUNDED</tspan></text>
               <text x="440" y="778" text-anchor="middle" class="axis-end"><tspan class="axis-label">UNDIRECTED</tspan></text>
             </g>
           </svg>
@@ -95,7 +95,7 @@
   <dialog id="method-dialog" aria-labelledby="method-title">
     <div class="dialog-heading"><h2 id="method-title">Read the shape.</h2><button id="method-close" type="button" class="text-button" aria-label="Close scoring explanation">Close ×</button></div>
     <p>A cloud is an interpretation of where a tool can work. Its dot marks an illustrative default, not a measured average.</p>
-    <dl><dt>GENERATIVE ↔ FAITHFUL</dt><dd>Generates new possibilities ↔ works from what you supply.</dd><dt>UNDIRECTED ↔ DIRECTED</dt><dd>It proposes, you select ↔ you set the direction.</dd><dt>Eight directions</dt><dd>Scores from 0–4 describe reach. Diagonals describe capabilities used together. A tight corner means a trade-off.</dd></dl>
+    <dl><dt>GENERATIVE ↔ GROUNDED</dt><dd>Generates new possibilities ↔ works from what you supply.</dd><dt>UNDIRECTED ↔ DIRECTED</dt><dd>It proposes, you select ↔ you set the direction.</dd><dt>Eight directions</dt><dd>Scores from 0–4 describe reach. Diagonals describe capabilities used together. A tight corner means a trade-off.</dd></dl>
     <p>Profiles describe specific workflows, not every version or account. Bigger does not mean better.</p>
     <p>An interpretive teaching map based on documented capabilities, not an accuracy benchmark.</p>
     <a href="method.md" target="_blank" rel="noopener">Read the full method ↗</a>

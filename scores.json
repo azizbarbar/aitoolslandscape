@@ -1640,7 +1640,7 @@
         -0.08
       ],
       "centerEvidence": {
-        "claim": "A library-driven search suggests further papers, remaining faithful with modest proposal behavior.",
+        "claim": "A library-driven search suggests further papers, remaining grounded with modest proposal behavior.",
         "sourceIds": [
           "s1"
         ],
@@ -5905,7 +5905,7 @@
         0.35
       ],
       "centerEvidence": {
-        "claim": "Editing existing footage from an approved keyframe places the example toward faithful, directed production.",
+        "claim": "Editing existing footage from an approved keyframe places the example toward grounded, directed production.",
         "sourceIds": [
           "runway-aleph"
         ],
@@ -6078,7 +6078,7 @@
         0.42
       ],
       "centerEvidence": {
-        "claim": "An existing-code feature or fix puts the default toward faithful, controlled implementation.",
+        "claim": "An existing-code feature or fix puts the default toward grounded, controlled implementation.",
         "sourceIds": [
           "s1"
         ],

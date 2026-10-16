@@ -240,7 +240,7 @@
         slot.raf=requestAnimationFrame(frame);
       }
     }
-    $('map-description').textContent='Generative to faithful horizontally; undirected to directed vertically. '+selected.map((id,i)=>id?byId.get(id).name+(i?' (locked, dotted)':' (selected, solid)')+': '+byId.get(id).summary:'').filter(Boolean).join(' ');
+    $('map-description').textContent='Generative to grounded horizontally; undirected to directed vertically. '+selected.map((id,i)=>id?byId.get(id).name+(i?' (locked, dotted)':' (selected, solid)')+': '+byId.get(id).summary:'').filter(Boolean).join(' ');
   }
   function drawOutlines(){
     $('outlines').replaceChildren();$('show-outlines').checked=outlines;

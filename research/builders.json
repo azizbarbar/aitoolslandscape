@@ -36,7 +36,7 @@
       0.42
     ],
     "centerEvidence": {
-      "claim": "An existing-code feature or fix puts the default toward faithful, controlled implementation.",
+      "claim": "An existing-code feature or fix puts the default toward grounded, controlled implementation.",
       "sourceIds": [
         "s1"
       ],

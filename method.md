@@ -20,9 +20,9 @@ User authorization to build on the approved final brief was received October 15,
 
 This is a teaching judgment based on documented capabilities, not a benchmark of accuracy. A cloud describes a scoped product's supported operating envelope when used well; its dot describes a representative default workflow. Cloud area is not a quality score. Neither the bands nor the quadrants classify types of AI.
 
-Keep the supplied map unchanged: x runs from generative (−1) to faithful (+1); y runs from proposes directions (−1) to executes my decisions (+1). Both axes use the same scale. The upper band is Controlled Collaborator and the lower band is Curator / Director, with the exact descriptions and quadrant names in the brief.
+Keep the supplied map unchanged: x runs from generative (−1) to grounded (+1); y runs from proposes directions (−1) to executes my decisions (+1). Both axes use the same scale. The upper band is Controlled Collaborator and the lower band is Curator / Director, with the exact descriptions and quadrant names in the brief.
 
-Faithful means preserving supplied evidence, content, structure, or constraints. Executing decisions means carrying out a human-specified design move with inspectable results. It does not mean taking many automated steps. Generating a report is not, by itself, proposing a design direction. Generative reach concerns substantive novelty, not hallucination or paraphrase.
+Grounded means preserving supplied evidence, content, structure, or constraints. Executing decisions means carrying out a human-specified design move with inspectable results. It does not mean taking many automated steps. Generating a report is not, by itself, proposing a design direction. Generative reach concerns substantive novelty, not hallucination or paraphrase.
 
 ## Scope before scores
 
@@ -36,7 +36,7 @@ Broadly available paid features may count, with the requirement visible. Announc
 
 Use integer scores 0–4. Each entry needs an official source and a concrete task example. Award the highest fully supported anchor, not a fractional impression. The anchors describe capability within the stated domain, not universal reliability.
 
-| Score | W: generative | E: faithful | N: executes my decisions | S: proposes directions |
+| Score | W: generative | E: grounded | N: executes my decisions | S: proposes directions |
 |---|---|---|---|---|
 | 0 | Retrieval, selection, or extraction only; no substantive new output | No documented supplied-input conditioning/preservation | No documented way to specify a production decision | No documented origination of substantive alternatives |
 | 1 | Rephrase, summarize, or vary a narrow supplied template | Text instructions or supplied text condition output; preservation not inspectably enforced | Broad prompt intent with approximate control | Suggest nearby options or discovery candidates within a narrow task |
@@ -64,7 +64,7 @@ Convert these to provisional coordinates `u=(defaultX−2)/2`, `v=(defaultY−2)
 
 ## Four diagonal scores: simultaneous operation, not separate feature lists
 
-NE combines faithful + executes; SE faithful + proposes; SW generative + proposes; NW generative + executes. For each, cite one documented workflow in which both behaviors operate together. Separate documentation for each behavior is insufficient to establish their joint reach.
+NE combines grounded + executes; SE grounded + proposes; SW generative + proposes; NW generative + executes. For each, cite one documented workflow in which both behaviors operate together. Separate documentation for each behavior is insufficient to establish their joint reach.
 
 | Score | Joint-operation anchor |
 |---|---|
@@ -115,7 +115,7 @@ Product announcements and pricing can establish availability; prefer feature doc
 1. User approves this method before any scoring or UI work.
 2. Score five anchors: Midjourney, NotebookLM / Gemini Notebook, Elicit, Claude Code, and Claude. Show their scope, eight scores, default dot, evidence, and proposed shapes. Wait for feedback on anchor calibration before scoring the remainder.
 3. Use parallel research agents, one per category, all using this approved method and anchor calibration. With the available three worker slots, run three categories together and the fourth as a second wave. No category silently changes the rubric.
-4. A separate reviewer agent who did not score compares all categories, checks outliers and joint evidence, and records old value, new value, reason, and evidence for every change. Explicitly compare Elicit and Perplexity faithful reach and distinguish execution precision from automation length.
+4. A separate reviewer agent who did not score compares all categories, checks outliers and joint evidence, and records old value, new value, reason, and evidence for every change. Explicitly compare Elicit and Perplexity grounded reach and distinguish execution precision from automation length.
 5. Finalize `scores.json`, browser-loadable `data.js`, and `calibration-log.md`; then implement the page. Display scope caveats, confidence, and teaching-judgment notice.
 
 ## Required validation
